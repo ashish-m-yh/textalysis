@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Textalysis - Business Intelligence from text</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Use Textalysis for sentiment analysis of your enterprise customer feedback">
+	<meta name="keywords" content="business intelligence,text analysis,text mining,sentiment analysis">
+    <meta name="author" content="Ashish Mukherjee">
+
+    <!-- Le styles -->
+    <link href="/assets/css/bootstrap.css" rel="stylesheet">
+
+    <style type="text/css">
+      body {
+        padding-top: 20px;
+        padding-bottom: 40px;
+      }
+
+      /* Custom container */
+      .container-narrow {
+        margin: 0 auto;
+        max-width: 700px;
+      }
+      .container-narrow > hr {
+        margin: 30px 0;
+      }
+
+      /* Main marketing message and sign up button */
+      .jumbotron {
+        margin: 30px 0;
+        text-align: center;
+      }
+      .jumbotron h1 {
+        font-size: 72px;
+        line-height: 1;
+      }
+      .jumbotron .btn {
+        font-size: 21px;
+        padding: 14px 24px;
+      }
+
+      /* Supporting marketing content */
+      .marketing {
+        margin: 40px 0;
+      }
+      .marketing p + h4 {
+        margin-top: 28px;
+      }
+    </style>
+    <link href="/assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+
+	<script>
+	function loadDoc()
+	{
+		var myurl = "/app/demoreport/{{ tmpfile }}/{{ lkey }}";
+
+		var xmlhttp;
+		if (window.XMLHttpRequest)
+		{// code for IE7+, Firefox, Chrome, Opera, Safari
+			xmlhttp=new XMLHttpRequest();
+		}
+		else
+		{// code for IE6, IE5
+			xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+		}
+		xmlhttp.onreadystatechange=function()
+		{
+			if (xmlhttp.readyState==4 && xmlhttp.status==200)
+			{
+				document.getElementById("myDiv").innerHTML=xmlhttp.responseText;
+			}
+		}
+		xmlhttp.open("GET",myurl,true);
+		xmlhttp.send();
+	}
+	</script>
+  </head>
+
+  <body>
+    <div class="container-narrow">
+      <div class="masthead">
+        <ul class="nav nav-pills pull-right">
+          <li><a href="/index.html">Home</a></li>
+		  {% if lkey.strip() and lkey.strip() == demo_key %}
+          <li class="active"><a href="/start.html">Getting Started</a></li>
+		  {% else %}
+          <li><a href="/start.html">Getting Started</a></li>
+		  {% end %}
+          <li><a href="/pricing.html">Pricing</a></li>
+          <li><a href="/product.html">Product</a></li>
+		  {% if lkey.strip() and lkey.strip() == demo_key %}
+          <li><a href="/live.html">Users</a></li>
+		  {% else %}
+          <li class="active"><a href="/live.html">Users</a></li>
+		  {% end %}
+          <li><a href="/faq.html">FAQs</a></li>
+        </ul>
+        <h3 class="muted"><font face="Arial" size="6" color="darkblue">Text</font><font face="Arial" size="6" color="orange"><img src="/img5.jpg">lysis</font></h3>
+      </div>
+
+      <hr>
+
+	  <div class="row-fluid">
+			{% if lkey.strip() and lkey.strip() == demo_key %}
+				<font face="Verdana" size="2">
+					<a onclick="loadDoc();">View Demo Report</a>
+				</font>
+			{% else %}
+				<font face="Verdana" size="2" color="red">{{ errormsg }}</font>
+ 				<font face="Verdana" size="2"><br/> {{ infomsg }}<br/></font>
+			
+			<font face="Verdana" size="2">
+        	<br/><a href="mailto:admin@textalysis.io">Contact</a> us, if you face any problems using our product. 
+			<br/>
+			</font>
+			{% end %}
+	  </div>
+
+      <br/>
+	
+	  <div id="myDiv"></div>
+	
+      <hr>
+
+	  <div class="footer" align="center">
+            <font face="Verdana" size="1">
+                <a href="/privacy.html">Privacy Policy</a> |
+                <a href="/terms.html">Terms of Use</a> |
+				<a href="/team.html">Team</a> |
+                <a href="mailto:admin@textalysis.io">Contact</a><br/>
+            </font>
+            &copy;2014 Textalysis.io
+      </div>
+    </div> <!-- /container -->
+  </body>
+</html>

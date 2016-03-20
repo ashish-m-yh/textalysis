@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Textalysis - Business Intelligence from text</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Use Textalysis for sentiment analysis of your enterprise customer feedback">
+	<meta name="keywords" content="business intelligence,text analysis,text mining,sentiment analysis">
+    <meta name="author" content="Ashish Mukherjee">
+
+    <!-- Le styles -->
+    <link href="/assets/css/bootstrap.css" rel="stylesheet">
+
+    <style type="text/css">
+      body {
+        padding-top: 20px;
+        padding-bottom: 40px;
+      }
+
+      /* Custom container */
+      .container-narrow {
+        margin: 0 auto;
+        max-width: 700px;
+      }
+      .container-narrow > hr {
+        margin: 30px 0;
+      }
+
+      /* Main marketing message and sign up button */
+      .jumbotron {
+        margin: 30px 0;
+        text-align: center;
+      }
+      .jumbotron h1 {
+        font-size: 72px;
+        line-height: 1;
+      }
+      .jumbotron .btn {
+        font-size: 21px;
+        padding: 14px 24px;
+      }
+
+      /* Supporting marketing content */
+      .marketing {
+        margin: 40px 0;
+      }
+      .marketing p + h4 {
+        margin-top: 28px;
+      }
+    </style>
+    <link href="/assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+  </head>
+
+  <body>
+
+    <div class="container-narrow">
+
+      <div class="masthead">
+        <ul class="nav nav-pills pull-right">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/tech.html">Technology</a></li>
+          <li><a href="/live.html">Subscribers</a></li>
+        </ul>
+		 <h3 class="muted"><font face="Arial" size="6" color="darkblue">Text</font><font face="Arial" size="6" color="orange"><img src="/img5.jpg">lysis</font></h3>
+      </div>
+
+      <hr>
+
+	  <div class="row-fluid">
+		<h4>Analysis by Survey Comment/User Email</h4>
+	  </div>
+
+	{% for r in tuples %}
+		{% if r %}
+	    <div class="row-fluid">
+			<div class="span8">
+				<p><font face="Verdana" size="2"><i>Agent: {{ r[4] }}</i> - {{ r[0] }} </font></p>
+			</div>
+
+			<div class="span1"></div>
+
+			<div class="span3">
+				<table class="condensed" width="150">
+					<tr>
+						{% if r[2] != '0' %}
+						<td width="{{ r[2] }}%"><font face="Verdana" size="1">{{ r[2] }}%</font></td>
+						{% end %}
+						{% if r[3] != '0' %}
+						<td width="{{ r[3] }}%"><font face="Verdana" size="1">{{ r[3] }}%</font></td>
+						{% end %}
+					</tr>
+					<tr>
+						{% if r[2] != '0' %}
+						<td width="{{ r[2] }}%" bgcolor="green">&nbsp;</td>
+						{% end %}
+						{% if r[3] != '0' %}
+						<td width="{{ r[3] }}%" bgcolor="red">&nbsp;</td>
+						{% end %}
+					</tr>
+					<tr>
+						<td colspan="2"><font face="Verdana" size="1"><i>Sentiment Index: {{ r[1] }}</i></font></td>
+					</tr>
+				</table>
+			</div>
+	   	</div>
+		{% end %}
+	{% end %}
+
+		<div class="row-fluid">
+			<script type="text/javascript">
+			function showValue(newValue,label)
+			{
+				document.getElementById(label).innerHTML=newValue;
+			}
+			</script>
+
+			<br/>
+			<font face="Verdana" size="1">View comments higher than a certain positive and negative percentage of sentiment by adjusting the sliders below</font>
+
+			<form method="post" action="/app/demo">
+				<font face="Verdana" size="2">+ threshold</font>&nbsp;<input name="pos_val" type="range" min="0" max="100" step="2" value="{{ pos_val }}" onchange="showValue(this.value,'pos_range');">
+				<font face="Verdana" size="2" color="green"><span id="pos_range">{{ pos_val }}</span></font>
+				&nbsp;&nbsp;
+				&nbsp;&nbsp;
+				&nbsp;&nbsp;
+				&nbsp;&nbsp;
+				&nbsp;&nbsp;
+				<br/>
+				<font face="Verdana" size="2">- &nbsp;threshold </font><input name="neg_val" type="range" min="0" max="100" step="2" value="{{ neg_val }}" onchange="showValue(this.value,'neg_range');">
+				<font face="Verdana" size="2" color="red"><span id="neg_range">{{ neg_val }}</span></font>
+				&nbsp;&nbsp;
+				&nbsp;&nbsp;
+				<input type="hidden" name="mode" value="email">
+				<input type="hidden" name="lkey"  value="{{ lkey }}">
+				<input type="hidden" name="body" value="{{ body }}">
+				<input type="hidden" name="refresh" value="1">
+				<input type="submit" value="Refresh">
+			</form>
+		
+			{% if pos_val > 0 and pos_ctr > 0 %}
+			<font face="Verdana" size="2" color="green">
+			+ {{ pos_ctr }} responses&nbsp;&nbsp;
+			</font>
+			{% end %}
+
+			{% if neg_val > 0 and neg_ctr > 0 %}
+			<font face="Verdana" size="2" color="red">
+			- {{ neg_ctr }} responses<br/><br/>
+			</font>
+			{% end %}
+
+			<ul>
+				<li><font face="Verdana" size="1">The percentages show mix of positive (green) and negative (red) sentiment respectively</font></li>
+				<li><font face="Verdana" size="1">The Sentiment Index is an absolute measure of the quantum of sentiment contained in the comment</font></li>
+				<li><font face="Verdana" size="1">Output is ordered from highest to lowest sentiment value</font></li>
+			</ul>
+
+			<br/>
+
+			<h4>Analysis by Agent</h4>
+	
+			<table class="condensed" width="150">
+				{% for myitem in agents.keys() %}
+				<tr>
+					<td><font face="Verdana" size="2">{{ myitem }}</font></td>
+
+					{% for n in xrange(0,agents[myitem][0]) %}
+						<td width="1" bgcolor="green">&nbsp;</td>
+					{% end %}
+
+					{% for n in xrange(0,agents[myitem][1]) %}
+						<td width="1" bgcolor="red">&nbsp;</td>
+					{% end %}
+				</tr>
+				<tr><td colspan="3">&nbsp;</td></tr>
+				{% end %}
+			</table>
+	
+			<br/><a class="btn btn-success" href="{{ reporturl }}">Download Excel</a>	
+		</div>
+		
+      <hr>
+
+	  <div class="footer" align="center">
+            <font face="Verdana" size="1">
+                <a href="/privacy.html">Privacy Policy</a> |
+                <a href="/terms.html">Terms of Use</a> |
+				<a href="/team.html">Team</a> |
+                <a href="mailto:aneesh@computerware.in">Contact</a><br/>
+            </font>
+            &copy;2014 Textalysis.com
+      </div>
+    </div> <!-- /container -->
+  </body>
+</html>

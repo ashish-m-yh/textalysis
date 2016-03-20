@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Textalysis - Business Intelligence from text</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Use Textalysis for sentiment analysis of your enterprise customer feedback">
+	<meta name="keywords" content="business intelligence,text analysis,text mining,sentiment analysis">
+    <meta name="author" content="Ashish Mukherjee">
+
+    <!-- Le styles -->
+    <link href="/assets/css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 20px;
+        padding-bottom: 40px;
+      }
+
+      /* Custom container */
+      .container-narrow {
+        margin: 0 auto;
+        max-width: 700px;
+      }
+      .container-narrow > hr {
+        margin: 30px 0;
+      }
+
+      /* Main marketing message and sign up button */
+      .jumbotron {
+        margin: 30px 0;
+        text-align: center;
+      }
+      .jumbotron h1 {
+        font-size: 72px;
+        line-height: 1;
+      }
+      .jumbotron .btn {
+        font-size: 21px;
+        padding: 14px 24px;
+      }
+
+      /* Supporting marketing content */
+      .marketing {
+        margin: 40px 0;
+      }
+      .marketing p + h4 {
+        margin-top: 28px;
+      }
+    </style>
+    <link href="/assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+  </head>
+
+  <body>
+
+    <div class="container-narrow">
+
+      <div class="masthead">
+        <ul class="nav nav-pills pull-right">
+			<li><a href="/index.html">Home</a></li>
+          	<li><a href="/start.html">Getting Started</a></li>
+          	<li><a href="/pricing.html">Pricing</a></li>
+          	<li class="active"><a href="/product.html">Product</a></li>
+          	<li><a href="/live.html">Users</a></li>
+          	<li><a href="/faq.html">FAQs</a></li>
+        </ul>
+		 <h3 class="muted"><font face="Arial" size="6" color="darkblue">Text</font><font face="Arial" size="6" color="orange"><img src="/img5.jpg">lysis</font></h3>
+      </div>
+
+      <hr>
+
+	  <div class="row-fluid">
+		<div class="span12">
+	  		<h4>How it works</h4>
+			<font face="Verdana" size="2">
+			<p>Textalysis examines customer feedback from various textual sources and analyses it for positive or negative views expressed by customers and also looks at the major pain-points contributing to negative feedback by a customer. </p><p>eg. mention of "poor communication" indicates negative perception about communication with customer.</p>
+			<p>It performs the analysis by looking for words and phrases from a lexicon built from research in this field. Relative strengths of different words and phrases are accounted for during analysis and negations are handled too. eg. the word 'hate' is a stronger expression than 'dislike'</p> 
+			<p>Our standard lexicon has been derived from lot of research and suffices most needs but can be fine-tuned by you to accommodate common language usage observed in your data-set.</p>
+			</font>
+		</div>
+      </div>
+
+      <div class="row-fluid">
+        <h4 align="left">The Technology</h4>
+		<table>
+			<tr>
+				<td>
+					<p>
+					<font face="Verdana" size="2">
+					Sentiment Analysis is based on the branch of Artificial Intelligence called Natural Language Processing (NLP) which uses a combination of statistical and computer science approaches to 'understand' human language. 
+					</font>
+					</p>
+					<p>
+					<font face="Verdana" size="2">
+					There are number of open-source NLP frameworks such as Mallet, OpenNLP, GATE, Weka, Stanford NLP. This application uses Apache OpenNLP, which is a popular Java framework and has well-documented, simple APIs to work with.
+					</font>
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<h5>Sentiment Analysis Approaches</h5>
+					<font face="Verdana" size="2">
+					<ol>
+						<li>
+							Corpus-based<br/>
+							This approach uses a trained model built from an annotated corpus containing rows of data with tagging of sentiment (negative or positive). It is suitable for analysis within a particular domain and needs a significantly wide and representative annotated data-set to achieve high accuracy.<br/><br/>
+						</li>
+						<li>
+							Lexicon-based<br/>
+							There are different customizable lexicons available on the Web with words and their respective sentiment weights (positive and negative). This is suitable for a general sentiment analysis approach based on popular usage of the English language.<br/><br/>
+						</li>
+						<li>
+							Rule-based<br/>
+							A set of rules can be defined to determine sentiment words and their polarity. A good approach for very precise extraction of sentiment based on language patterns.<br/>
+						</li>
+					</ol>
+					</font>
+					<p>
+						<font face="Verdana" size="2">
+						Textalysis uses a combination of lexical and rule-based approaches to provide an accurate representation of sentiment mix in text. Our application does not merely perform a word-based analysis but also phrasal analysis for better results.
+						</font>
+					</p>
+				</td>
+			</tr>					
+			<tr>
+				<td>
+					<h5>Limitations</h5>	
+						<font face="Verdana" size="2">
+						<ol>
+							<li>
+							Probabilistic Science
+							<br/>
+							NLP, like all machine learning areas is a probabilistic science. We use controlled vocabularies based on reputed online lexicon and corpora and continually improve the quality of these.<br/><br/>
+							</li>
+							<li>
+							Sarcasm Detection
+							<br/>
+							Sarcasm cannot be detected due to sentence constructions. This is a NLP research field in sentiment analysis and still not mature. We will pursue work on this in future releases.
+							</li>
+						</ol>
+						</font>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<h5>Technical References</h5>
+					<p></p>
+					<ul>
+						<li><a href="http://www.academia.edu/1336655/Reviews_Classification_Using_SentiWordNet_Lexicon">http://www.academia.edu/1336655/Reviews_Classification_Using_SentiWordNet_Lexicon</a></li>
+						<li><a href="http://www.lrec-conf.org/proceedings/lrec2010/pdf/769_Paper.pdf">http://www.lrec-conf.org/proceedings/lrec2010/pdf/769_Paper.pdf</a></li>
+						<li><a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.76.2378&amp;rep=rep1&amp;type=pdf">http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.76.2378&amp;rep=rep1&amp;type=pdf</a></li>
+						<li><a href="http://www.cs.uic.edu/~liub/FBS/IEEE-Intell-Sentiment-Analysis.pdf">http://www.cs.uic.edu/~liub/FBS/IEEE-Intell-Sentiment-Analysis.pdf</a></li>
+					</ul>
+				</td>
+			</tr>
+		</table>
+      </div>
+
+      <hr>
+
+	  <div class="footer" align="center">
+            <font face="Verdana" size="1">
+                <a href="/privacy.html">Privacy Policy</a> |
+                <a href="/terms.html">Terms of Use</a> |
+				<a href="/team.html">Team</a> |
+                <a href="mailto:admin@textalysis.io">Contact</a><br/>
+            </font>
+            &copy;2014 Textalysis.io
+      </div>
+    </div> <!-- /container -->
+  </body>
+</html>

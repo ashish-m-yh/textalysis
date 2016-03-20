@@ -1,0 +1,173 @@
+	  <h5>Analysis of negative feedback</h5>
+	  <div class="row-fluid">
+		<table class="table table-condensed condensed">
+			{% if len(negs) == 0 %}
+				<font face="Verdana" size="2">
+				Oops! We could not report on any meaningful attributes from your data. Please <a href="mailto:admin@textalysis.io">contact us</a> for a custom demo. 
+				</font>
+			{% end %}
+
+			{% for r in sorted(negs, key=negs.get, reverse=True) %} 
+			<tr>
+				<td><font face="Verdana" size="2">{{ r }}</font></td>
+
+				{% for n in xrange(0,int(negs[r]*50/n_total)) %}
+					<td width="1" bgcolor="red">&nbsp;</td>
+				{% end %}
+
+				{% set diff = 50 - int(negs[r]*50/n_total) + 1 %}
+
+				<td>
+					<font face="Verdana" size="2"><strong>{{ negs[r] }}</strong></font>
+				</td>
+
+				{% for n in xrange(0,diff) %}
+					<td width="1">&nbsp;</td>
+				{% end %}
+			</tr>
+			{% end %}
+		</table>
+	  </div>
+
+	  <h5>Analysis of positive feedback</h5>
+	  <div class="row-fluid">
+		<table class="table table-condensed condensed">
+			{% if len(pos) == 0 %}
+				<font face="Verdana" size="2">
+				Oops! We could not report on any meaningful attributes from your data. Please <a href="mailto:admin@textalysis.io">contact us</a> for a custom demo. 
+				</font>
+			{% end %}
+
+			{% for r in sorted(pos, key=pos.get, reverse=True) %} 
+			<tr>
+				<td><font face="Verdana" size="2">{{ r }}</font></td>
+
+				{% for n in xrange(0,int(pos[r]*50/p_total)) %}
+					<td width="1" bgcolor="green">&nbsp;</td>
+				{% end %}
+
+				{% set diff = 50 - int(pos[r]*50/p_total) + 1 %}
+
+				<td>
+					<font face="Verdana" size="2"><strong>{{ pos[r] }}</strong></font>
+				</td>
+
+				{% for n in xrange(0,diff) %}
+					<td width="1">&nbsp;</td>
+				{% end %}
+			</tr>
+			{% end %}
+		</table>
+	  </div>
+
+	  <div class="row-fluid">
+	  	<h5>Worst 5 Agents</h5>
+		<table class="condensed" width="150">
+			{% import operator %}
+			{% set ctr = 0 %}
+			{% for myitem in sorted(agents, key=operator.itemgetter(2), reverse=True) %}
+			<tr>
+				{% if myitem[2] > 0 and ctr < 5 %} 
+
+				<td><font face="Verdana" size="2">{{ myitem[0] }}</font></td>
+				<td>&nbsp;</td>
+
+				{% set ctr = ctr + 1 %}
+
+				{% for n in xrange(0,int(myitem[1]/2)) %}
+					<td width="1" bgcolor="green">&nbsp;</td>
+				{% end %}
+
+				{% for n in xrange(0,int(myitem[2]/2)) %}
+					<td width="1" bgcolor="red">&nbsp;</td>
+				{% end %}
+
+				{% if int(myitem[1]/2) + int(myitem[2]/2) < 100 %}
+					<td width="1">&nbsp;</td>
+				{% end %}
+				
+				{% end %}
+			</tr>
+			{% end %}
+		</table>
+
+		<br/>
+
+	  	<h5>Top 5 Agents</h5>
+		<table class="condensed" width="150">
+			{% set ctr = 0 %}
+			{% for myitem in sorted(agents, key=operator.itemgetter(1), reverse=True) %}
+			<tr>
+				{% if myitem[1] > 0 and ctr < 5 %} 
+				<td><font face="Verdana" size="2">{{ myitem[0] }}</font></td>
+				<td>&nbsp;</td>
+
+				{% set ctr = ctr + 1 %}
+
+				{% for n in xrange(0,int(myitem[1]/2)) %}
+					<td width="1" bgcolor="green">&nbsp;</td>
+				{% end %}
+
+				{% for n in xrange(0,int(myitem[2]/2)) %}
+					<td width="1" bgcolor="red">&nbsp;</td>
+				{% end %}
+
+				{% if int(myitem[1]/2) + int(myitem[2]/2) < 100 %}
+					<td width="1">&nbsp;</td>
+				{% end %}
+
+				{% end %}
+			</tr>
+			{% end %}
+		</table>
+	  </div>
+
+	  <br/>
+	  <br/>
+	
+    	  {% if ctr > 0 %}
+	  <div class="row-fluid">
+		<a class="btn btn-success" href="{{ reporturl }}">Download Excel</a>	
+	  </div>
+ 	  {% else %}
+                <font face="Verdana" size="2" color="red">
+                The Excel sheet may be malformed or does not consist of valid data. 
+                </font>
+          {% end %}
+
+	  <br/><br/>&nbsp;<a href="mailto:admin@textalysis.io">Contact us</a> for further information or to sign on or if you face problems with the demo
+	  <br/>
+	  <br/>
+	  <h4>&nbsp;Pricing</h4>
+	  <div class="row">
+		<br/>
+        <div class="span7">
+    		<table class="table table-condensed table-hover">
+    			<thead>
+    				<tr>
+    					<th>Starter</th>
+    					<th>Silver</th>
+    					<th>Gold</th>
+    				</tr>
+    			</thead>
+    			<tbody>
+    				<tr>
+    					<td>49,000 INR</td>
+    					<td>99,000 INR</td>
+    					<td>149,000 INR</td>
+    				</tr>
+    				<tr>
+    					<td>6 months</td>
+    					<td>6 months</td>
+    					<td>1 year</td>
+    				</tr>
+    				<tr>
+    					<td>500,000 records</td>
+    					<td>10,000,00 records</td>
+    					<td>20,000,00 records</td>
+    				</tr>
+    			</tbody>
+    		</table>
+    	</div>
+		<div class="span5"><font face="Verdana" size="1">* Service tax 12.36% extra</font></div>
+     </div>
