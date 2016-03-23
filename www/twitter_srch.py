@@ -1,6 +1,6 @@
 from twython import Twython
 from async_client import AsyncClient
-import re
+import re, string
 
 APP_KEY    = 'n5LFANrACgG4jPvT1xxCDsJ6a'
 APP_SECRET = 'rZmQ7b1xSguFyJAq7I8xFdjjQtHXu62ToExCbQhBZDDeCaACtv'
@@ -31,10 +31,13 @@ tweets  = get_tweets(twitter, '@airtelindia', 100)
 
 rpc_client = AsyncClient()
 
+rmv_whitespace_map = dict( (ord(char), None) for char in string.whitespace.strip(" "))
 for tweet in tweets:
   try:
     text = unicode(tweet['text'])
     text = re.sub('[^A-Za-z0-9\s]+', '', text).strip()
+    text = text.translate(rmv_whitespace_map)
+    text = re.sub('[ ]+', ' ', text)
     ts   = re.sub(':','',tweet['created_at'])
     rpc_client.call(LKEY, text, ts, OUT_FILE)
   except:
