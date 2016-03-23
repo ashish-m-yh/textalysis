@@ -37,6 +37,7 @@ for tweet in tweets:
     text = unicode(tweet['text'])
     text = re.sub('[^A-Za-z0-9\s]+', '', text).strip()
     text = text.translate(rmv_whitespace_map)
+    text = re.sub('[ ]+', ' ', text)
     ts   = re.sub(':','',tweet['created_at'])
     rpc_client.call(LKEY, text, ts, OUT_FILE)
   except:
