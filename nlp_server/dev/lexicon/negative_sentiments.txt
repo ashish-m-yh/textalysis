@@ -1,0 +1,5824 @@
+2-faced
+2-faces
+abnormal	a	-0.208333333333333
+abolish	v	0
+abominable	a	-0.5625
+abominably	r	-0.5625
+abominate	v	-0.25
+abomination	n	-0.166666666666667
+abort	n	0
+abort	v	-0.583333333333333
+aborted
+aborts
+abrade	v	-0.0625
+abrasive	n	0
+abrasive	a	-0.3545
+abrupt	a	-0.15
+abruptly	r	0
+abscond	v	0
+absence	n	0
+absent-minded
+absentee	n	-0.625
+absurd	n	0
+absurd	a	0.5
+absurdity	n	0.0625
+absurdly	r	0
+absurdness	n	0
+abuse	n	-0.5
+abuse	v	-0.28125
+abused	a	-0.1875
+abuses	n	-0.5
+abuses	v	-0.35
+abusive	a	-0.875
+abysmal	a	-0.75
+abysmally	r	-0.75
+abyss	n	0
+accidental	n	-0.125
+accidental	a	-0.125
+accost	v	0.0625
+accursed	a	-0.25
+accusation	n	-0.125
+accusations
+accuse	v	0.0625
+accused	v	0.0625
+accused	n	0.45
+accuses	v	0.0625
+accusing	a	-0.25
+accusingly	r	0.25
+acerbate	v	-0.1875
+acerbic	a	-0.4375
+acerbically
+ache	n	-0.25
+ache	v	-0.291666666666667
+ached
+aches
+achey
+aching	n	-0.25
+aching	a	-0.75
+acrid	a	-0.1875
+acridly
+acridness	n	-0.375
+acrimonious	a	0.25
+acrimoniously
+acrimony	n	0
+adamant	n	0
+adamant	a	-0.75
+adamantly	r	0
+addict	n	0
+addict	v	0
+addicted	a	0
+addicting
+addicts
+admonish	v	0.125
+admonisher	n	0
+admonishingly
+admonishment	n	0.25
+admonition	n	0.0625
+adulterate	a	-0.125
+adulterate	v	-0.375
+adulterated	a	-0.125
+adulteration	n	0
+adulterier
+adversarial
+adversary	n	0
+adverse	a	-0.1875
+adversity	n	-0.4375
+afflict	v	-0.6875
+affliction	n	-0.625
+afflictive	a	-0.875
+affront	n	-0.25
+affront	v	-0.125
+afraid	a	-0.5
+aggravate	v	-0.125
+aggravating	a	-0.25
+aggravation	n	-0.208333333333333
+aggression	n	-0.175
+aggressive	a	0.125
+aggressiveness	n	-0.25
+aggressor	n	0
+aggrieve	v	-0.1875
+aggrieved
+aggrivation
+aghast	a	0.25
+agonies
+agonize	v	-0.75
+agonizing	a	-0.5
+agonizing	v	-0.5
+agonizingly	r	-0.125
+agony	n	-0.5
+aground	a	0
+aground	r	0
+ail	n	0
+ail	v	-0.6875
+ailing	a	-0.625
+ailment	n	-0.25
+aimless	a	0.1875
+alarm	n	0.03125
+alarm	v	0
+alarmed	a	-0.625
+alarming	a	-0.5
+alarmingly	r	0.375
+alienate	v	0.166666666666667
+alienated	a	-0.0625
+alienation	n	-0.25
+allegation	n	0.25
+allegations	n	0.25
+allege	v	0
+allergic	a	-0.4375
+allergies
+allergy	n	-0.125
+aloof	r	0.25
+aloof	a	0.25
+altercation	n	-0.375
+ambiguity	n	0.25
+ambiguous	a	-0.0833333333333333
+ambivalence	n	-0.125
+ambivalent	a	-0.625
+ambush	n	-0.5
+ambush	v	0
+amiss	a	-0.75
+amiss	r	-0.25
+amputate	v	0
+anarchism	n	0
+anarchist	n	0
+anarchistic	a	-0.125
+anarchy	n	0
+anemic	a	-0.125
+anger	n	-0.416666666666667
+anger	v	-0.0625
+angrily	r	-0.125
+angriness	n	-1
+angry	a	-0.333333333333333
+anguish	n	-0.625
+anguish	v	-0.4375
+animosity	n	-0.125
+annihilate	v	0
+annihilation	n	0
+annoy	v	0
+annoyance	n	-0.325
+annoyances	n	-0.325
+annoyed	a	-0.5625
+annoying	n	-0.25
+annoying	a	-0.5
+annoyingly	r	-0.25
+annoys
+anomalous	a	0
+anomaly	n	-0.0416666666666667
+antagonism	n	-0.03125
+antagonist	n	0.0416666666666667
+antagonistic	a	-0.175
+antagonize	v	-0.125
+anti
+anti-
+anti-american	n	0.15
+anti-american	a	0.15
+anti-israeli
+anti-occupation
+anti-proliferation
+anti-semites
+anti-social
+anti-us
+anti-white
+antipathy	n	-0.4375
+antiquated	a	-0.375
+antithetical	a	0.375
+anxieties
+anxiety	n	-0.375
+anxious	a	-0.1875
+anxiously	r	0
+anxiousness	n	-0.3125
+apathetic	a	-0.25
+apathetically	r	0.375
+apathy	n	-0.4375
+apocalypse	n	0.0625
+apocalyptic	a	-0.125
+apologist	n	0
+apologists
+appal	v	-0.125
+appall	v	-0.125
+appalled	a	0.25
+appalling	n	0.125
+apalling	n	0.125
+appalling	a	-0.5
+apalling	a	-0.5
+appallingly	r	0
+apprehension	n	-0.1875
+apprehensions
+apprehensive	a	-0.291666666666667
+apprehensively	r	0
+arbitrary	a	0
+arcane	a	0.375
+archaic	a	-0.1875
+arduous	a	-0.5
+arduously	r	0.375
+argumentative	a	0.125
+arrogance	n	0.125
+arrogant	a	0.125
+arrogantly	r	0.125
+ashamed	a	-0.75
+asinine	a	0.375
+asininely
+asinininity
+askance	r	-0.125
+askance	a	0
+asperse	v	0.375
+aspersion	n	0.125
+aspersions	n	0.125
+ass	n	0.35
+asshole	n	0.65
+a-holen	n	0.65
+assail	v	-0.125
+assassin	n	0
+assassinate	v	0.0625
+assault	n	-0.03125
+assault	v	-0.125
+assult
+astray	r	0
+asunder	a	0
+asunder	r	0
+atrocious	a	-0.791666666666667
+atrocities
+atrocity	n	-0.5625
+atrophy	n	-0.3125
+atrophy	v	0
+attack	n	-0.0694444444444444
+attack	v	-0.145833333333333
+attacks
+audacious	a	0.375
+audaciously	r	0.125
+audaciousness	n	0
+audacity	n	0
+audiciously
+austere	a	0.0416666666666667
+authoritarian	n	0
+authoritarian	a	0.0625
+autocrat	n	-0.125
+autocratic	a	0
+avalanche	n	-0.0625
+avalanche	v	0
+avarice	n	-0.1875
+avaricious	a	0
+avariciously	r	0.125
+avenge	v	-0.5
+averse	a	0
+aversion	n	-0.25
+aweful	r	0.35
+awful	r	0.35
+awful	a	-0.291666666666667
+awfully	r	-0.416666666666667
+awfulness	n	0.125
+awkward	a	-0.395833333333333
+awkwardness	n	-0.225
+ax	n	0
+ax	v	0
+babble	n	-0.375
+babble	v	-0.09375
+back-logged
+back-wood
+back-woods
+backache	n	0
+backaches
+backaching
+backbite	v	0
+backbiting
+backstabbing	n	-0.45	
+back-stabbing	n	-0.45
+backstabbing	a	-0.45
+back-stabbing	a	-0.45
+backstabbing	v	-0.45
+back-stabbing	v	-0.45
+backward	r	0
+backward	a	0.3125
+backwardness	n	-0.25
+backwood
+backwoods	n	0
+bad	n	-0.875
+bad	a	-0.642857142857143
+bad	r	-0.125
+badly	r	-0.425
+baffle	n	0
+baffle	v	-0.0416666666666667
+baffled	n	-0.25
+baffled	a	-0.5
+bafflement	n	-0.375
+baffling	a	-0.5
+bait	n	0.0625
+bait	v	-0.125
+balk	n	0
+balk	v	-0.125
+banal	a	-0.375
+banalize
+bane	n	-0.625
+banish	v	0
+banishment	n	0
+bankrupt	n	-0.425
+bankrupt	a	-0.625
+bankrupt	v	-0.625
+bankruptcy	n	-0.625	
+barbarian	n	-0.125
+barbarian	a	0.25
+barbaric	a	-0.0625
+barbarically
+barbarity	n	-0.375
+barbarous	a	-0.3125
+barbarously	r	0.25
+barren	n	0
+barren	a	-0.5
+baseless	a	-0.5
+bash	n	0.25
+bash	v	-0.25
+bashed
+bashful	a	0.125
+bashing
+bastard	n	-0.541666666666667
+bastard	a	-0.75
+bastards
+battle	n	-0.25
+battered	a	-0.75
+battering	n	0
+batty	a	-0.375
+bearish	a	-0.5
+beastly	a	-0.4375
+beastly	r	0.25
+bedlam	n	-0.25
+bedlamite	n	0
+befoul	v	0
+beg	v	-0.03125
+beggar	n	0
+beggar	v	-0.1875
+beggarly	a	-0.375
+begging	n	0
+beguile	v	0.4375
+belabor	v	-0.0833333333333333
+belated	a	-0.125
+beleaguer	v	-0.0625
+belie	v	0
+belittle	v	-0.0416666666666667
+belittled	a	0
+belittling	n	0
+belittling	a	-0.625
+bellicose	a	0.5
+belligerence	n	-0.0625
+belligerent	n	0
+belligerent	a	0
+belligerently	r	0.25
+bemoan	v	-0.625
+bemoaning
+bemused	a	-0.1875
+bent	n	0.03125
+bent	a	0
+berate	v	-0.75
+bereave	v	-0.5
+bereavement	n	-0.375
+bereft	a	-0.6875
+berserk	n	-0.25
+berserk	a	-0.25
+beseech	v	0
+beset	v	-0.0416666666666667
+besiege	v	-0.25
+besmirch	v	0.125
+bestial	a	-0.375
+betray	v	-0.354166666666667
+betrayal	n	-0.125
+betrayals
+betrayer	n	-0.125
+betraying
+betrays
+bewail	v	-0.625
+beware	v	0.5
+bewilder	v	-0.1875
+bewildered	a	-0.5
+bewildering
+bewilderingly	r	0.125
+bewilderment	n	-0.375
+bewitch	v	0.208333333333333
+bias	n	-0.6875
+bias	a	0
+bias	v	0.1875
+biased	a	0
+biases
+bicker	n	-0.25
+bicker	v	-0.125
+bickering	n	-0.25
+bid-rigging
+bigotries
+bigotry	n	-0.25
+bitch	n	-0.1875
+bitch	v	-0.25
+bitchy	a	-0.625
+biting	a	-0.1875
+bitingly	r	-0.375
+bitter	n	-0.166666666666667
+bitter	a	-0.339285714285714
+bitter	r	-0.375
+bitter	v	0
+bitterly	r	-0.166666666666667
+bitterness	n	-0.25
+bizarre	a	-0.25
+blab	v	0
+blabber	n	-0.25
+blabber	v	0
+blackmail	n	-0.43
+blackmail	v	-0.43
+blah	n	0
+blame	n	-0.625
+blame	a	0
+blame	v	-0.208333333333333
+blameworthy	a	-0.875
+bland	a	-0.0416666666666667
+blandish	v	0.5
+blaspheme	v	0.1875
+blasphemous	a	-0.5625
+blasphemy	n	0.0625
+blasted	a	-0.125
+blatant	a	-0.0625
+blatantly	r	0.125
+blather	n	0
+blather	v	-0.125
+bleak	a	-0.416666666666667
+bleakly	r	-0.25
+bleakness	n	0
+bleed	v	-0.025
+bleeding	n	0
+bleeds
+blemish	n	-0.125
+blemish	v	-0.291666666666667
+blind	n	-0.0625
+blind	a	-0.416666666666667
+blind	v	-0.291666666666667
+blinding	a	0.5
+blindingly
+blindside	v	-0.375
+blister	n	-0.0416666666666667
+blister	v	-0.458333333333333
+blistering	n	0
+blistering	a	-0.166666666666667
+bloated
+blockage	n	0
+blockhead	n	-0.375
+bloodshed	n	-0.1875
+bloodthirsty	a	-0.625
+bloody	r	-0.25
+bloody	a	-0.1875
+bloody	v	0
+blotchy	a	0
+blow	n	-0.225
+blows	n	-0.225
+blow	v	-0.0568181818181818
+blunder	n	-0.375
+blunder	v	-0.0833333333333333
+blundering
+blunders
+blunt	a	0.15625
+blunt	v	-0.025
+blur	n	-0.375
+blur	v	-0.0208333333333333
+bluring
+blurred	a	-0.25
+blurring
+blurry	a	-0.625
+blurs
+blurt	v	0
+boastful	a	-0.25
+boggle	v	-0.0833333333333333
+bogus	a	-0.75
+boil	n	-0.375
+boil	v	-0.125
+boiling	n	0
+boiling	r	-0.5
+boisterous	a	-0.541666666666667
+bomb	n	-0.0833333333333333
+bomb	v	-0.0625
+bombard	n	0
+bombard	v	0
+bombardment	n	0
+bombastic	a	-0.25
+bondage	n	0.0833333333333333
+bonkers	a	-0.375
+bore	n	-0.03125
+bore	v	0.0625
+bored	a	0.0625
+boredom	n	-0.375
+bores
+boring	n	0
+boring	a	-0.25
+botch	n	-0.375
+botch	v	-0.75
+bother	n	-0.3125
+bother	v	-0.270833333333333
+bothered	a	-0.25
+bothered	v	-0.25
+bothering
+bothers
+bothersome	a	-0.5
+bowdlerize	v	0
+boycott	n	0
+boycott	v	0
+braggart	n	0.125
+braggart	a	-0.25
+bragger	n	0.125
+brainless	a	-0.125
+brainwash	v	-0.125
+brash	a	-0.5
+brashly	r	0.25
+brashness	n	-0.0625
+brat	n	-0.1875
+bravado	n	0.125
+brazen	a	0.3125
+brazen	v	0.375
+brazenly	r	0.625
+brazenness	n	-0.25
+breach	n	-0.25
+breach	v	-0.25
+break	n	0
+break	v	-0.0127118644067797
+break-up
+break-ups
+breakdown	n	-0.15625
+breaking	n	0
+breaks
+breakup	n	0
+breakups
+bribery	n	0
+brimstone	n	0
+bristle	n	0
+bristle	v	0.0625
+brittle	n	0
+brittle	a	0
+broke	a	-0.375
+broken	a	-0.173076923076923
+broken-hearted
+brood	n	0
+brood	v	-0.225
+browbeat	v	0.1875
+bruise	n	-0.5
+bruise	v	-0.21875
+bruised
+bruises
+bruising	a	-0.5
+brusque	a	-0.125
+brutal	a	-0.4375
+brutalising
+brutalities
+brutality	n	-0.0625
+brutalize	v	-0.5
+brutalizing
+brutally	r	0.25
+brute	n	-0.1875
+brute	a	-0.375
+brutish	a	-0.375
+bs	n	0
+buckle	n	0
+buckle	v	0
+bug	n	-0.025
+bug	v	-0.0625
+bugging
+buggy	n	0
+buggy	a	-0.5
+bugs
+bulkier
+bulkiness	n	0.25
+bulky	a	0
+bulkyness
+bull****
+bull----
+bullies
+bullshit	n	-0.375
+bullshit	v	-0.875
+bullshyt	n	-0.875
+bullshyt	v	-0.875
+bully	n	-0.4375
+bully	a	0.875
+bully	v	0.1875
+bullying	n	0
+bullying	a	-0.375
+bullyingly
+bum	n	-0.09375
+bum	a	-0.75
+bum	v	0.125
+bump	n	0
+bump	v	-0.1
+bumped
+bumping
+bumpping
+bumps
+bumpy	a	-0.625
+bungle	n	-0.375
+bungle	v	-0.1875
+bungler	n	0
+bungling	a	-0.6875
+bunk	n	-0.0208333333333333
+bunk	v	0
+burden	n	-0.21875
+burden	v	0
+burdensome	a	-0.25
+burdensomely
+burn	n	-0.325
+burn	v	-0.075
+burned	a	-0.458333333333333
+burning	n	-0.208333333333333
+burning	a	0.125
+burns	n	0
+bust	n	0.03125
+bust	a	-0.375
+bust	v	-0.175
+busts
+busybody	n	0
+butcher	n	-0.09375
+butcher	v	0
+butchery	n	-0.0833333333333333
+buzzing	a	0
+byzantine	n	0
+byzantine	a	0.0833333333333333
+cackle	n	0
+cackle	v	-0.166666666666667
+calamities
+calamitous	a	-0.75
+calamitously
+calamity	n	-0.5
+callous	a	-0.125
+callous	v	-0.25
+calumniate	v	0.375
+calumniation	n	-0.625
+calumnies
+calumnious	a	-0.875
+calumniously	r	0
+calumny	n	-0.125
+cancer	n	-0.025
+cancel	v	-0.45
+cancerous	a	-0.25
+cannibal	n	0
+cannibalize	v	-0.25
+capitulate	v	0
+capricious	a	0.3125
+capriciously	r	-0.0625
+capriciousness	n	0.125
+capsize	v	0
+careless	a	-0.416666666666667
+carelessness	n	-0.3125
+caricature	n	0
+caricature	v	-0.375
+carnage	n	-0.25
+carp	n	0
+carp	v	0
+cartoonish
+cash-strapped
+castigate	v	-0.75
+castrated	a	0.375
+casualty	n	-0.34375
+cataclysm	n	-0.25
+cataclysmal	a	-0.875
+cataclysmic	a	-0.875
+cataclysmically
+catastrophe	n	-0.291666666666667
+catastrophes
+catastrophic	a	-0.75
+catastrophically	r	-0.375
+catastrophies
+caustic	n	0
+caustic	a	-0.0625
+caustically	r	0.25
+cautionary	a	-0.292
+cave	n	0
+cave	v	0
+censure	n	-0.375
+censure	v	-0.25
+chafe	n	-0.5
+chafe	v	-0.145833333333333
+chaff	n	0
+chaff	v	-0.375
+chagrin	n	0.125
+chagrin	v	-0.625
+challenging	a	0.0833333333333333
+chaos	n	-0.125
+chaotic	a	-0.25
+chasten	v	-0.125
+chastise	v	-0.75
+chastisement	n	-0.125
+chatter	n	0
+chatter	v	0.05
+chatterbox	n	-0.1875
+cheat	n	0.125
+cheat	v	-0.15625
+cheated
+cheater	n	0
+cheating	n	0.625
+cheating	a	-0.375
+cheats
+checkered	a	-0.0625
+cheerless	a	-0.5
+cheesy	a	-0.75
+chide	v	-0.75
+childish	a	-0.375
+chill	n	-0.15625
+chill	v	-0.0833333333333333
+chilly	n	0
+chilly	a	-0.25
+chintzy	a	-0.375
+choke	n	0
+choke	v	0.00892857142857143
+choleric	a	-0.166666666666667
+choppy	a	-0.25
+chore	n	0
+chronic	a	-0.125
+chunky	a	0
+clamor	n	-0.125
+clamor	v	0
+clamorous	a	-0.5
+clash	n	0
+clash	v	-0.208333333333333
+cliche	n	0.125
+cliched	a	-0.5
+clique	n	0
+clog	n	0
+clog	v	-0.0208333333333333
+clogged	a	0
+clogs	v	-0.02
+cloud	n	-0.1875
+cloud	v	-0.09375
+clouding	n	0
+cloudy	a	-0.0416666666666667
+clueless	a	-0.375
+clumsy	a	-0.5
+clunky	a	-0.0625
+coarse	a	-0.185333333333333
+cocky	a	0.25
+coerce	v	0.25
+coercion	n	0.15
+coercive	a	0.25
+cold	n	-0.0833333333333333
+cold	a	-0.307692307692308
+coldly	r	0
+collapse	n	-0.15625
+collapse	v	-0.15
+collapses	v	-0.20	
+collapsed	v	-0.20	
+collapsing	a 	-0.35
+collapsing	v 	-0.35
+collude	v	0
+collusion	n	0
+combative	a	0.208333333333333
+combust	v	-0.075
+comical	a	0.5
+commiserate	v	-0.125
+commonplace	n	0.125
+commonplace	a	0
+commotion	n	-0.25
+commotions
+complacent	a	-0.125
+complain	v	-0.25
+complained
+complaining	a	-0.75
+complains
+complaint	n	-0.2
+complaints
+complex	n	-0.03125
+complex	a	0
+complicated	a	-0.125
+complicated	v	-0.125
+complication	n	0.125
+complicit
+compulsion	n	0.0833333333333333
+compulsive	n	0
+compulsive	a	-0.125
+concede	v	0
+conceded
+conceit	n	-0.075
+conceited	a	-0.75
+concen
+concens
+concern	n	0.15
+concern	v	0.1875
+concerned	a	0
+concerns	v	0.20
+concession	n	0
+concessions
+condemn	v	-0.104166666666667
+condemnable	a	-0.875
+condemnation	n	-0.1
+condemned
+condemns
+condescend	v	0.125
+condescending	a	0.125
+condescendingly	r	0.375
+condescension	n	-0.0416666666666667
+confess	v	-0.125
+confession	n	-0.025
+confessions
+confined	a	-0.25
+conflict	n	-0.0357142857142857
+conflict	v	-0.0625
+conflicted
+conflicting	a	-0.0625
+conflicts
+confound	v	-0.25
+confounded	a	-0.5
+confounding	a	-0.625
+confront	v	-0.25
+confrontation	n	-0.275
+confrontational	a	0
+confuse	v	-0.3
+confused	a	-0.35
+confuses
+confusing	a	-0.3125
+confusion	n	-0.225
+confusions
+congested	a	-0.25
+congestion	n	-0.3125
+cons
+conscons
+conservative	n	0.0625
+conservative	a	-0.1
+conspicuous	a	0.5625
+conspicuously	r	0.0625
+conspiracies
+conspiracy	n	0
+conspirator	n	0
+conspiratorial	a	0
+conspire	v	0
+consternation	n	0.125
+contagious	a	0.3125
+contaminate	v	0
+contaminated	a	-0.0625
+contaminates
+contaminating	a	-0.125
+contamination	n	0
+contempt	n	-0.21875
+contemptible	a	-0.75
+contemptuous	a	-0.625
+contemptuously	r	0.5
+contend	v	0
+contention	n	0.0416666666666667
+contentious	a	0.375
+contort	v	0
+contortions
+contradict	v	-0.125
+contradiction	n	-0.0833333333333333
+contradictory	n	-0.125
+contradictory	a	-0.28125
+contrariness	n	-0.5
+contravene	v	0
+contrive	v	0
+contrived	a	0.1875
+controversial	a	0.5
+controversy	n	0.125
+convoluted	a	0.1875
+corrode	v	0
+corrosion	n	-0.0625
+corrosions
+corrosive	n	0
+corrosive	a	0.0625
+corrupt	a	-0.3125
+corrupt	v	-0.21875
+corrupted	a	-0.5
+corrupting	a	-0.0833333333333333
+corruption	n	0.25
+corrupts
+corruptted
+costlier
+costly	a	0.25
+counter-productive
+counterproductive	a	-0.375
+coupists
+covetous	a	0.0625
+coward	n	-0.125
+cowardly	a	-0.5
+crabby	a	-0.625
+crack	n	-0.0125
+crack	a	0.625
+crack	v	-0.0576923076923077
+cracked	a	-0.25
+cracks
+craftily	r	0.25
+craftly
+crafty	a	0.5
+cramp	n	-0.25
+cramp	v	-0.09375
+cramped	a	0
+cramping
+cranky	a	0
+crap	n	-0.4125
+crap	v	0
+crappy	a	-0.75
+craps	n	0.3125
+crash	n	0
+crash	v	-0.125
+crashed
+crashes
+crashing	a	-0.125
+crass	a	-0.375
+craven	n	-0.125
+craven	a	-0.25
+cravenly
+craze	n	0
+craze	v	0.25
+crazily	r	0.25
+craziness	n	-0.0833333333333333
+crazy	n	-0.375
+crazy	a	-0.075
+creak	n	0
+creak	v	0
+creaking	n	0
+creaks
+credulous	a	0.375
+creep	n	-0.125
+creep	v	0.03125
+creeping	n	0
+creeps	n	-0.4375
+creepy	a	-0.6875
+crept
+crime	n	-0.1875
+criminal	n	-0.425
+criminal	a	-0.475
+criminally	r	-0.475
+cringe	v	-0.1875
+cringed
+cringes
+cripple	n	-0.5
+cripple	v	0.125
+crippled	a	-0.5
+cripples
+crippling	a	-0.5
+crisis	n	-0.2625
+critic	n	0.0833333333333333
+critical	a	0.0714285714285714
+criticism	n	0
+criticisms
+criticize	v	-0.1875
+criticized
+highly-criticized
+hijack	n	0
+hijack	v	-0.25
+hijacked	a	-0.25
+criticizing
+criticise	v	-0.1875
+highly-criticised
+criticising
+cronyism	n	-0.625
+crook	n	-0.0833333333333333
+crook	v	0
+crooked	a	-0.3125
+crooks
+crowded	a	0.125
+crowdedness
+crude	n	0
+crude	a	-0.4375
+cruel	a	-0.625
+crueler
+cruelest
+cruelly	r	0
+cruelness	n	-0.875
+cruelties
+cruelty	n	-0.541666666666667
+crumble	v	-0.125
+crumbling
+crummy	a	-0.75
+crumple	v	-0.03125
+crumpled	a	0
+crumples
+crush	n	0.09375
+crush	v	-0.09375
+crushed	a	-0.1875
+crushed	v	-0.1875
+crushing	n	0
+crushing	a	-0.75
+cry	n	-0.05
+cry	v	-0.160714285714286
+culpable	a	-0.875
+culprit	n	0
+cumbersome	a	-0.4375
+cunt	n	0
+cunts
+cuplrit
+curse	n	-0.525
+curse	v	-0.0625
+cursed	a	-0.3125
+curses
+curt	a	0
+cuss	n	-0.125
+cuss	v	0
+cussed	a	0
+cutthroat	n	0
+cutthroat	a	-0.25
+cynical	a	-0.625
+cynicism	n	-0.25
+d*mn
+damage	n	-0.175
+damage	v	-0.75
+damaged	a	-0.4375
+damaged	v	-0.4375
+damages	n	-0.125
+damaging	a	-0.75
+damn	n	0
+damn	r	-0.25
+damn	a	0
+damn	v	-0.375
+damnable	a	-0.5
+damnably	r	0.25
+damnation	n	-0.0625
+damned	n	0
+damned	r	0.25
+damned	a	-0.1875
+damning	a	-0.25
+damper	n	-0.125
+danger	n	-0.53125
+dangerous	a	-0.6875
+dangerousness	n	-0.625
+dark	n	-0.2
+dark	a	-0.170454545454545
+darken	v	0
+darkened	a	0
+darker
+darkness	n	-0.1875
+dastard	n	-0.75
+dastard	a	-0.375
+dastardly	a	-0.375
+daunt	v	0
+daunting	a	-0.25
+dauntingly	r	0
+dawdle	v	0
+daze	n	-0.375
+daze	v	-0.0625
+dazed	a	-0.3125
+dead	n	-0.25
+dead	a	-0.308823529411765
+dead	r	0.25
+deadbeat	n	0
+deadlock	n	-0.375
+deadly	r	-0.25
+deadly	a	-0.416666666666667
+deadweight
+deaf	n	0
+deaf	a	-0.3125
+deaf	v	0
+dearth	n	-0.375
+death	n	-0.240625
+debacle	n	-0.125
+debase	v	-0.333333333333333
+debasement	n	0.125
+debaser	n	0
+debatable	a	0.166666666666667
+debauch	n	0.125
+debauch	v	-0.625
+debaucher	n	0.375
+debauchery	n	0.125
+debilitate	v	0
+debilitating	a	0.25
+debility	n	0.25
+debt	n	0
+debts
+decadence	n	0.375
+decadent	n	0
+decadent	a	0.125
+decay	n	-0.125
+decay	v	-0.125
+decayed	a	-0.25
+deceit	n	-0.458333333333333
+deceitful	a	-0.5625
+deceitfully	r	0.25
+deceitfulness	n	0.25
+deceive	v	-0.4375
+deceiver	n	0
+deceivers
+deceiving
+deception	n	-0.208333333333333
+deceptive	a	-0.625
+deceptively	r	-0.625
+declaim	v	0.1875
+decline	n	-0.0625
+decline	v	-0.0892857142857143
+declines
+declining
+decrement	n	0
+decrepit	a	-0.1875
+decrepitude	n	0.125
+decry	v	-0.25
+defamation	n	-0.125
+defamations
+defamatory	a	-0.875
+defame	v	0.375
+defect	n	-0.125
+defect	v	-0.125
+defective	a	0
+defects
+defensive	n	0
+defensive	a	0
+defiance	n	0.166666666666667
+defiant	a	-0.125
+defiantly	r	0.125
+deficiencies
+deficiency	n	-0.0625
+deficient	a	-0.541666666666667
+defile	n	0
+defile	v	-0.0833333333333333
+defiler	n	0
+deform	v	-0.0416666666666667
+deformed	a	-0.125
+defrauding
+defunct	a	-0.375
+defy	v	-0.0416666666666667
+defying	v	-0.0416666666666667
+defied	v	-0.0416666666666667
+defies	v	-0.2416666666666667
+defiance	n	-0.24
+degenerate	n	0.125
+degenerate	a	-0.25
+degenerate	v	-0.25
+degenerately
+degeneration	n	0.25
+degradation	n	0.0625
+degrade	v	-0.125
+degrading	a	-0.5
+degradingly
+dehumanization	n	0
+dehumanize	v	0.0625
+deign	v	0.5
+deject	v	-0.125
+dejected	a	-0.625
+dejectedly	r	0.25
+dejection	n	-0.125
+delay	n	0
+delay	v	0.03125
+delayed	a	-0.75
+delaying
+delays	a	-0.25
+delinquency	n	-0.208333333333333
+delinquent	n	0
+delinquent	a	-0.208333333333333
+delirious	a	-0.1875
+delirium	n	-0.1875
+delude	v	-0.625
+deluded
+deluge	n	-0.0833333333333333
+deluge	v	-0.125
+delusion	n	-0.0833333333333333
+delusional	a	0
+delusions
+demean	v	-0.25
+demeaning	a	-0.625
+demise	n	-0.625
+demise	v	0.25
+demolish	v	-0.0833333333333333
+demolisher
+demon	n	0.0043333333333333
+demonic	a	-0.75
+demonize	v	0
+demonized
+demonizes
+demonizing
+demoralize	v	-0.333333333333333
+demoralizing	a	-0.625
+demoralizingly
+denial	n	-0.075
+denied
+denies
+denigrate	v	0.125
+denounce	v	-0.0625
+dense	a	-0.0625
+dent	n	0
+dent	v	-0.125
+dented	a	0
+dents
+denunciate
+denunciation	n	0
+denunciations
+deny	v	-0.178571428571429
+denying
+deplete	v	0
+deplorable	a	-0.916666666666667
+deplorably	r	-0.875
+deplore	v	-0.25
+deploring
+deploringly
+deprave	v	-0.625
+depraved	a	-0.875
+depravedly
+deprecate	v	-0.0625
+depress	v	-0.05
+depressed	a	-0.416666666666667
+depressing	a	-0.5
+depressingly	r	-0.375
+depression	n	-0.15
+depressions
+deprive	v	-0.0833333333333333
+deprived	a	-0.375
+deride	v	-0.25
+derision	n	0
+derisive	a	-0.625
+derisively	r	0.375
+derisiveness
+derogatory	a	-0.75
+desecrate	v	-0.125
+desert	n	-0.125
+desert	v	-0.166666666666667
+desertion	n	0
+desiccate	a	0.25
+desiccate	v	0
+desiccated	a	0.291666666666667
+desititute
+desolate	a	-0.5625
+desolate	v	-0.125
+desolately	r	-0.5
+desolation	n	-0.15625
+despair	n	-0.3125
+despair	v	0
+despairing	a	-0.5
+despairingly	r	0
+desperate	n	-0.25
+desperate	a	-0.145833333333333
+desperately	r	-0.0625
+desperation	n	-0.25
+despicable	a	-0.5
+despicably	r	0
+despise	v	-0.375
+despised	a	0
+despoil	v	-0.0625
+despoiler	n	0
+despondence	n	-0.375
+despondency	n	-0.375
+despondent	a	-0.75
+despondently	r	0
+despot	n	-0.125
+despotic	a	0.0833333333333333
+despotism	n	-0.375
+destabilisation	n	0
+destains
+destitute	a	-0.403
+destitution	n	-0.5
+destroy	v	-0.15625
+destroyer	n	0
+destruction	n	0
+destructive	a	-0.625
+desultory	a	0.5
+detain	v	-0.35
+detained	v	-0.44	
+deter	v	0
+deteriorate	v	-0.375
+deteriorating
+deterioration	n	-0.3125
+deterrent	n	0
+deterrent	a	-0.25
+detest	v	-0.75
+detestable	a	-0.5
+detestably	r	-0.375
+detested	a	0
+detesting
+detests
+detract	v	0
+detracted
+detracting
+detraction	n	-0.1875
+detracts
+detriment	n	-0.25
+detrimental	a	-0.75
+devastate	v	0.2625
+devastated	v	-0.325
+devastates	v	-0.325
+devastating	a	-0.325
+devastating	v	-0.325
+devastatingly	r	-0.325
+devastation	n	-0.175
+deviate	n	0.125
+deviate	a	0.375
+deviate	v	-0.0416666666666667
+deviation	n	0.025
+devil	n	-0.1724
+devil	v	0
+devilish	r	0.125
+devilish	a	-0.3125
+devilishly	r	-0.25
+devilment	n	-0.875
+devilry	n	-0.4935
+devious	a	0.0833333333333333
+deviously	r	0.125
+deviousness	n	-0.0625
+devoid	a	-0.25
+diabolic	a	-0.6875
+diabolical	a	-0.6875
+diabolically	r	-0.375
+diametrically	r	0
+diappointed
+diatribe	n	0
+diatribes
+dick	n	-0.0625
+dictator	n	0
+dictatorial	a	0.0416666666666667
+die	n	0
+die	v	-0.113636363636364
+die-hard	a	-0.375
+died
+dies
+difficult	a	-0.6875
+difficulties
+difficulty	n	-0.34375
+diffidence	n	0.5
+dilapidated	a	-0.375
+dilemma	n	-0.25
+dilly-dally	v	0
+dim	a	-0.225
+dim	v	-0.15
+dimmer	n	0
+din	n	-0.125
+din	v	0
+ding	n	0
+ding	v	0
+dings
+dinky	n	0
+dinky	a	0.125
+dire	a	-0.5625
+direly
+direness
+dirt	n	-0.125
+dirt	a	-0.625
+dirtbag
+dirtbags
+dirts
+dirty	a	-0.385416666666667
+dirty	v	-0.75
+disable	v	-0.375
+disabled	n	-0.125
+disabled	a	-0.75
+disaccord	v	0.25
+disadvantage	n	-0.75
+disadvantage	v	-0.5
+disadvantaged	a	-0.375
+disadvantageous	a	0.5
+disadvantages
+disaffect	v	0.5
+disaffected	a	-0.625
+disaffirm
+disagree	v	0.125
+disagreeable	a	-0.708333333333333
+disagreeably	r	-0.25
+disagreed
+disagreeing
+disagreement	n	0
+disagrees
+disallow	v	0
+disapointing
+disapointment
+disappoint	v	-0.25
+disappointed	a	-0.5
+disappointed	v	-0.5
+disapointed	v	-0.5
+disapointed	a	-0.5
+dissapointed	a	-0.5
+dissapointed	v	-0.5
+disappointing	a	-0.75
+disappointingly	r	0.25
+disappointment	n	-0.375
+disappointments
+disappoints
+disapprobation	n	0
+disapproval	n	-0.2625
+disapprove	v	-0.875
+disapproved	v	-0.875
+disapproving	a	-0.5
+disarm	v	-0.125
+disarray	n	-0.125
+disarray	v	0
+disaster	n	-0.391666666666667
+disasters	n	-0.391666666666667
+disasterous
+disastrous	a	-0.75
+disastrously	r	0.25
+disavow	v	0
+disavowal	n	-0.25
+disbelief	n	0.1875
+disbelieve	v	-0.5
+disbeliever	n	0
+disclaim	v	0
+discombobulate	v	-0.375
+discomfit	v	-0.125
+discomfititure
+discomfort	n	-0.1875
+discompose	v	-0.125
+disconcert	v	-0.25
+disconcerted	a	-0.125
+disconcerting	a	-0.75
+disconcertingly	r	0.375
+disconsolate	a	-0.6875
+disconsolately	r	-0.5
+disconsolation
+discontent	n	0.125
+discontent	a	-0.625
+discontent	v	-0.125
+discontented	a	-0.625
+discontentedly	r	0
+discontinued	a	0
+discontinuity	n	-0.125
+discontinuous	a	-0.1875
+discord	n	-0.3125
+discord	v	0.25
+discordance	n	-0.1875
+discordant	a	-0.3125
+discountenance	v	-0.25
+discourage	v	0
+discouragement	n	-0.208333333333333
+discouraging	a	-0.3125
+discouragingly	r	0.125
+discourteous	a	0.25
+discourteously	r	0.25
+discoutinous
+discredit	n	-0.125
+discredit	v	-0.333333333333333
+discrepant	a	-0.791666666666667
+discriminate	a	0.625
+discriminate	v	0.208333333333333
+discrimination	n	0.35
+discriminatory	a	0.35625
+disdain	n	-0.125
+disdain	v	-0.3125
+disdained
+disdainful	a	-0.125
+disdainfully	r	0.3125
+disenchant	v	-0.125	
+disenchanted	v	-0.125
+disenchanting	v	-0.125
+disenchanted	a	-0.35		
+disenchanting	a	-0.35		
+disenchantment	n	-0.43
+disfavor	n	-0.0875
+disfavor	v	-0.5
+disgrace	n	-0.5
+disgrace	v	-0.416666666666667
+disgraced	a	-0.5
+disgraceful	a	-0.4375
+disgracefully	r	0
+disgruntle	v	-0.625
+disgruntled	a	-0.5
+disgust	n	0
+disgust	v	-0.3125
+disgusted	a	0.25
+disgusted	v	0.25
+disgustedly	r	0
+disgustful	a	-0.5
+disgustfully
+disgusting	a	-0.5
+disgustingly	r	-0.125
+dishearten	v	-0.375
+disheartening	a	-0.625
+dishearteningly
+dishonest	a	-0.125
+dishonestly	r	0.25
+dishonesty	n	-0.0625
+dishonor	n	0.125
+dishonor	v	-0.208333333333333
+dishonorable	a	-0.4375
+dishonorablely
+disillusion	n	-0.125
+disillusion	v	0.75
+disillusioned	a	0.125
+disillusionment	n	-0.125
+disillusions
+disinclination	n	-0.375
+disinclined	a	-0.75
+disingenuous	a	-0.875
+disingenuously	r	0.25
+disintegrate	v	0
+disintegrated
+disintegrates
+disintegration	n	0.05
+disinterest	n	0
+disinterested	a	0.375
+dislike	n	-0.4625
+dislike	v	-0.5
+disliked	a	-0.375
+dislikes
+disliking
+dislocated	a	0
+disloyal	a	0.0625
+disloyalty	n	0.25
+dismantle	v	-0.45
+dismantled	v	-0.45
+dismantled	a	-0.45
+dismal	a	-0.625
+dismally	r	0.25
+dismalness
+dismay	n	-0.0625
+dismay	v	-0.0625
+dismayed	a	0.25
+dismaying	a	-0.5
+dismayingly
+dismissive	a	-0.25
+dismissively
+disobedience	n	0
+disobedient	a	-0.625
+disobey	v	-0.375
+disoobedient
+disorder	n	-0.208333333333333
+disorder	v	-0.0625
+disordered	a	-0.416666666666667
+disorderly	a	-0.291666666666667
+disorganized	a	-0.25
+disorient	v	-0.25
+disoriented	a	0.25
+disown	v	-0.0625
+disparage	v	-0.25
+disparaging	a	-0.75
+disparagingly	r	0.25
+dispensable	a	0.5
+dispirit	v	-0.125
+dispirited	a	-0.8125
+dispiritedly	r	-0.25
+dispiriting	a	-0.625
+displace	v	0.09375
+displaced
+displease	v	-0.25
+displeased	a	-0.625
+displeasing	a	-0.25
+displeasure	n	-0.5
+disproportionate	a	-0.25
+disprove	v	-0.5
+disputable	a	0.25
+dispute	n	-0.125
+dispute	v	0.125
+disputed	a	-0.125
+disquiet	n	-0.4375
+disquiet	v	-0.125
+disquieting	a	-0.625
+disquietingly	r	0.375
+disquietude	n	-0.25
+disregard	n	0
+disregard	v	-0.208333333333333
+disregardful
+disreputable	a	0.125
+disrepute	n	-0.125
+disrespect	n	-0.208333333333333
+disrespect	v	-0.625
+disrespectable
+disrespectablity
+disrespectful	a	0.3125
+disrespectfully	r	0.125
+disrespectfulness
+disrespecting
+disrupt	v	-0.166666666666667
+disruption	n	-0.25
+disruptive	a	-0.75
+diss	v	-0.125
+dissappointing
+dissatisfaction	n	-0.375
+dissatisfactory	a	-0.75
+dissatisfied	a	-0.5
+dissatisfies
+dissatisfy	v	0.125
+dissatisfying
+dissed
+dissemble	v	-0.25
+dissembler	n	0
+dissension	n	-0.1875
+dissent	n	-0.0416666666666667
+dissent	v	0
+dissenter	n	0
+dissention
+disservice	n	0
+disses
+dissidence	n	-0.375
+dissident	n	0
+dissident	a	-0.0625
+dissidents
+dissing
+dissocial
+dissolute	a	-0.25
+dissolution	n	0.05
+dissonance	n	-0.0416666666666667
+dissonant	a	-0.375
+dissonantly
+dissuade	v	0
+dissuasive	a	0
+distains
+distaste	n	-0.5
+distasteful	a	-0.625
+distastefully	r	0
+distort	v	0
+distorted	a	0
+distortion	n	0.0625
+distorts
+distract	v	-0.0625
+distracting
+distraction	n	-0.15625
+distraught	a	-0.125
+distraughtly
+distraughtness
+distress	n	-0.4375
+distress	v	-0.5625
+distressed	a	-0.71875
+distressing	a	-0.9375
+distressingly	r	0
+distrust	n	0.25
+distrust	v	-0.125
+distrustful	a	0.375
+distrusting
+disturb	v	-0.25
+disturbance	n	-0.232142857142857
+disturbed	a	-0.46875
+disturbing	a	-0.875
+disturbingly	r	0.375
+disunity	n	-0.375
+disvalue
+divergent	a	-0.125
+divisive	a	-0.5
+divisively
+divisiveness
+dizzing
+dizzingly
+dizzy	a	-0.625
+dizzy	v	0
+doddering	a	0.375
+dodgey
+dogged	a	-0.75
+doggedly	r	-0.125
+dogmatic	a	0.0833333333333333
+doldrums	n	0
+domineer	v	0
+domineering	a	-0.25
+donside
+doom	n	-0.75
+doom	v	0
+doomed	n	0
+doomed	a	-0.34375
+doomsday	n	-0.125
+dope	n	0.09375
+dope	v	0.0416666666666667
+doubt	n	0.125
+doubt	v	0.25
+doubtful	a	0.0416666666666667
+doubtfully	r	0.125
+doubts
+douchbag
+douchebag
+douchebags
+downbeat	n	0
+downcast	n	0
+downcast	a	-0.4375
+downer	n	0
+downfall	n	-0.208333333333333
+downfallen
+downgrade	n	0
+downgrade	v	-0.625
+downhearted	a	-0.875
+downheartedly
+downhill	n	0
+downhill	a	0
+downhill	r	-0.0625
+downside	n	0.125
+downsides	
+downturn	n	0
+downturns
+drab	n	0
+drab	a	-0.3125
+draconian	a	0
+draconic
+drag	n	-0.0625
+drag	v	-0.0227272727272727
+dragged
+dragging	a	-0.375
+dragoon	n	0
+dragoon	v	0
+drags
+drain	n	0
+drain	v	-0.0625
+drained	a	0
+draining	a	0.25
+drains
+drastic	a	0
+drastically	r	0.5
+drawback	n	0.25
+drawbacks
+dread	n	-0.125
+dread	a	-0.625
+dread	v	-0.625
+dreadful	a	-0.666666666666667
+dreadfully	r	-0.25
+dreadfulness	n	0.125
+dreary	a	-0.5
+dripped
+dripping	n	0
+dripping	r	-0.125
+drippy	a	0.0416666666666667
+drips
+drones
+droop	n	0.125
+droop	v	-0.166666666666667
+droops
+drop-out
+drop-outs
+dropout	n	0
+dropouts
+drought	n	0.0625
+drowning
+drunk	n	0.0625
+drunk	a	0
+drunkard	n	0.125
+drunken	a	0.25
+dubious	a	-0.166666666666667
+dubiously	r	0.1875
+dubitable	a	-0.125
+dud	n	-0.208333333333333
+dud	a	-0.625
+dull	a	-0.114583333333333
+dull	v	0.0357142857142857
+dullard	n	-0.125
+dumb	a	-0.21875
+dumbfound	v	-0.125
+dump	n	-0.03125
+dump	v	-0.0833333333333333
+dumped
+dumping	n	0
+dumps	n	0
+dunce	n	-0.375
+dungeon	n	0
+dungeons
+dupe	n	-0.125
+dupe	v	0.125
+dust	n	-0.125
+dust	v	0
+dusty	a	-0.5625
+dwindling	n	0
+dwindling	a	0
+dying	n	-0.625
+dying	a	0.0625
+earsplitting	a	0.125
+eccentric	n	0
+eccentric	a	-0.375
+eccentricity	n	0
+effigy	n	0
+effrontery	n	-0.25
+egocentric	n	0
+egocentric	a	0.375
+egomania	n	0
+egotism	n	0
+egotistical	a	-0.25
+egotistically	r	0.25
+egregious	a	-0.875
+egregiously
+election-rigger
+elimination	n	0
+emaciated	a	0.25
+emasculate	a	0.125
+emasculate	v	0
+embarrass	v	-0.125
+embarrassing	a	-0.75
+embarrassingly	r	-0.375
+embarrassment	n	0.03125
+embattled	a	0.1625
+embroil	v	0
+embroiled	a	0
+embroilment	n	0
+emergency	n	-0.166666666666667
+emphatic	a	0.166666666666667
+emphatically	r	0.25
+emptiness	n	-0.1875
+encroach	v	0
+encroachment	n	-0.125
+endanger	v	-0.4375
+enemies
+enemy	n	0
+enervate	v	0.5
+enfeeble	v	0
+enflame
+engulf	v	0.0625
+enjoin	v	0
+enmity	n	0
+enrage	v	-0.75
+enraged	a	0
+enraging
+enslave	v	0
+entangle	v	-0.0625
+entanglement	n	0.125
+entrap	v	-0.0625
+entrapment	n	-0.75
+envious	a	0.125
+enviously	r	0.25
+enviousness	n	0.625
+epidemic	n	0
+epidemic	a	0.25
+equivocal	a	-0.0416666666666667
+erase	v	0
+erode	v	-0.0625
+erodes
+erosion	n	0
+err	v	-0.125
+errant	a	-0.125
+erratic	a	-0.333333333333333
+erratically	r	0.375
+erroneous	a	-0.75
+erroneously	r	0.25
+error	n	-0.160714285714286
+errors
+eruptions
+escapade	n	0.0625
+eschew	v	0.125
+estranged	a	-0.625
+evade	v	0.03125
+evasion	n	-0.25
+evasive	a	0
+evil	n	-0.0416666666666667
+evil	a	-0.416666666666667
+evildoer	n	0
+evils
+eviscerate	a	-0.25
+eviscerate	v	0
+exacerbate	v	-0.125
+exagerate
+exagerated
+exagerates
+exaggerate	v	0.3125
+exaggeration	n	0.0833333333333333
+exasperate	v	-0.0833333333333333
+exasperated	a	0
+exasperating	a	-0.5
+exasperating	n	-0.5
+exasperatingly	r	0.375
+exasperation	n	-0.1875
+excessive	a	-0.3125
+excessively	r	-0.125
+exclusion	n	0.03125
+excoriate	v	-0.1875
+excruciating	a	-0.5
+excruciatingly	r	-0.125
+excuse	n	-0.333333333333333
+excuse	v	0
+excuses
+execrate	v	-0.1875
+exhaust	n	0
+exhaust	v	0.025
+exhausted	a	0
+exhaustion	n	0.0833333333333333
+exhausts
+exhorbitant
+exhort	v	0
+exile	n	0
+exile	v	0
+exorbitant	a	-0.75
+exorbitantance
+exorbitantly	r	0
+expel	v	0
+expensive	a	0.5
+expire	v	0.0416666666666667
+expired	a	0
+explode	v	-0.0625
+exploit	n	0.25
+exploit	v	0.208333333333333
+exploitation	n	0
+explosive	n	0
+explosive	a	-0.166666666666667
+expropriate	v	-0.375
+expropriation	n	0
+expulse
+expunge	v	0
+exterminate	v	0
+extermination	n	0.25
+extinguish	v	-0.025
+extort	v	-0.25
+extortion	n	-0.125
+extraneous	a	-0.3125
+extravagance	n	0.208333333333333
+extravagant	a	-0.1875
+extravagantly	r	0.0833333333333333
+extremism	n	0
+extremist	n	0
+extremist	a	0
+extremists
+eyesore	n	-0.5
+fight	n	-0.15
+fight	v	-0.20
+fighting	n	-0.20
+fighting	v	-0.25
+fire	v	0.35
+fired	v	0.35
+fuck	n	0.65
+fuck	v 	0.65
+fucking	n	0.65
+f**king	n	0.65
+fucking	v	0.65
+f**king	v	0.65
+f**k	v	0.65
+fabricate	v	-0.125
+fabrication	n	-0.15
+facetious	a	0.625
+facetiously	r	-0.125
+fail	v	-0.284090909090909
+failed	v	-0.35
+failing	n	-0.1875
+failing	a	-0.35
+failing	v	-0.35
+fails	
+failure	n	-0.214285714285714
+failures
+faint	n	-0.75
+faint	a	-0.104166666666667
+faint	v	-0.25
+fainthearted	a	-0.375
+faithless	a	0.375
+fake	n	-0.166666666666667
+fake	a	-0.75
+fake	v	-0.416666666666667
+fall	n	-0.0520833333333333
+fall	v	-0.01953125
+fallacies
+fallacious	a	-0.583333333333333
+fallaciously
+fallaciousness	n	0
+fallacy	n	-0.25
+fallen	a	-0.09375
+falling	a	-0.0416666666666667
+fallout	n	-0.125
+falls	n	0
+false	r	0.25
+false	a	-0.5
+falsehood	n	0
+falsely	r	0.125
+falsify	v	-0.175
+falter	n	0
+falter	v	-0.125
+faltered
+famine	n	-0.125
+famished	a	-0.375
+fanatic	n	0
+fanatic	a	-0.125
+fanatical	a	-0.125
+fanatically	r	0.25
+fanaticism	n	-0.5
+fanatics
+fanciful	a	0
+far-fetched
+farce	n	0.125
+farce	v	0
+farcical	a	0.25
+farcical-yet-provocative
+farcically	r	0.25
+farfetched	a	0.5
+fascism	n	0
+fascist	n	0
+fascist	a	0
+fastidious	a	0.25
+fastidiously	r	0.375
+fastuous
+fat	n	0
+fat	a	0.325
+fat	v	0
+fat-cat
+fat-cats
+fatal	a	-0.09375
+fatalistic	a	0.375
+fatalistically
+fatally	r	0
+fatcat
+fatcats
+fateful	a	0.0625
+fatefully	r	0.25
+fathomless
+fatigue	n	-0.21875
+fatigue	v	0.125
+fatigued	a	0.125
+fatique
+fatty	n	0
+fatty	a	0.125
+fatuity	n	0.125
+fatuous	a	0.375
+fatuously	r	0
+fault	n	-0.267857142857143
+fault	v	-0.25
+faults
+faulty	a	-0.4625
+faulty	n	-0.4625
+fawningly
+faze	v	0.25
+fear	n	-0.333333333333333
+fear	v	-0.325
+fearful	a	-0.475
+fearfully	r	0.125
+fears
+fearsome	a	-0.625
+feckless	a	-0.25
+feeble	a	-0.28125
+feeblely
+feebleminded	a	0.25
+feign	v	-0.1875
+feint	n	-0.125
+feint	v	-0.375
+fell	n	0
+fell	a	-0.625
+fell	v	0
+felon	n	-0.125
+felonious	a	0.125
+ferociously	r	0
+ferocity	n	-0.125
+fetid	a	-0.75
+fever	n	-0.0625
+feverish	a	-0.333333333333333
+fevers
+fiasco	n	-0.375
+fib	n	-0.375
+fib	v	-0.125
+fibber	n	0
+fickle	a	-0.3125
+fiction	n	-0.375
+fictional	a	0
+fictitious	a	0
+fidget	n	-0.125
+fidget	v	0
+fidgety	a	-0.625
+fiend	n	-0.204
+fiendish	a	-0.75
+fierce	a	-0.21875
+figurehead	n	0
+filth	n	-0.375
+filthy	a	-0.75
+finagle	v	0
+finicky	a	0
+fissures
+fist	n	0
+flabbergast	v	-0.375
+flabbergasted	a	0
+flagging	n	0
+flagging	a	-0.625
+flagrant	a	-0.875
+flagrantly	r	0.25
+flair	n	0.208333333333333
+flairs
+flak	n	-0.125
+flake	n	0
+flake	v	0
+flakey	a	0
+flakieness
+flaking
+flaky	a	0
+flare	n	0
+flare	v	0
+flares
+flareup
+flareups
+flat-out
+flaunt	n	0
+flaunt	v	0
+flaw	n	-0.125
+flaw	v	-0.125	
+flawed	a	-0.25
+flawed	v	-0.25
+flaws	n	-0.125
+flee	v	0
+fleed
+fleeing
+fleer	n	-0.1875
+fleer	v	-0.125
+flees
+fleeting	a	0.125
+flicering
+flicker	n	0
+flicker	v	-0.0416666666666667
+flickering	a	0.25
+flickers
+flighty	a	-0.125
+flimflam	n	0
+flimsy	n	0
+flimsy	a	-0.291666666666667
+flirt	n	0.3125
+flirt	v	0
+flirty
+floored	a	0
+flounder	n	0
+flounder	v	-0.0625
+floundering
+flout	v	-0.375
+fluster	n	-0.375
+fluster	v	0.0625
+foe	n	0
+fool	n	0.208333333333333
+fool	v	0.1875
+fooled
+foolhardy	a	-0.625
+foolish	a	0.25
+foolishly	r	-0.625
+foolishness	n	0.0416666666666667
+forbid	v	0.125
+forbidden	a	0
+forbidding	n	0
+forbidding	a	-0.3125
+forceful	a	-0.125
+foreboding	n	-0.5
+foreboding	a	0.25
+forebodingly
+forfeit	n	0.0416666666666667
+forfeit	a	0
+forfeit	v	-0.125
+forged	a	-0.75
+forgetful	a	-0.125
+forgetfully	r	0.25
+forgetfulness	n	-0.0625
+forlorn	a	-0.375
+forlornly	r	0.25
+forsake	v	-0.375
+forsaken
+forswear	v	-0.625
+foul	n	0
+foul	a	-0.375
+foul	v	-0.196428571428571
+foully	r	0
+foulness	n	-0.125
+fractious	a	-0.458333333333333
+fractiously	r	0.25
+fracture	n	-0.0833333333333333
+fracture	v	-0.0833333333333333
+fragile	a	-0.25
+fragmented	a	0
+frail	n	0.0625
+frail	a	-0.416666666666667
+frantic	a	0
+frantically	r	0
+franticly
+fraud	n	-0.166666666666667
+fraudulent	a	-0.625
+fraught	a	-0.625
+frazzle	n	0
+frazzle	v	-0.125
+frazzled
+freak	n	-0.0625
+freak	v	0
+freaking
+freakish	a	0.0833333333333333
+freakishly	r	-0.25
+freaks
+freeze	n	0
+freeze	v	0
+freezes
+freezing	n	0
+frenetic	a	-0.25
+frenetically	r	-0.125
+frenzied	a	-0.4375
+frenzy	n	-0.125
+fret	n	0
+fret	v	-0.145833333333333
+fretful	a	-0.6875
+frets
+friction	n	0
+frictions
+fried	a	0
+friggin
+frigging
+fright	n	-0.875
+fright	v	0.375
+frighten	v	0.25
+frightening	n	0.125
+frightening	a	-0.625
+frighteningly	r	0.25
+frightful	a	-0.541666666666667
+frightfully	r	0.25
+frigid	a	-0.625
+frost	n	-0.03125
+frost	v	-0.1875
+frown	n	-0.625
+frown	v	-0.5
+froze
+frozen	a	-0.339285714285714
+fruitless	a	-0.5
+fruitlessly	r	0.125
+frustrate	v	-0.0625
+frustrated	a	-0.5
+frustrates
+frustrating	a	0.25
+frustrating	v	0.25
+frustratingly
+frustration	n	-0.208333333333333
+frustrations
+fuck	n	0
+fuck	v	0.25
+fucking	n	0
+fucking	r	0.125
+fucking	a	-0.125
+fudge	n	0
+fudge	v	-0.1875
+fugitive	n	0
+fugitive	a	0.125
+full-blown	a	0.5
+fulminate	n	0
+fulminate	v	-0.0833333333333333
+fumble	n	-0.125
+fumble	v	-0.3
+fume	n	0
+fume	v	-0.03125
+fumes	n	0
+fundamentalism	n	0
+funky	a	-0.3125
+funnily	r	0.25
+funny	n	0
+funny	a	-0.1875
+furious	a	-0.0416666666666667
+furiously	r	0.125
+furor	n	0.0625
+fury	n	-0.15625
+fuss	n	-0.125
+fuss	v	-0.125
+fussy	a	-0.125
+fustigate	v	0
+fusty	a	-0.375
+futile	a	-0.5
+futilely	r	-0.375
+futility	n	0.25
+fuzzy	a	-0.0833333333333333
+gabble	n	-0.125
+gabble	v	0
+gaff	n	0
+gaffe	n	0
+gag
+gainsay	v	0
+gainsayer
+gall	n	-0.354166666666667
+gall	v	0
+galling	a	-0.5
+gallingly
+galls
+gangster	n	0
+gape	n	-0.125
+gape	v	0.0625
+garbage	n	0.0833333333333333
+garish	a	-0.5
+gasp	n	0
+gasp	v	-0.125
+gauche	a	-0.25
+gaudy	n	0
+gaudy	a	-0.125
+gawk	n	0
+gawk	v	0
+gawky	a	-0.125
+geezer	n	0
+genocide	n	0
+get-rich
+ghastly	a	-0.4375
+ghetto	n	-0.25
+ghosting
+gibber	n	-0.25
+gibber	v	0
+gibberish	n	-0.25
+gibe	n	0
+gibe	v	0
+giddy	a	-0.625
+gimmick	n	-0.208333333333333
+gimmicked
+gimmicking
+gimmicks
+gimmicky
+glare	n	0
+glare	v	0.25
+glaringly	r	0.25
+glib	a	-0.0416666666666667
+glibly	r	-0.125
+glitch	n	0
+glitches
+gloatingly	r	0.25
+gloom	n	-0.208333333333333
+gloomy	a	-0.541666666666667
+glower	n	0
+glower	v	-0.25
+glum	a	-0.5
+glut	n	-0.25
+glut	v	0
+gnawing
+goad	n	0
+goad	v	-0.0625
+goading	n	0
+god-awful	a	-0.5
+goof	n	0
+goof	v	-0.25
+goofy	n	0
+goofy	a	-0.375
+goon	n	-0.125
+gossip	n	-0.0416666666666667
+gossip	v	-0.125
+graceless	a	-0.0833333333333333
+gracelessly	r	0.125
+graft	n	0
+graft	v	0
+grainy	a	0
+grapple	n	0
+grapple	v	0
+grate	n	-0.0416666666666667
+grate	v	-0.05
+grating	n	0
+grating	a	-0.625
+gravely	r	-0.0625
+greasy	a	-0.5625
+greed	n	-0.375
+greedy	a	0.2416666666666667
+grief	n	-0.25
+grievance	n	0.125
+grievances
+grieve	v	-0.4375
+grieving	a	-0.625
+grievous	a	-0.625
+grievously	r	0.25
+grim	a	-0.541666666666667
+grimace	n	0
+grimace	v	0
+grind	n	-0.15625
+grind	v	0
+gripe	n	-0.125
+gripe	v	-0.5
+gripes	n	-0.625
+grisly	a	-0.375
+gritty	a	-0.125
+gross	n	0
+gross	a	-0.0357142857142857
+gross	v	0
+grossly	r	-0.25
+grotesque	n	-0.125
+grotesque	a	0.0625
+grouch	n	-0.375
+grouch	v	-0.25
+grouchy	a	-0.625
+groundless	a	-0.5
+grouse	n	0
+grouse	v	-0.25
+growl	n	-0.125
+growl	v	-0.375
+grudge	n	0.375
+grudge	v	-0.3125
+grudges
+grudging	a	0.125
+grudgingly	r	0.25
+gruesome	a	-0.375
+gruesomely	r	0.25
+gruff	a	-0.5
+grumble	n	-0.4375
+grumble	v	-0.15625
+grumpier
+grumpiest
+grumpily	r	-0.25
+grumpish
+grumpy	a	-0.625
+guile	n	0.208333333333333
+guilt	n	-0.75
+guiltily	r	0.125
+guilty	a	-0.125
+gullible	a	0.3125
+gutless	a	-0.125
+gutter	n	-0.125
+gutter	v	-0.15625
+hack	n	-0.078125
+hack	v	0
+hacks
+haggard	n	0
+haggard	a	-0.1875
+haggle	n	0
+haggle	v	0
+hairloss
+halfhearted	a	-0.375
+halfheartedly
+hallucinate	v	-0.125
+hallucination	n	-0.25
+hamper	n	0
+hamper	v	-0.1875
+hampered
+handicapped	n	-0.125
+handicapped	a	-0.75
+hang	n	0
+hang	v	-0.00833333333333333
+hangs
+haphazard	a	0.1875
+haphazard	r	0
+hapless	a	-0.75
+harangue	n	0.25
+harangue	v	0
+harass	v	-0.125
+harassed	a	-0.5
+harasses
+harassment	n	-0.3125
+harboring
+harbors
+hard	r	-0.225
+hard-hit
+hard-line	a	0.125
+hard-liner
+hardball	n	0
+harden	v	0
+hardened	a	0.05
+hardheaded	a	-0.0625
+hardhearted	a	-0.5625
+hardliner	n	0
+hardliners
+hardship	n	-0.375
+hardships
+harm	n	-0.25
+harm	v	-0.5
+harmed
+harmful	a	-0.625
+harms
+harpy	n	-0.125
+harridan	n	-0.375
+harried	a	-0.5
+harrow	n	0
+harrow	v	0
+harsh	a	-0.555666666666667
+harshly	r	0
+hasseling
+hassle	n	-0.3125
+hassle	v	-0.125
+hassled
+hassles
+haste	n	-0.0833333333333333
+hastily	r	0.125
+hasty	a	-0.125
+hate	n	-0.25
+hate	v	-0.75
+hated	a	0
+hateful	a	-0.4795
+hatefully	r	0.25
+hatefulness	n	0.125
+hater	n	-0.25
+haters
+hates
+hating
+hatred	n	-0.25
+haughtily	r	0.25
+haughty	a	0.375
+haunt	n	0
+haunt	v	0
+haunting	a	0.25
+havoc	n	-0.5
+hawkish	a	0
+haywire	n	0
+haywire	a	-0.5625
+hazard	n	-0.0833333333333333
+hazard	v	0
+hazardous	a	0.125
+haze	n	0
+haze	v	-0.125
+hazy	a	-0.5625
+head-aches
+headache	n	0.125
+headaches
+heartbreaker	n	0
+heartbreaking	a	-0.75
+heartbreakingly
+heartbroken	a	0.75
+heartless	a	-0.1875
+heathen	n	-0.125
+heathen	a	-0.625
+heavy-handed	a	-0.4375
+heavyhearted	a	-0.375
+heck
+heckle	n	0
+heckle	v	0.1875
+heckled
+heckles
+hectic	a	0
+hedge	n	0
+hedge	v	-0.125
+hedonistic	a	0.5
+heedless	a	-0.4375
+hefty	a	0.0416666666666667
+hegemonism
+hegemonistic
+hegemony	n	0
+heinous	a	-0.556
+hell	n	-0.416666666666667
+hell-bent	a	0.25
+hellion	n	0
+hells
+helpless	a	-0.708333333333333
+helplessly	r	0.125
+helplessness	n	-0.375
+heresy	n	0
+heretic	n	0
+heretical	a	0.5
+hesitant	a	-0.625
+hestitant
+hideous	a	-0.625
+hideously	r	0.25
+hideousness	n	-0.25
+high-priced	a	0.5
+hiliarious
+hinder	a	0
+hinder	v	-0.125
+hindrance	n	0
+hiss	n	-0.125
+hiss	v	0
+hissed
+hissing	n	-0.125
+ho-hum	a	-0.25
+hoard	n	0
+hoard	v	0
+hoax	n	-0.125
+hoax	v	0.375
+hobble	n	-0.0625
+hobble	v	-0.125
+hogs
+hollow	n	0
+hollow	a	0.166666666666667
+hollow	v	0
+hoodium
+hoodwink	v	0.4375
+hooligan	n	-0.875
+hopeless	a	-0.4375
+hopelessly	r	-0.166666666666667
+hopelessness	n	-0.125
+horde	n	0
+horrendous	a	-0.625
+horrendously
+horrible	a	-0.625
+horrid	a	-0.875
+horrific	a	-0.75
+horrified	a	-0.25
+horrifies
+horrify	v	0
+horrifying	a	-0.625
+horrifys
+hostage	n	0
+hostile	n	0.125
+hostile	a	-0.375
+hostilities	n	-0.125
+hostility	n	-0.25
+hotbeds
+hothead	n	-0.3125
+hotheaded	a	-0.5
+hothouse	n	0.375
+hubris	n	-0.375
+huckster	n	-0.1875
+huckster	v	0
+hum	n	0
+hum	v	0
+humid	a	0.25
+humiliate	v	-0.625
+humiliating	a	-0.625
+humiliation	n	0.1875
+humming	n	0
+hung
+hurt	n	-0.45
+hurt	a	-0.375
+hurt	v	-0.45
+hurted	v	-0.45
+hurtful	a	-0.375
+hurting	v	-0.75
+hurts	v	-0.375
+hurts	n	-0.45	
+hustler	n	0
+hype	n	0.125
+hype	v	0.25
+hypocricy
+hypocrisy	n	0
+hypocrite	n	0
+hypocrites
+hypocritical	a	-0.375
+hypocritically	r	0.25
+hysteria	n	-0.541666666666667
+hysteric	n	-0.125
+hysteric	a	0
+hysterical	a	-0.25
+hysterically	r	0.25
+hysterics	n	-0.125
+idiocies
+idiocy	n	-0.125
+idiot	n	-0.125
+idiotic	a	0.25
+idiotically	r	0
+idiots
+idle	n	0
+idle	a	-0.553571428571429
+idle	v	-0.0625
+ignoble	a	-0.375
+ignominious	a	-0.375
+ignominiously	r	0
+ignominy	n	-0.5
+ignorance	n	0.5
+ignorant	a	-0.25
+ignore	v	-0.2
+ignored	v	-0.2
+ill-advised	a	-0.125
+ill-conceived	a	-0.125
+ill-defined	a	0.25
+ill-designed
+ill-fated	a	-0.625
+ill-favored	a	0
+ill-formed	a	-0.75
+ill-mannered	a	-0.625
+ill-natured	a	-0.875
+ill-sorted	a	-0.75
+ill-tempered	a	-0.625
+hot-tempered	a	-0.625
+short-tempered	a	-0.625
+quick-tempered	a	-0.625
+ill-treated	a	-0.625
+ill-treatment	n	-0.625
+ill-usage	n	-0.625
+ill-used	a	0.375
+illegal	a	0
+illegally	r	0.25
+illegitimate	n	-0.125
+illegitimate	a	-0.5625
+illicit	a	-0.4795
+illiterate	n	-0.5
+illiterate	a	-0.291666666666667
+illogic	n	-0.5
+illogical	a	0.1875
+illogically	r	0.125
+illusion	n	-0.09375
+illusions
+illusory	a	0.125
+imaginary	n	0
+imaginary	a	-0.75
+imbalance	n	-0.1875
+imbecile	n	-0.125
+imbecile	a	0.125
+imbroglio	n	-0.125
+immaterial	a	-0.525
+immature	a	-0.225
+imminence	n	0
+imminently	r	0.25
+immobilized
+immoderate	a	-0.25
+immoderately	r	0.125
+immodest	a	0.4375
+immoral	a	-0.5905
+immorality	n	0.125
+immorally	r	-0.625
+immovable	n	0
+immovable	a	-0.625
+impair	v	-0.25
+impaired	a	-0.25
+impasse	n	-0.1875
+impatience	n	-0.25
+impatient	a	-0.375
+impatiently	r	0.25
+impeach	v	0.0833333333333333
+impedance	n	0
+impede	v	0
+impediment	n	-0.0625
+impending	a	0
+impenitent	a	-0.3125
+imperfect	n	0
+imperfect	a	-0.3125
+imperfection	n	-0.125
+imperfections
+imperfectly	r	-0.5
+imperialist	n	0
+imperialist	a	0
+imperil	v	-0.125
+imperious	a	0.375
+imperiously	r	0.25
+impermissible	a	-0.25
+impersonal	a	-0.25
+impertinent	a	-0.166666666666667
+impetuous	a	-0.5
+impetuously	r	0
+impiety	n	0.125
+impinge	v	0
+impious	a	-0.1875
+implacable	a	0.112
+implausible	a	0.1875
+implausibly	r	-0.5
+implicate	v	0.0625
+implication	n	0.025
+implode	v	0
+impolite	a	0.375
+impolitely	r	0.25
+impolitic	a	-0.5
+importunate	a	0.625
+importune	v	0
+impose	v	-0.208333333333333
+imposers
+imposing	a	0.25
+imposition	n	-0.3125
+impossible	n	0.125
+impossible	a	-0.0833333333333333
+impossiblity
+impossibly	r	-0.125
+impotent	a	-0.375
+impoverish	v	0
+impoverished	a	-0.528
+impractical	a	-0.5
+imprecate	v	-0.1875
+imprecise	a	-0.25
+imprecisely	r	0.125
+imprecision	n	-0.125
+imprison	v	0
+imprisonment	n	0
+improbability	n	0.125
+improbable	a	-0.416666666666667
+improbably	r	-0.5
+improper	a	-0.75
+improperly	r	0
+impropriety	n	-0.1875
+imprudence	n	0.375
+imprudent	a	0
+impudence	n	0.0625
+impudent	a	-0.1875
+impudently	r	0
+impugn	v	-0.875
+impulsive	a	-0.05
+impulsively	r	0
+impunity	n	0
+impure	a	-0.0833333333333333
+impurity	n	0.125
+inability	n	-0.125
+inaccuracies
+inaccuracy	n	-0.625
+inaccurate	a	-0.5
+inaccurately	r	0.25
+inaction	n	-0.125
+inactive	a	-0.2875
+inadequacy	n	-0.0833333333333333
+inadequate	a	-0.5625
+inadequately	r	-0.375
+inadverent
+inadverently
+inadvisable	a	-0.5
+inadvisably	r	0.125
+inane	a	0.375
+inanely	r	0
+inappropriate	a	-0.5625
+inappropriately	r	0
+inapt	a	-0.75
+inaptitude	n	0
+inarticulate	a	-0.625
+inattentive	a	-0.375
+inaudible	a	-0.375
+incapable	a	-0.40625
+incapably
+incautious	a	0.125
+incendiary	n	0
+incendiary	a	-0.125
+incense	n	0.1875
+incense	v	0
+incessant	a	0
+incessantly	r	0
+incite	v	0
+incitement	n	0.125
+incivility	n	0.125
+inclement	a	-0.3125
+incognizant	a	-0.25
+incoherence	n	0
+incoherent	a	-0.333333333333333
+incoherently	r	0.25
+incommensurate	a	-0.625
+incomparable	a	0.125
+incomparably	r	0
+incompatability
+incompatibility	n	-0.291666666666667
+incompatible	a	-0.398222222222222
+incompetence	n	-0.1875
+incompetent	n	-0.625
+incompetent	a	-0.375
+incompetently	r	0.125
+incomplete	a	0.2625
+incompleteness	a	0.2625
+incompletely	r	0.2625
+incompliant
+incomprehensible	a	-0.375
+incomprehension	n	-0.375
+inconceivable	a	0.125
+inconceivably	r	0
+incongruous	a	0
+incongruously	r	0.25
+inconsequent	a	0.375
+inconsequential	a	-0.0625
+inconsequentially	r	-0.125
+inconsequently	r	-0.125
+inconsiderate	a	-0.1875
+inconsiderately	r	0.25
+inconsistence
+inconsistencies
+inconsistency	n	0
+inconsistent	a	-0.458333333333333
+inconsolable	a	-0.75
+inconsolably
+inconstant	a	0.125
+inconvenience	n	-0.708333333333333
+inconvenience	v	-0.875
+inconveniently	r	0.125
+incorrect	a	-0.6875
+incorrectly	r	0.25
+incorrigible	a	-0.5
+incorrigibly
+incredulous	a	-0.75
+incredulously	r	0.25
+inculcate	v	0
+indecency	n	-0.5
+indecent	a	0.166666666666667
+indecently	r	-0.25
+indecision	n	0.0625
+indecisive	a	0.0833333333333333
+indecisively	r	-0.0625
+indecorum	n	-0.125
+indefensible	a	-0.5
+indelicate	a	0.0833333333333333
+indeterminable	a	-0.5
+indeterminably	r	0.25
+indeterminate	a	-0.15
+indifference	n	-0.40625
+indifferent	a	-0.2263
+indigent	a	-0.556
+indignant	a	-0.75
+indignantly	r	0.25
+indignation	n	0
+indignity	n	0.75
+indiscernible	a	0
+indiscreet	a	-0.125
+indiscreetly	r	-0.25
+indiscretion	n	-0.125
+indiscriminate	a	0.1875
+indiscriminately	r	0.25
+indiscriminating	a	0.125
+indistinguishable	a	-0.4375
+indoctrinate	v	0
+indoctrination	n	0
+indolent	a	0
+indulge	v	0.09375
+ineffective	a	-0.25
+ineffectively	r	0.25
+ineffectiveness	n	-0.125
+ineffectual	a	-0.416666666666667
+ineffectually	r	0.25
+ineffectualness	n	-0.125
+inefficacious	a	0.25
+inefficacy	n	-0.125
+inefficiency	n	-0.5
+inefficient	a	-0.25
+inefficiently	r	0.25
+inelegance	n	0.5
+inelegant	a	0.5
+ineligible	a	-0.0625
+ineloquent
+ineloquently	r	0.125
+inept	a	-0.208333333333333
+ineptitude	n	-0.375
+ineptly	r	0.1875
+inequalities
+inequality	n	-0.625
+inequitable	a	-0.375
+inequitably	r	0.25
+inequities
+inescapable	a	-0.5
+inescapably	r	0
+inessential	n	0
+inessential	a	-0.3125
+inevitable	n	-0.125
+inevitable	a	-0.3125
+inevitably	r	0.125
+inexcusable	a	-0.375
+inexcusably	r	0
+inexorable	a	-0.75
+inexorably	r	0.25
+inexperience	n	0.125
+inexperienced	a	0.25
+inexpert	a	0.25
+inexpertly	r	0.25
+inexpiable	a	-0.625
+inexplainable
+inextricable	a	-0.625
+inextricably	r	0.25
+infamous	a	-0.875
+infamously
+infamy	n	0.0625
+infected	a	-0.625
+infection	n	0.142857142857143
+infections
+inferior	n	-0.375
+inferior	a	-0.291666666666667
+inferiority	n	-0.477
+infernal	n	0
+infernal	a	-0.15
+infest	v	0
+infested
+infidel	n	-0.125
+infidels
+infiltrator	n	-0.1875
+infiltrators
+infirm	a	-0.125
+inflame	v	-0.3
+inflammation	n	-0.125
+inflammatory	a	-0.25
+inflammed
+inflated	a	0.4375
+inflationary	a	-0.125
+inflexible	a	-0.125
+inflict	v	-0.625
+infraction	n	0
+infringe	v	-0.0625
+infringement	n	0
+infringements
+infuriate	v	0
+infuriated	a	0
+infuriating	a	-0.75
+infuriatingly
+inglorious	a	-0.4375
+ingrate	n	0
+ingratitude	n	-0.375
+inhibit	v	0
+inhibition	n	0.09375
+inhospitable	a	-0.1875
+inhospitality	n	-0.25
+inhuman	a	-0.3125
+inhumane	a	-0.75
+inhumanity	n	-0.1875
+inimical	a	-0.5
+inimically
+iniquitous	a	-0.75
+iniquity	n	0
+injudicious	a	-0.125
+injure	v	-0.583333333333333
+injurious	a	-0.25
+injury	n	-0.275
+injustice	n	0.0625
+injustices
+innuendo	n	-0.5
+inoperable	a	-0.625
+inopportune	a	-0.625
+inordinate	a	-0.375
+inordinately	r	-0.375
+insane	a	-0.1875
+insanely	r	-0.125
+insanity	n	-0.125
+insatiable	a	-0.5
+insecure	a	-0.25
+insecurity	n	-0.0625
+insensible	a	-0.15625
+insensitive	a	-0.6875
+insensitively	r	0.25
+insensitivity	n	-0.5
+insidious	a	-0.375
+insidiously	r	0.25
+insignificance	n	0.125
+insignificant	a	-0.03125
+insignificantly	r	-0.25
+insincere	a	-0.125
+insincerely	r	0
+insincerity	n	-0.5
+insinuate	v	0.0625
+insinuating	a	0.25
+insinuation	n	-0.25
+insociable
+insolence	n	0.0625
+insolent	a	0.1875
+insolently	r	0.25
+insolvent	n	-0.625
+insolvent	a	-0.75
+insouciance	n	-0.25
+instability	n	0.0625
+instable
+instigate	v	0
+instigator	n	-0.25
+instigators
+insubordinate	a	-0.5625
+insubstantial	a	-0.125
+insubstantially	r	-0.125
+insufferable	a	0.375
+insufferably
+insufficiency	n	-0.375
+insufficient	a	-0.75
+insufficiently	r	0
+insular	a	0.0833333333333333
+insult	n	-0.25
+insult	v	-0.125
+insulted	v	-0.325	
+insulting	a	-0.625
+insultingly	r	0.1875
+insults
+insupportable	a	-0.25
+insupportably
+insurmountable	a	-0.625
+insurmountably
+insurrection	n	0
+intefere
+inteferes
+intense	a	0.125
+interfere	v	0
+interference	n	0
+interferes
+intermittent	a	0
+interrupt	n	0
+interrupt	v	-0.125
+interruption	n	0.0416666666666667
+interruptions
+intimidate	v	0.2625
+intimidated	v	0.2625
+intimidating	a	-0.25
+intimidatingly
+intimidation	n	-0.125
+intolerable	a	-0.625
+intolerablely
+intolerance	n	-0.125
+intoxicate	v	0.166666666666667
+intractable	a	-0.75
+intransigence	n	-0.625
+intransigent	a	-0.75
+intrude	v	-0.03125
+intrusion	n	-0.2
+intrusive	a	-0.125
+inundate	v	0
+inundated	a	0
+invader	n	0
+invalid	n	-0.75
+invalid	a	-0.625
+invalid	v	-0.1875
+invalidate	v	-0.15625
+invalidity	n	-0.25
+invasive	a	0.03125
+invective	n	-0.5
+inveigle	v	0.25
+invidious	a	0.125
+invidiously	r	0.375
+invidiousness
+invisible	a	-0.375
+involuntarily	r	0
+involuntary	a	-0.375
+irascible	a	-0.4375
+irate	a	-0.375
+irately	r	0.25
+ire	n	-0.125
+irk	v	0
+irked
+irking
+irks
+irksome	a	-0.25
+irksomely
+irksomeness
+irksomenesses
+ironic	a	-0.125
+ironical	a	-0.125
+ironically	r	-0.125
+ironies
+irony	n	0
+irragularity
+irrational	n	0
+irrational	a	-0.1875
+irrationalities
+irrationality	n	-0.125
+irrationally	r	0.125
+irrationals
+irreconcilable	a	-0.5
+irrecoverable	a	-0.5
+irrecoverableness
+irrecoverablenesses
+irrecoverably
+irredeemable	a	-0.625
+irredeemably
+irreformable
+irregular	n	-0.375
+irregular	a	-0.291666666666667
+irregularity	n	-0.375
+irrelevance	n	0
+irrelevant	a	-0.625
+irreparable	a	-0.5
+irreplacible
+irrepressible	a	-0.5
+irresolute	a	0
+irresolvable
+irresponsible	a	0.5
+irresponsibly	r	0.5
+irretating
+irretrievable	a	-0.625
+irreversible	a	-0.5
+irritable	a	-0.0416666666666667
+irritably	r	0
+irritant	n	-0.375
+irritate	v	0.0833333333333333
+irritated	a	-0.625
+irritating	a	-0.375
+irritation	n	-0.214285714285714
+irritations
+isolate	v	0
+isolated	a	0
+isolation	n	-0.05
+itch	n	-0.291666666666667
+itch	v	0.125
+itching	n	-0.25
+itchy	a	-0.5625
+jabber	n	-0.125
+jabber	v	0.125
+jaded	a	0.0625
+jagged	a	0
+jam	n	-0.125
+jam	v	-0.0357142857142857
+jarring	a	-0.625
+jaundiced	a	-0.5
+jealous	a	-0.0625
+jealously	r	0.125
+jealousness
+jealousy	n	0
+jeer	n	0
+jeer	v	-0.375
+jeering	n	0
+jeering	a	-0.625
+jeeringly	r	0.125
+jeers
+jeopardize	v	-0.1875
+jeopardy	n	-0.25
+jerk	n	-0.0416666666666667
+jerk	v	-0.05
+jerky	n	0
+jerky	a	-0.375
+jitter	n	0
+jitters	n	0
+jittery	a	0.125
+job-killing
+jobless	a	-0.75
+joke	n	0.34375
+joke	v	0.3125
+joker	n	0
+jolt	n	-0.1875
+jolt	v	0
+judder	v	0
+juddering
+judders
+jumpy	a	-0.3125
+junk	n	0
+junk	v	0.125
+junky	n	0
+junkyard	n	0
+jutter
+jutters
+kaput	a	-0.375
+kill	n	0
+kill	v	0.15
+killed
+killer	n	-0.25
+killing	n	0
+killing	a	0.5
+killjoy	n	-0.125
+kills
+knave	n	-0.25
+knife	n	0
+knife	v	0
+knock	n	-0.1
+knock	v	-0.0625
+knotted	a	-0.125
+kook	n	0
+kooky	a	-0.375
+lack	n	0
+lack	v	0.125
+lacks	v	0.325
+lackadaisical	a	0
+lacked
+lackey	n	-0.0625
+lackeys
+lacking	a	-0.625
+lackluster	a	0
+lacks
+laconic	a	0.125
+lag	n	0
+lag	v	0
+lagged
+lagging	n	0
+laggy
+lags
+laid-off	a	0
+lambast	v	-0.375
+lambaste	v	-0.375
+lame	n	0
+lame	a	-0.375
+lame	v	0
+lame-duck
+lament	n	-0.375
+lament	v	-0.375
+lamentable	a	-1
+lamentably	r	-0.875
+languid	a	0.375
+languish	v	-0.125
+languor	n	0.0833333333333333
+languorous	a	0.375
+languorously	r	0.25
+lanky	a	0.125
+lapse	n	-0.166666666666667
+lapse	v	-0.208333333333333
+lapsed	a	-0.625
+lapses
+lascivious	a	0
+last-ditch	a	0
+latency	n	-0.125
+laughable	a	0.5625
+laughably	r	0.125
+laughingstock	n	0
+lawbreaker	n	0
+lawbreaking
+lawless	a	-0.375
+lawlessness	n	-0.0625
+layoff	n	0
+layoff-happy
+lazy	a	0
+leak	n	-0.025
+leak	v	0
+leakage	n	0
+leakages
+leaking
+leaks
+leaky	a	-0.166666666666667
+lech	n	0.375
+lecher	n	0.375
+lecherous	a	-0.75
+lechery	n	0
+leech	n	-0.1875
+leech	v	0
+leer	n	-0.1875
+leer	v	-0.25
+leery	a	-0.625
+left-leaning
+lemon	n	-0.05
+lengthy	a	0
+less-developed
+lesser-known
+letch	n	0.375
+lethal	a	0
+lethargic	a	-0.125
+lethargy	n	0.125
+lewd	a	-0.25
+lewdly	r	-0.25
+lewdness	n	0.125
+liability	n	0.0416666666666667
+liable	a	-0.1875
+liar	n	-0.625
+liars	n	-0.625
+licentious	a	0.25
+licentiously	r	0.125
+licentiousness	n	0.125
+lie	n	0.0416666666666667
+lies	n	0.0416666666666667
+lies	v	-0.0535714285714286
+lie	v	-0.0535714285714286
+lied	n	0
+lied	v	-0.45	
+lier	n	-0.625
+life-threatening	a	-0.625
+lifeless	a	-0.25
+limit	n	-0.0625
+limit	v	0
+limitation	n	0.05
+limitations
+limited	n	0
+limited	a	-0.232142857142857
+limits
+limp	n	-0.125
+limp	a	-0.4375
+limp	v	-0.25
+listless	a	-0.25
+litigation	n	-0.45
+lawsuit	n	-0.45
+litigious	a	0.1875
+little-known	a	-0.375
+livid	a	-0.03125
+lividly	r	0.25
+loath	a	-0.25
+loathe	v	-0.25
+loathing	n	-0.375
+loathly	a	-0.5
+loathsome	a	-0.5
+loathsomely
+lone	a	0
+loneliness	n	-0.375
+lonely	a	-0.0625
+loner	n	0
+lonesome	a	-0.125
+long-time
+long-winded	a	0
+longing	n	0
+longingly	r	0.25
+loophole	n	0
+loopholes
+loose	a	-0.259615384615385
+loose	r	0
+loose	v	0.09375
+loot	n	0
+loot	v	0
+lorn
+lose	v	-0.227272727272727
+loser	n	-0.416666666666667
+losers	n	-0.41
+loses	v	-0.41
+losing	v	-0.41
+losing	a	-0.41
+loss	n	-0.25625
+losses	n	0.25
+lost	n	0
+lost	a	-0.472222222222222
+lost	v	-0.472222222222222
+loud	r	0
+loud	a	-0.0833333333333333
+lousy	a	-0.708333333333333
+loveless	a	-0.1875
+lovelorn	a	-0.75
+low-rated
+lowly	a	-0.625
+ludicrous	a	0.4375
+ludicrously	r	0.125
+lugubrious	a	-0.875
+lukewarm	a	-0.1875
+lull	n	0
+lull	v	0
+lumpy	a	-0.3125
+lunatic	n	-0.3125
+lunatic	a	-0.5
+lunaticism
+lurch	n	-0.0625
+lurch	v	-0.05
+lure	n	0.208333333333333
+lure	v	-0.125
+lurid	a	-0.09375
+lurk	v	0.0833333333333333
+lurking
+lying	n	0
+macabre	a	-0.375
+mad	a	0
+madden	v	0.125
+maddening	a	-0.75
+maddeningly
+madder	n	0
+madder	v	-0.125
+madly	r	-0.0833333333333333
+madman	n	-0.125
+madness	n	-0.025
+maladjusted	a	-0.375
+maladjustment	n	-0.625
+malady	n	-0.1875
+malaise	n	-0.75
+malcontent	n	0
+malcontent	a	-0.625
+malcontented
+maledict	a	-0.25
+maledict	v	-0.375
+malevolence	n	-0.875
+malevolent	a	-0.375
+malevolently	r	0.25
+malice	n	-0.875
+malicious	a	-0.375
+maliciously	r	-0.625
+maliciousness	n	-0.875
+malign	a	-0.125
+malign	v	0
+malignant	a	0.25
+malodorous	a	-0.875
+maltreatment	n	-0.625
+mangle	n	0
+mangle	v	-0.34375
+mangled	a	-0.75
+mangles
+mangling
+mania	n	-0.375
+maniac	n	-0.0625
+maniac	a	-0.125
+maniacal	a	-0.125
+manic	a	-0.625
+manipulate	v	-0.25
+manipulation	n	0.0625
+manipulative	a	0.25
+manipulators
+mar	n	-0.0625
+mar	v	-0.4375
+marginal	a	0
+marginally	r	0.125
+martyrdom	n	-0.3125
+martyrdom-seeking
+massacre	n	-0.25
+massacre	v	0
+massacres
+matte	n	-0.125
+matte	a	-0.25
+matte	v	0
+mawkish	a	0.125
+mawkishly	r	0.125
+mawkishness	n	-0.25
+meager	a	-0.625
+meaningless	a	-0.25
+meanness	n	-0.1875
+measly	a	0
+meddle	v	0
+meddlesome	a	-0.75
+mediocre	a	-0.495666666666667
+mediocrity	n	0.1875
+melancholy	n	-0.541666666666667
+melancholy	a	-0.6875
+melodramatic	a	0.1875
+melodramatically	r	0.0625
+meltdown	n	-0.1875
+menace	n	0
+menace	v	-0.0416666666666667
+menacing	a	-0.75
+menacingly	r	0.25
+mendacious	a	-0.375
+mendacity	n	-0.375
+menial	n	0
+menial	a	-0.375
+merciless	a	0.25
+mercilessly	r	0.25
+mess	n	-0.104166666666667
+mess	v	0
+messed
+messes
+messing
+messy	a	-0.875
+midget	n	0
+midget	a	0
+miff	n	0
+miff	v	-0.5
+militancy	n	-0.25
+mindless	a	-0.225
+mindlessly	r	0.125
+mirage	n	0
+mire	n	0
+mire	v	-0.375
+misalign	v	-0.625
+misaligned
+misaligns
+misapprehend	v	-0.625
+misbecome
+misbecoming
+misbegotten	a	-0.25
+misbehave	v	-0.5
+misbehavior	n	-0.625
+miscalculate	v	-0.0625
+miscalculation	n	-0.125
+miscellaneous	a	0.0625
+mischief	n	-0.6875
+mischievous	a	-0.4375
+mischievously	r	-0.5
+misconception	n	-0.375
+misconceptions
+miscreant	n	-0.125
+miscreants
+misdirection	n	-0.21875
+miser	n	0
+miserable	a	-0.6875
+miserableness	n	-0.125
+miserably	r	0.25
+miseries
+miserly	a	0.25
+misery	n	-0.375
+misfit	n	-0.625
+misfortune	n	-0.4375
+misgiving	n	-0.0416666666666667
+misgivings
+misguidance
+misguide	v	-0.6875
+misguided	a	-0.25
+mishandle	v	-0.6875
+mishap	n	-0.5625
+misinform	v	-0.25
+misinformed
+misinterpret	v	-0.25
+misjudge	v	-0.25
+misjudgment
+mislead	v	-0.625
+misleading	a	-0.625
+misleadingly	r	-0.625
+mislike
+mismanage	v	-0.625
+mismanaged	v	-0.625
+mismanagement	v	-0.625
+mismanagement	n	-0.625
+mispronounce	v	0
+mispronounced
+mispronounces
+misread	v	-0.0625
+misreading	n	-0.5
+misrepresent	v	-0.1875
+misrepresentation	n	-0.3125
+miss	n	0
+miss	v	-0.0833333333333333
+missed	a	-0.5
+misses
+misstatement	n	0
+mist	n	0
+mist	v	-0.125
+mistake	n	-0.291666666666667
+mistake	v	-0.125
+mistaken	a	-0.375
+mistakenly	r	0.25
+mistakes
+mistified
+mistress	n	0
+mistrust	n	0.25
+mistrust	v	-0.125
+mistrustful	a	-0.625
+mistrustfully	r	0
+mists
+misunderstand	v	-0.625
+misunderstanding	n	-0.375
+misunderstandings
+misunderstood	a	0
+misuse	n	-0.625
+misuse	v	-0.3125
+moan	n	-0.625
+moan	v	-0.875
+mobster	n	0
+mock	n	-0.125
+mock	a	-0.5
+mock	v	-0.1875
+mocked
+mockeries
+mockery	n	-0.0416666666666667
+mocking	a	-0.5
+mockingly	r	0.25
+mocks
+molest	v	-0.0625
+molestation	n	-0.0625
+monotonous	a	-0.125
+monotony	n	-0.1875
+monster	n	-0.15
+monstrosities
+monstrosity	n	-0.3125
+monstrous	a	-0.375
+monstrously	r	0.0833333333333333
+moody	n	0
+moody	a	-0.3125
+moot	n	0
+moot	a	-0.25
+moot	v	0
+mope	n	0
+mope	v	-0.3125
+morbid	a	-0.5
+morbidly	r	0
+mordant	n	0
+mordant	a	-0.125
+mordantly
+moribund	a	-0.375
+moron	n	-0.0625
+moronic	a	0.125
+morons
+mortification	n	0.0625
+mortified	a	-0.5
+mortify	v	-0.1875
+mortifying	a	-0.6875
+motionless	a	-0.625
+motley	n	0
+motley	a	-0.0625
+motley	v	0
+mourn	v	-0.375
+mourner	n	-0.125
+mournful	a	-0.75
+mournfully	r	0
+muddle	n	-0.3125
+muddle	v	-0.1875
+muddy	a	-0.34375
+muddy	v	-0.291666666666667
+mudslinger	n	0
+mudslinging
+mulish	a	-0.125
+multi-polarization
+mundane	a	-0.0416666666666667
+murder	n	-0.375
+murder	v	-0.375
+murderer	n	0
+murderous	a	0.5
+murderously	r	-0.0625
+murky	a	0
+muscle-flexing
+mushy	a	0.0625
+musty	a	-0.625
+mysterious	a	-0.0625
+mysteriously	r	0.25
+mystery	n	0.125
+mystify	v	0
+myth	n	0
+nag	n	0
+nag	v	-0.125
+nagging	a	-0.625
+naive	a	-0.025
+naively	r	0.375
+narrow
+narrower
+nastily	r	-0.375
+nastiness	n	-0.708333333333333
+nasty	a	-0.78125
+naughty	a	-0.5625
+nauseate	v	-0.25
+nauseates
+nauseating	a	-0.5
+nauseatingly
+naïve
+nebulous	a	-0.0416666666666667
+nebulously	r	0
+needless	a	-0.375
+needlessly	r	-0.5
+needy	n	0
+needy	a	-0.4655
+nefarious	a	-0.556
+nefariously	r	0
+negate	v	-0.03125
+negation	n	-0.0833333333333333
+negative	n	-0.1875
+negative	a	-0.541666666666667
+negative	v	-0.625
+negatives
+negativity	n	-0.4375
+neglect	n	-0.05
+neglect	v	-0.0625
+neglected	a	-0.25
+negligence	n	-0.125
+negligent	a	-0.25
+nemesis	n	-0.3125
+nepotism	n	0.375
+nervous	a	-0.2
+nervously	r	0.125
+nervousness	n	-0.125
+nettle	n	0
+nettle	v	-0.375
+nettlesome	a	-0.375
+neurotic	n	-0.25
+neurotic	a	-0.625
+neurotically	r	0.125
+niggle	v	-0.1875
+niggles
+nightmare	n	-0.1875
+nightmarish	a	-0.375
+nightmarishly
+nitpick	v	-0.125
+nitpicking
+noise	n	-0.0208333333333333
+noise	v	0
+noises
+noisier
+noisy	a	0
+non-confidence
+nonexistent	a	-0.75
+nonresponsive
+nonsense	n	0
+nonsense	a	0.375
+nosey	a	-0.25
+notoriety	n	0.125
+notorious	a	-0.875
+notoriously	r	0
+noxious	a	-0.25
+nuisance	n	-0.125
+numb	a	-0.583333333333333
+numb	v	-0.25
+obese	a	0
+object	n	-0.025
+object	v	-0.0625
+objection	n	-0.0625
+objectionable	a	-0.5
+objections
+oblique	n	-0.0625
+oblique	a	0.375
+obliterate	a	-0.125
+obliterate	v	-0.15625
+obliterated	a	-0.125
+oblivious	a	0.125
+obnoxious	a	-0.625
+obnoxiously	r	0.125
+obscene	a	-0.625
+obscenely	r	-0.125
+obscenity	n	-0.0833333333333333
+obscure	a	-0.3125
+obscure	v	-0.15
+obscured
+obscures
+obscurity	n	-0.25
+obsess	v	0.125
+obsessive	n	0
+obsessive	a	0.25
+obsessively	r	0.25
+obsessiveness	n	0.25
+obsolete	a	-0.125
+obstacle	n	-0.125
+obstacles	n	-0.15
+obstinate	a	-0.291666666666667
+obstinate	v	-0.5
+obstinately	r	-0.125
+obstruct	v	0
+obstructed	a	0
+obstructing
+obstruction	n	-0.025
+obstructs
+obtrusive	a	-0.0625
+obtuse	a	0
+occlude	v	0
+occluded	a	0
+occludes
+occluding
+odd	a	-0.0833333333333333
+odder
+oddest
+oddities
+oddity	n	0.25
+oddly	r	0.375
+odor	n	0
+offence	n	-0.375
+offend	v	-0.28125
+offender	n	-0.40	
+offending	a	0
+offenses
+offensive	n	0
+offensive	a	-0.543714285714286
+offensively	r	-0.0833333333333333
+offensiveness	n	-0.625
+officious	a	-0.75
+ominous	a	-0.625
+ominously	r	0.375
+omission	n	-0.09375
+omit	v	0
+one-sided	a	-0.208333333333333
+onerous	a	-0.25
+onerously	r	0.25
+onslaught	n	-0.25
+opinionated	a	0
+opponent	n	-0.0625
+opponent	a	0
+opportunistic	a	0.125
+oppose	v	-0.0416666666666667
+opposition	n	-0.15625
+oppositions
+oppress	v	-0.125
+oppression	n	-0.0416666666666667
+oppressive	a	0.125
+oppressively	r	0
+oppressiveness	n	-0.25
+oppressors
+ordeal	n	-0.25
+orphan	n	-0.03125
+orphan	v	0
+ostracize	v	-0.125
+outbreak	n	-0.125
+outburst	n	-0.0416666666666667
+outbursts
+outcast	n	0
+outcast	a	0
+outcry	n	0
+outcry	v	-0.1875
+outlaw	n	-0.25
+outlaw	a	-0.4375
+outlaw	v	0
+outmoded	a	0
+outrage	n	0.0625
+outrage	v	-0.166666666666667
+outraged	a	-0.75
+outrageous	a	-0.8125
+outrageously	r	-0.1875
+outrageousness	n	-0.3125
+outrages
+outsider	n	-0.625
+over-acted
+over-awe
+over-balanced
+over-hyped
+over-priced
+over-valuation
+overact	v	0.25
+overacted
+overawe	v	-0.375
+overbalance	v	0
+overbalanced
+overbearing	a	0.25
+overbearingly	r	0.25
+overblown	a	-0.375
+overdo	v	0
+overdone	a	0.0625
+overdue	a	-0.25
+overemphasize	v	0.125
+overheat	v	-0.375
+overkill	n	-0.125
+overloaded	a	-0.125
+overlook	n	0.5
+overlook	v	-0.025
+overpaid
+over-paid
+overpayed
+over-payed
+overplay	v	0.25
+overpower	v	-0.125
+overpriced	a	0.125
+over-priced	a	0.125
+over-rated
+overrated
+highly-overrated
+overreach	v	0.0625
+over-reach	v	0.0625
+overrun	n	0
+overrun	v	0
+overshadow	v	0
+oversight	n	-0.291666666666667
+oversights
+oversimplification	n	-0.125
+oversimplified
+oversimplify	v	-0.125
+oversize	a	-0.375
+overstate	v	0.625
+overstated	a	0.125
+overstatement	n	0.125
+overstatements
+overstates
+overtaxed
+overthrow	n	-0.125
+overthrow	v	0
+overthrows
+overturn	n	-0.125
+overturn	v	-0.0208333333333333
+overweight	n	0
+overweight	a	0
+overwhelm	v	-0.15625
+overwhelmed
+overwhelming	a	0
+overwhelmingly	r	-0.375
+overwhelms
+overzealous	a	-0.125
+overzealously
+overzelous
+pain	n	-0.525
+pain	v	-0.4375
+painful	a	-0.75
+painfull
+painfully	r	-0.125
+pains	n	0
+pale	n	0
+pale	a	-0.3
+pale	v	0
+pales	v	0
+paltry	a	-0.1875
+pan	n	0
+pan	v	-0.0416666666666667
+pandemonium	n	-0.25
+pander	n	0
+pander	v	0.125
+pandering
+panders
+panic	n	-0.25
+panic	v	-0.125
+panick
+panicked	a	0
+panicking
+panicky	a	0
+paradoxical	a	0.125
+paradoxically	r	0.5
+paralize
+paralyzed	a	-0.5
+paranoia	n	-0.75
+paranoid	n	-0.375
+paranoid	a	-0.75
+parasite	n	-0.3125
+pariah	n	0
+parody	n	-0.0625
+parody	v	0
+partiality	n	0
+partisan	n	0.0416666666666667
+partisan	a	0
+partisans
+passe	a	0
+passive	n	0
+passive	a	0.125
+passiveness	n	-0.1875
+pathetic	a	-0.569666666666667
+pathetically	r	0
+patronize	v	-0.23125
+patronise	v	-0.23125
+patronized	v	-0.23125
+patronised	v	-0.23125
+patronising	v	-0.23125
+patronizing	v	-0.23125
+patronising	a	-0.23125
+patronizing	a	-0.23125
+paucity	n	-0.75
+pauper	n	-0.25
+paupers
+payback	n	-0.0625
+peculiar	a	0.09375
+peculiarly	r	0.208333333333333
+pedantic	a	0.5
+peeled	a	0.625
+peeve	n	-0.125
+peeve	v	-0.625
+peeved	a	-0.625
+peevish	a	-0.25
+peevishly	r	0.25
+penalize	v	0
+penalty	n	-0.28125
+perfidious	a	-0.375
+perfidity
+perfunctory	a	-0.4375
+peril	n	-0.375
+peril	v	-0.4375
+perilous	a	-0.5
+perilously	r	-0.125
+perish	v	0
+pernicious	a	-0.75
+perplex	v	-0.125
+perplexed	a	-0.75
+perplexing	a	0
+perplexity	n	-0.625
+persecute	v	0
+persecution	n	0
+pertinacious	a	-0.75
+pertinaciously	r	0.25
+pertinacity	n	0
+perturb	v	-0.15625
+perturbed	a	-0.125
+pervasive	a	0
+perverse	a	-0.5
+perversely	r	-0.3125
+perversion	n	0.125
+perversity	n	0.1875
+pervert	n	0.125
+pervert	v	-0.291666666666667
+perverted	a	-0.0416666666666667
+perverts
+pessimism	n	-0.375
+pessimistic	a	-0.25
+pessimistically	r	0.125
+pest	n	0
+pestilent	a	-0.3125
+petrified
+petrify	v	-0.0416666666666667
+pettifog	v	-0.125
+petty	n	0
+petty	a	-0.25
+phobia	n	0.25
+phobic	a	-0.625
+phony	n	0
+phony	a	-0.75
+picket	n	0
+picket	v	0
+picketed
+picketing
+pickets
+picky	a	0
+pig	n	-0.104166666666667
+pig	v	-0.0833333333333333
+pigs
+pillage	n	0
+pillage	v	0
+pillory	n	0
+pillory	v	-0.208333333333333
+pimple	n	-0.25
+pinch	n	-0.178571428571429
+pinch	v	-0.075
+pique	n	-0.1875
+pique	v	-0.25
+pitiable	a	-0.542
+pitiful	a	-0.694666666666667
+pitifully	r	0
+pitiless	a	-0.625
+pitilessly	r	0.25
+pittance	n	-0.5
+pity	n	-0.666666666666667
+pity	v	-0.875
+plagiarize	v	-0.375
+plague	n	-0.125
+plague	v	-0.1875
+plasticky
+plaything	n	0
+plea	n	-0.0416666666666667
+pleas
+plebeian	n	0
+plebeian	a	0
+plight	n	-0.0625
+plight	v	0
+plot	n	0.0625
+plot	v	0
+plotters
+ploy	n	0
+plummet	v	-0.125	
+plumett	v	-0.125
+plummett	v 	-0.125
+plummets	v	-0.125
+plumetts	v	-0.125
+plummetts	v	-0.125
+plumeted	v	-0.325	
+plumetted	v	-0.325
+plummetted	v	-0.325
+plummeted	v	-0.325
+plummeting	v	-0.325
+plumetting	v	-0.325
+plummetting	v	-0.325
+plummeting	a	-0.325
+plumetting	a	-0.325
+plummetting	a	-0.325
+plunder	n	0
+plunder	v	-0.03125
+plunderer	n	0
+pointless	a	-0.5625
+pointlessly	r	0.25
+poison	n	-0.125
+poison	v	-0.325
+poisonous	a	-0.541666666666667
+poisonously	r	0.25
+pokey	n	0.125
+pokey	a	-0.0625
+poky	n	0.125
+poky	a	-0.0625
+polarisation	n	0.1875
+polemize	v	0
+pollute	v	0
+polluter	n	0
+polluters
+polution
+pompous	a	-0.3125
+poor	n	0
+poor	a	-0.479166666666667
+poorer
+poorest
+poorly	a	-0.625
+poorly	r	-0.75
+posturing	n	-0.25
+pout	n	-0.0416666666666667
+pout	v	-0.125
+poverty	n	-0.625
+powerless	a	-0.125
+prate	n	-0.375
+prate	v	0
+pratfall	n	-0.3125
+prattle	n	-0.375
+prattle	v	0
+precarious	a	-0.583333333333333
+precariously	r	0.25
+precipitate	n	0
+precipitate	a	-0.5
+precipitate	v	0
+precipitous	a	-0.25
+predatory	a	0.0416666666666667
+predicament	n	-0.625
+prejudge	v	-0.625
+prejudice	n	-0.875
+prejudice	v	-0.375
+prejudices
+prejudicial	a	-0.375
+premeditated	a	0.125
+preoccupy	v	0
+preposterous	a	0.625
+preposterously	r	0.125
+presumptuous	a	-0.5
+presumptuously	r	0.25
+pressure	n	-0.35
+pressure	v	-0.35	
+pretence	n	-0.35
+pretend	n	-0.25
+pretend	a	-0.125
+pretend	v	-0.0625
+pretense	n	-0.35
+pretentious	a	-0.0833333333333333
+pretentiously	r	0
+prevaricate	v	0.125
+pricey	a	0.5
+pricier
+prick	n	-0.1875
+prick	v	-0.267857142857143
+prickle	n	0.125
+prickle	v	-0.416666666666667
+prickles
+prideful	a	0.1875
+prik
+primitive	n	0
+primitive	a	0.03125
+prison	n	-0.0625
+prisoner	n	0
+problem	n	-0.291666666666667
+problematic	a	-0.25
+problems	n	-0.25
+procrastinate	v	-0.125
+procrastinates
+procrastination	n	-0.3125
+profane	a	-0.40625
+profane	v	-0.4375
+profanity	n	-0.125
+prohibit	v	0
+prohibitive	a	-0.125
+prohibitively	r	0
+propaganda	n	0
+propagandize	v	0
+proprietary	n	0
+proprietary	a	0
+prosecute	v	-0.0416666666666667
+protest	n	0
+protest	v	0
+protested
+protesting
+protests
+protracted	a	0
+provocation	n	0.125
+provocative	a	0.5
+provoke	v	-0.03125
+pry	n	0
+pry	v	-0.0625
+pugnacious	a	-0.0625
+pugnaciously	r	0.25
+pugnacity	n	-0.25
+punch	n	0
+punch	v	0
+punish	v	0
+punishable	a	-0.3125
+punitive	a	-0.25
+punk	n	-0.05
+punk	a	-0.75
+puny	a	-0.5625
+puppet	n	0
+puppets
+puzzled	a	-0.5
+puzzlement	n	-0.375
+puzzling	a	-0.1875
+quack	n	-0.0625
+quack	a	-0.375
+quack	v	0
+qualm	n	0.0625
+qualms
+quandary	n	-0.4375
+quarrel	n	-0.0625
+quarrel	v	0.25
+quarrellous
+quarrellously
+quarrels
+quarrelsome	a	0
+quash	v	-0.1875
+queer	n	-0.125
+queer	a	0
+queer	v	-0.375
+questionable	a	-0.30
+quibble	n	0
+quibble	v	-0.0625
+quibbles
+quitter	n	0
+rabid	a	-0.3125
+racism	n	0
+racist	n	0
+racist	a	-0.1875
+racists
+racy	a	0.03125
+radical	n	0.0208333333333333
+radical	a	0.075
+radicalization
+radically	r	0.25
+radicals
+rage	n	0.075
+rage	v	-0.333333333333333
+ragged	a	-0.125
+raging	a	-0.291666666666667
+rail	n	0
+rail	v	-0.0875
+raked
+rampage	n	-0.25
+rampage	v	0
+rampant	a	-0.208333333333333
+ramshackle	a	-0.375
+rancor	n	-0.5
+randomly	r	0.375
+rankle	v	-0.125
+rant	n	0.125
+rant	v	0.125
+ranted
+ranting	n	0.25
+rantingly
+rants
+rape	n	0.0833333333333333
+rape	v	-0.0625
+raped	a	-0.375
+raping
+rascal	n	-0.1875
+rascals
+rash	n	-0.25
+rash	a	-0.1875
+rattle	n	0
+rattle	v	0
+rattled	a	-0.125
+rattles
+ravage	n	0
+ravage	v	0
+raving	n	0.125
+raving	r	0.25
+reactionary	n	-0.125
+reactionary	a	-0.5
+rebellious	a	-0.291666666666667
+rebuff	n	-0.0625
+rebuff	v	-0.375
+rebuke	n	-0.125
+rebuke	v	-0.75
+recalcitrant	a	-0.5625
+recant	v	-0.625
+recession	n	0.45
+recessionary	a	0
+reckless	a	-0.625
+recklessly	r	0.25
+recklessness	n	0.125
+recoil	n	0
+recoil	v	-0.125
+recourses
+redundancy	n	-0.03125
+redundant	a	-0.25
+refusal	n	-0.125	
+refuse	n	0
+refuse	v	-0.125
+refused	v	-0.125
+refuses	v	-0.125
+refusing	v	-0.125
+refutation	n	0
+refute	v	-0.4375
+refuted
+refutes
+refuting
+regress	n	0
+regress	v	-0.09375
+regression	n	0
+regressive	a	0
+regret	n	-0.875
+regret	v	-0.34375
+regreted
+regretful	a	-0.625
+regretfully	r	-0.125
+regrets	n	0
+regrettable	a	-0.556
+regrettably	r	-0.875
+regretted
+reject	n	-0.35
+reject	v	-0.142857142857143
+rejected	a	-0.5
+rejected	v	-0.45
+rejecting	v	-0.45
+rejection	n	0.03125
+rejects	v	-0.35
+rejects	n	-0.35
+relapse	n	0
+relapse	v	0.0625
+relentless	a	-0.4375
+relentlessly	r	0.25
+relentlessness	n	-0.625
+reluctance	n	-0.1875
+reluctant	a	-0.375
+reluctantly	r	0
+remorse	n	-0.5
+remorseful	a	-0.75
+remorsefully	r	0.25
+remorseless	a	-0.75
+remorselessly	r	0.25
+remorselessness
+renounce	v	-0.0625
+renunciation	n	-0.09375
+repel	v	-0.325
+repetitive	a	-0.125
+reprehensible	a	-0.875
+reprehensibly	r	-0.125
+reprehension	n	-0.125
+reprehensive
+repress	v	0
+repression	n	0
+repressive	a	0
+reprimand	n	-0.125
+reprimand	v	-0.5
+reproach	n	-0.5
+reproach	v	-0.375
+reproachful	a	-0.625
+reprove	v	0
+reprovingly	r	0.25
+repudiate	v	-0.28125
+repudiation	n	-0.375
+repugn	v	0
+repugnance	n	-0.375
+repugnant	a	-0.75
+repugnantly
+repulse	n	0
+repulse	v	-0.25
+repulsed
+repulsing
+repulsive	a	-0.208333333333333
+repulsively	r	-0.375
+repulsiveness	n	0
+resent	v	-0.625
+resentful	a	-0.875
+resentment	n	-0.5
+resignation	n	0
+resigned
+resistance	n	-0.170454545454545
+restless	a	-0.541666666666667
+restlessness	n	-0.3125
+restrict	v	-0.05	
+restricted	a	-0.0416666666666667
+restricted	v	-0.0416666666666667
+constrained	a	-0.0416666666666667
+constrained	v	-0.0416666666666667
+restriction	n	0.0833333333333333
+restrictive	a	-0.05
+resurgent	a	0.25
+retaliate	v	-0.3125
+retaliatory	a	0.125
+retard	n	-0.125
+retard	v	0
+retarded	n	0
+retarded	a	-0.375
+retardedness
+retards
+reticent	a	0.0416666666666667
+retract	v	-0.15625
+retreat	n	0
+retreat	v	-0.09375
+retreated	n	0
+revenge	n	-0.25
+revenge	v	-0.5
+revengeful	a	-0.125
+revengefully	r	0.25
+revert	v	0
+revile	v	-0.125
+reviled
+revoke	n	-0.5
+revoke	v	0
+revolt	n	0
+revolt	v	-0.208333333333333
+revolting	a	-0.5
+revoltingly	r	-0.125
+revulsion	n	-0.5
+revulsive
+rhapsodize	v	0.1875
+rhetoric	n	0.0625
+rhetorical	a	0
+ricer	n	0
+ridicule	n	0
+ridicule	v	0
+ridicules
+ridiculous	a	0.0833333333333333
+ridiculously	r	0.125
+rife	a	-0.1875
+rift	n	0
+rifts
+rigid	a	-0.375
+rigidity	n	-0.375
+rigidness	n	-0.375
+rile	v	0
+riled	a	-0.625
+rip	n	0
+rip	v	-0.125
+rip-off	n	-0.125
+ripoff
+ripped
+risk	n	-0.15625
+risk	v	0.0625
+risks
+risky	a	-0.3125
+rival	n	0
+rival	v	0.125
+rivalry	n	0
+roadblocks
+rocky	a	-0.4375
+rogue	n	-0.5
+rollercoaster
+rot	n	-0.25
+rot	v	-0.0625
+rotten	a	-0.416666666666667
+rough	n	0
+rough	a	-0.410714285714286
+rough	r	-0.25
+rough	v	0
+rremediable
+rubbish	n	-0.25
+rubbish	v 	-0.25
+rubbish	a	-0.25
+rude	a	-0.25
+rue	n	-0.1875
+rue	v	-0.5
+ruffian	n	-0.875
+ruffle	n	0
+ruffle	v	-0.0138888888888889
+ruin	n	-0.354166666666667
+ruin	v	-0.0833333333333333
+ruined	a	-0.333333333333333
+ruining	n	-0.375
+ruinous	a	-0.75
+ruins
+rumbling	n	-0.375
+rumbling	a	-0.5
+rumor	n	0
+rumor	v	0
+rumors
+rumours
+rumple	v	0.0416666666666667
+run-down	a	-0.5
+runaway	n	0
+runaway	a	0
+rupture	n	0
+rupture	v	0
+rust	n	-0.15625
+rust	a	0
+rust	v	-0.0416666666666667
+rusts
+rusty	a	0.0625
+rut	n	-0.0416666666666667
+rut	v	0
+ruthless	a	-0.75
+ruthlessly	r	0.125
+ruthlessness	n	-0.4375
+ruts
+sabotage	n	0
+sabotage	v	0
+sack	n	0.0277777777777778
+sack	v	0
+sacrificed
+sad	a	-0.625
+sadden	v	-0.1875
+saddens	v	-0.1875
+sadly	r	-0.583333333333333
+sadness	n	-0.75
+sag	n	0.125
+sag	v	0
+sagged
+sagging	a	-0.5
+saggy
+sags
+salacious	a	-0.4375
+sanctimonious	a	0.625
+sap	n	0.208333333333333
+sap	v	0
+sarcasm	n	0
+sarcastic	a	-0.625
+sarcastically	r	0.375
+sardonic	a	-0.5
+sardonically	r	0.375
+sass	n	0
+sass	v	0
+satirical	a	-0.125
+satirize	v	-0.25
+savage	n	0
+savage	a	-0.1875
+savage	v	-0.25
+savaged
+savagery	n	-0.0416666666666667
+savages
+scaly	a	-0.25
+scam	n	-0.125
+scam	v	-0.125
+scams
+scandal	n	0
+scandalize	v	-0.25
+scandalized
+scandalous	a	-0.5
+scandalously	r	0.25
+scandals
+scandel
+scandels
+scant	a	-0.125
+scant	v	-0.125
+scapegoat	n	-0.375
+scar	n	-0.125
+scar	v	0
+scarce	r	0.125
+scarce	a	-0.25
+scarcely	r	-0.0625
+scarcity	n	-0.375
+scare	n	-0.125
+scare	v	0.1875
+scared	a	-0.125
+scarier
+scariest
+scarily	r	0.25
+scarred	a	-0.6875
+scars
+scary	a	-0.75
+scathing	a	-0.625
+scathingly	r	0.25
+sceptical	a	0
+scoff	n	0
+scoff	v	-0.375
+scoffingly	r	0.375
+scold	n	0
+scold	v	-0.5
+scolded
+scolding	n	-0.125
+scoldingly
+scorching	a	0
+scorching	r	-0.25
+scorchingly
+scorn	n	-0.625
+scorn	v	-0.3125
+scornful	a	-0.625
+scornfully	r	0.5
+scoundrel	n	-0.375
+scourge	n	-0.291666666666667
+scourge	v	-0.166666666666667
+scowl	n	-0.625
+scowl	v	-0.75
+scramble	n	-0.0625
+scramble	v	0.05
+scrambled	a	-0.375
+scrambles
+scrambling
+scrap	n	-0.03125
+scrap	v	0.125
+scratch	n	-0.1125
+scratch	v	-0.0357142857142857
+scratched
+scratches
+scratchy	a	-0.21875
+scream	n	0
+scream	v	0
+screech	n	0.0625
+screech	v	-0.1875
+screw-up
+screwed
+screwed-up
+screwy	a	-0.375
+scuff	n	-0.375
+scuff	v	-0.09375
+scuffs
+scum	n	0.125
+scum	v	0
+scummy	a	-0.6875
+second-class	a	-0.75
+second-tier
+secretive	a	0.125
+sedentary	a	0.125
+seedy	a	-0.375
+seethe	v	0.03125
+seething	a	0
+self-coup
+self-criticism	n	0.25
+self-defeating	a	0.125
+self-destructive	a	-0.5
+self-humiliation
+self-interest	n	-0.25
+self-interested
+self-serving	a	0.25
+selfinterested
+selfish	a	0.25
+selfishly	r	0.25
+selfishness	n	-0.625
+semi-retarded
+senile	a	0.375
+sensationalize
+senseless	a	-0.34375
+senselessly	r	0.0625
+sermonize	v	0.125
+servitude	n	0
+set-up
+setback	n	-0.25
+setbacks
+sever	v	0
+severe	a	-0.270833333333333
+severed	v	-0.270833333333333
+severity	n	-0.3125
+sh*t
+shabby	a	-0.25
+shadowy	a	-0.125
+shady	a	-0.125
+shake	n	-0.0625
+shake	v	-0.0555555555555556
+shaky	a	-0.166666666666667
+shallow	n	0
+shallow	a	-0.125
+shallow	v	0
+sham	n	-0.25
+sham	a	0
+sham	v	-0.1875
+shambles	n	-0.0625
+shame	n	-0.625
+shame	v	-0.375
+shameful	a	-0.4375
+shamefully	r	0
+shamefulness	n	-0.125
+shameless	a	-0.5
+shamelessly	r	0
+shamelessness	n	-0.25
+shark	n	-0.208333333333333
+shark	v	-0.1875
+sharply	r	0.21875
+shatter	v	0
+shemale
+shimmer	n	-0.125
+shimmer	v	0
+shimmy	n	0
+shimmy	v	0
+shipwreck	n	-0.166666666666667
+shipwreck	v	-0.1875
+shirk	v	0
+shirker	n	0
+s**t	n	-0.45
+shit	n	-0.429166666666667
+shit	v	-0.125
+shiver	n	-0.3125
+shiver	v	0.1875
+shock	n	-0.225
+shock	v	-0.107142857142857
+shocked	a	0.25
+shocking	a	-0.125
+shockingly	r	0
+shoddy	n	0
+shoddy	a	-0.75
+short-lived	a	0
+shortage	n	0
+shortchange
+shortcoming	n	-0.25
+shortcomings
+shortness	n	0.0416666666666667
+shortsighted	a	-0.458333333333333
+shortsightedness	n	-0.0625
+showdown	n	-0.5
+shrew	n	-0.4375
+shriek	n	0.0625
+shriek	v	0.125
+shrill	a	0.166666666666667
+shrill	v	0.125
+shrilly	r	0.125
+shrivel	v	0
+shroud	n	0
+shroud	v	0
+shrouded
+shrug	n	0
+shrug	v	-0.125
+shun	v	0.0625
+shunned
+sick	a	-0.421428571428571
+ill	a	-0.421428571428571
+sick	a	-0.421428571428571
+illness	n	-0.421428571428571
+sickness	n	-0.421428571428571
+sick	v	0
+sicken	v	-0.1875
+sickening	a	-0.5
+sickeningly	r	-0.125
+sickly	a	-0.75
+sidetrack	n	0
+sidetrack	v	-0.125
+sidetracked
+siege	n	0
+sillily
+silly	n	-0.125
+silly	a	-0.4375
+simplistic	a	0
+simplistically
+sin	n	-0.0625
+sin	v	-0.25
+sinful	a	-0.416666666666667
+sinfully
+sinister	a	-0.5
+sinisterly
+sink	n	0
+sink	v	0.0138888888888889
+sinking	n	-0.166666666666667
+skeletons
+skeptic	n	0.125
+skeptical	a	0
+skeptically	r	0.25
+skepticism	n	0.3125
+sketchy	a	0.375
+skimpy	a	-0.125
+skinny	n	0
+skinny	a	0.25
+skittish	a	-0.375
+skittishly	r	0.25
+skulk	v	-0.166666666666667
+slack	n	-0.0416666666666667
+slack	a	-0.333333333333333
+slack	v	-0.0625
+slander	n	0.125
+slander	v	0.375
+slanderer	n	0.5
+slanderous	a	-0.875
+slanderously	r	0
+slanders
+slap	n	0
+slap	r	0
+slap	v	0
+slashing	a	0.25
+slaughter	n	-0.0833333333333333
+slaughter	v	0
+slaughtered
+slave	n	-0.0416666666666667
+slave	v	0
+slaves
+sleazy	a	-0.458333333333333
+slime	n	-0.25
+slime	v	0
+slog	v	0
+slogged
+slogging
+slogs
+sloooooooooooooow
+sloooow
+slooow
+sloow
+sloppily	r	0.25
+sloppy	a	-0.125
+sloth	n	-0.0416666666666667
+slothful	a	0
+slow	a	-0.166666666666667
+slow	r	0
+slow	v	-0.0416666666666667
+slow-moving	a	0
+slowed
+slower	r	0
+slowest	r	0
+slowly	r	0
+sloww
+slowww
+slowwww
+slug	n	-0.015625
+slug	v	0
+sluggish	a	-0.125
+slump	n	0
+slump	v	0
+slumping
+slumpping
+slur	n	-0.0833333333333333
+slur	v	0
+slut	n	-0.4375
+sluts
+sly	a	0.5
+smack	n	0.0625
+smack	r	0
+smack	v	-0.025
+smallish	a	0
+smash	n	0.225
+smash	r	0
+smash	v	-0.175
+smear	n	-0.21875
+smear	v	-0.09375
+smell	n	0
+smell	v	-0.175
+smelled
+smelling	n	0
+smelling	a	0
+smells
+smelly	a	-0.75
+smelt	n	0
+smelt	v	-0.125
+smoke	n	-0.03125
+smoke	v	0
+smokescreen	n	0
+smolder	n	0
+smolder	v	0.0625
+smoldering	a	0.25
+smother	n	-0.0625
+smother	v	-0.025
+smoulder	n	0
+smoulder	v	0.0625
+smouldering	a	0.25
+smudge	n	-0.1875
+smudge	v	0
+smudged
+smudges
+smudging
+smug	a	-0.25
+smugly	r	0.375
+smut	n	-0.075
+smut	v	-0.34375
+smuttier
+smuttiest
+smutty	a	-0.6875
+snag	n	0
+snag	v	0.0833333333333333
+snagged
+snagging
+snags
+snappish	a	-0.25
+snappishly	r	-0.25
+snare	n	0
+snare	v	-0.0625
+snarky
+snarl	n	-0.166666666666667
+snarl	v	0
+sneak	n	0.0833333333333333
+sneak	a	0.625
+sneak	v	0
+sneakily	r	0.25
+sneaky	a	0.1875
+sneer	n	-0.125
+sneer	v	0
+sneering	a	-0.625
+sneeringly	r	0.25
+snob	n	-0.125
+snobbish	a	0
+snobby	a	0
+snobish
+snobs
+snub	n	0
+snub	a	0
+snub	v	-0.625
+so-cal
+soapy	a	-0.125
+sob	n	-0.333333333333333
+sob	v	-0.25
+sober	a	-0.25
+sober	v	-0.25
+sobering	a	-0.25
+solemn	a	0.1875
+solicitude	n	-0.125
+somber	a	-0.4375
+sore	n	0
+sore	a	-0.458333333333333
+sorely	r	-0.125
+soreness	n	-0.0625
+sorrow	n	-0.5
+sorrow	v	-0.5
+sorrowful	a	-0.75
+sorrowfully	r	0
+sorry	a	-0.4375
+sour	n	-0.0416666666666667
+sour	a	-0.3125
+sour	v	-0.1875
+sourly	r	0.125
+spade	n	0
+spade	v	0
+spank	n	0
+spank	v	0
+spendy
+spew	v	0
+spewed
+spewing
+spews
+spilling
+spinster	n	0.0625
+spiritless	a	0.0625
+spite	n	-0.875
+spite	v	-0.625
+spiteful	a	-0.25
+spitefully	r	0.125
+spitefulness	n	-0.875
+splatter	n	0
+splatter	v	0
+split	n	-0.0113636363636364
+split	a	0
+split	v	0
+splitting	a	0
+spoil	n	-0.0416666666666667
+spoil	v	-0.140625
+spoilage	n	-0.166666666666667
+spoilages
+spoiled	a	-0.6875
+spoilled
+spoils
+spook	n	-0.25
+spook	v	0
+spookier
+spookiest
+spookily	r	0.375
+spooky	a	-0.375
+spoon-fed
+spoon-feed
+spoonfed
+sporadic	a	-0.625
+spotty	a	0.1875
+spurious	a	-0.458333333333333
+spurn	v	-0.25
+sputter	n	0
+sputter	v	0.025
+squabble	n	-0.25
+squabble	v	-0.125
+squabbling
+squander	v	0.0625
+squash	n	0
+squash	v	0.125
+squeak	n	0
+squeak	v	0
+squeaks
+squeaky	a	0
+squeal	n	0.5
+squeal	v	-0.1875
+squealing	a	0
+squeals
+squirm	n	0
+squirm	v	0
+stab	n	-0.208333333333333
+stab	v	-0.0416666666666667
+stagnant	a	-0.6875
+stagnate	v	0
+stagnation	n	-0.25
+staid	a	0.625
+stain	n	-0.175
+stain	v	0
+stains
+stale	a	-0.25
+stale	v	0
+stalemate	n	-0.1875
+stalemate	v	-0.25
+stall	n	-0.0178571428571429
+stall	v	0
+stalls	n	0
+stammer	n	-0.125
+stammer	v	0
+stampede	n	0
+stampede	v	0
+standstill	n	-0.1875
+stark	a	0.225
+stark	r	0
+starkly	r	0.125
+startle	n	-0.25
+startle	v	-0.0625
+startling	a	-0.125
+startlingly	r	0.25
+starvation	n	0.0625
+starve	v	-0.05
+static	n	-0.1875
+static	a	-0.208333333333333
+steal	n	-0.0625
+steal	v	-0.166666666666667
+stealing	n	-0.25
+stealing	v	-0.25
+steals
+steep	n	0
+steep	a	-0.125
+steep	v	0
+steeply	r	0.125
+stench	n	-0.75
+stereotype	n	0
+stereotype	v	-0.25
+stereotypical	a	-0.375
+stereotypically	r	0.125
+stern	n	0
+stern	a	-0.375
+stew	n	0.0625
+stew	v	-0.416666666666667
+sticky	a	-0.125
+stiff	n	0
+stiff	a	-0.0892857142857143
+stiff	r	-0.0625
+stiffness	n	-0.225
+stifle	n	0
+stifle	v	-0.0625
+stifling	n	0
+stifling	a	-0.125
+stiflingly
+stigma	n	0.03125
+stigmatize	v	0
+sting	n	-0.5
+sting	v	-0.65
+stinging	n	-0.75
+stinging	a	-0.375
+stingingly
+stingy	a	-0.3125
+stink	n	-0.75
+stink	v	-0.6875
+stinks
+stodgy	a	-0.333333333333333
+stole	v	0.25
+stolen
+stooge	n	-0.0625
+stooge	v	0
+stooges
+stormy	a	-0.4375
+straggle	n	-0.5
+straggle	v	-0.0625
+straggler	n	-0.25
+strain	n	-0.170454545454545
+strain	v	0.0555555555555556
+strained	a	-0.15625
+straining	n	-0.25
+straining	a	-0.5
+strange	a	-0.0416666666666667
+strangely	r	0.25
+stranger	n	-0.375
+strangest
+strangle	v	0
+streaky	a	0.125
+strenuous	a	-0.0625
+stress	n	-0.325
+stress	v	-0.0833333333333333
+stresses	v	0.0
+stressful	a	-0.625
+stressfully	r	-0.625
+stricken	a	-0.25
+strict	a	-0.075
+strictly	r	0.166666666666667
+strident	a	-0.25
+stridently	r	0.25
+strife	n	-0.375
+strike	n	0.0416666666666667
+strike	v	-0.0119047619047619
+stringent	a	-0.25
+stringently	r	0.25
+struck	a	-0.375
+struggle	n	-0.166666666666667
+struggle	v	-0.1625
+struggled	v	-0.1625
+struggles	v	-0.1625
+struggles	n	-0.1625
+struggling	a	-0.25
+struggling	v	-0.25
+strut	n	-0.1875
+strut	v	0
+stubborn	a	-0.6875
+stubbornly	r	-0.125
+stubbornness	n	-0.3125
+stuck	a	0
+stuffy	a	-0.208333333333333
+stumble	n	-0.375
+stumble	v	0
+stumbles
+stump	n	0
+stump	v	-0.09375
+stumped
+stumps
+stun	v	-0.0833333333333333
+stunt	n	-0.4375
+stunt	v	0
+stunted	a	-0.625
+stupid	n	-0.125
+stupid	a	-0.416666666666667
+stupidest
+stupidity	n	-0.375
+stupidly	r	0.25
+stupified
+stupify
+stupor	n	-0.375
+stutter	n	-0.125
+stutter	v	0
+stuttered
+stuttering
+stutters
+sty	n	-0.0625
+stymied
+sub-par
+subdued	a	-0.175
+subjected	v	-0.15
+subjecting	v	-0.125
+subjection	n	0
+subjugate	v	0
+subjugation	n	0
+submissive	a	0.375
+subordinate	n	0
+subordinate	a	-0.208333333333333
+subordinate	v	-0.1875
+subpoena	n	0
+subpoena	v	0
+subpoenas
+subservience	n	0.208333333333333
+subservient	a	-0.0416666666666667
+substandard	a	-0.25
+subtract	v	-0.125
+subversion	n	0.3125
+subversive	n	0
+subversive	a	0
+subversively
+subvert	v	-0.21875
+succumb	v	0.1875
+suck	n	0
+suck	v	-0.0714285714285714
+sucked
+sucker	n	-0.0571428571428571
+sucks
+sucky
+sue	n	0
+sue	v	0
+sued
+sueing
+sues
+suffer	v	-0.340909090909091
+suffered
+sufferer	n	-0.1875
+sufferers
+suffering	n	-0.65625
+suffering	v	-0.65625
+suffering	a	-0.6875
+suffers
+suffocate	v	-0.0892857142857143
+sugar-coat
+sugar-coated	a	-0.125
+sugarcoated
+suicidal	a	-0.5
+suicide	n	0
+sulk	n	-0.125
+sulk	v	-0.25
+sullen	a	-0.1875
+sully	n	0
+sully	v	0.0416666666666667
+sunder	v	-0.125
+sunk	a	-0.625
+sunken	a	0
+superficial	a	-0.166666666666667
+superficiality	n	0
+superficially	r	0.125
+superfluous	a	-0.5625
+superstition	n	0.5
+superstitious	a	0.625
+suppress	v	-0.15
+suppression	n	-0.15
+surgery	n	-0.25
+surgeries	n	-0.25
+surrender	n	0
+surrender	v	0
+susceptible	a	0.3125
+suspect	n	0.125
+suspect	a	-0.5
+suspect	v	-0.0833333333333333
+suspicion	n	0.0625
+suspicions
+suspicious	a	-0.5625
+suspiciously	r	0
+swagger	n	-0.1875
+swagger	a	0.125
+swagger	v	0.0416666666666667
+swamped
+sweatshop	n	-0.45
+sweat-shop	n	-0.45
+sweaty
+swelled	a	-0.5
+swelling	n	-0.125
+swindle	n	0
+swindle	v	-0.125
+swipe	n	0
+swipe	v	-0.0625
+swollen	a	-0.75
+symptom	n	0
+symptoms
+syndrome	n	-0.0625
+taboo	n	-0.0625
+taboo	a	0
+taboo	v	0
+tacky	a	-0.5
+taint	n	0
+taint	v	-0.125
+tainted	a	-0.5
+tamper	n	0
+tamper	v	0
+tangle	n	0
+tangle	v	0
+tangled	a	0.125
+tangles
+tank	n	0.0	
+tank	v	-0.166666666666667
+tanked
+tanking
+tanks	v	-0.125
+tanks	n	0.0
+tanks	r	0.0
+tanks	a	0.0
+tantrum	n	-0.5
+tardy	a	-0.125
+tarnish	n	0
+tarnish	v	0
+tarnished
+tarnishes
+tarnishing
+tattered	a	-0.4375
+taunt	n	-0.125
+taunt	v	-0.125
+taunting	n	-0.125
+taunting	a	-0.625
+tauntingly	r	0.125
+taunts
+taut	a	-0.125
+tawdry	a	-0.75
+taxing	a	-0.25
+tease	n	0
+tease	v	0.0416666666666667
+teasingly	r	0.125
+tedious	a	-0.125
+tediously	r	0.25
+temerity	n	0.25
+temper	n	-0.21875
+temper	v	0
+tempest	n	-0.25
+temptation	n	0.208333333333333
+tenderness	n	0.225
+tense	n	0
+tense	a	0
+tense	v	-0.03125
+tension	n	-0.0833333333333333
+tentative	a	-0.125
+tentatively	r	0.125
+tenuous	a	0.0416666666666667
+tenuously	r	0.25
+tepid	a	-0.1875
+terminate	v	-0.25
+terminated	v	-0.25
+terminated	a	-0.35
+terminating	v	-0.25 
+terminating	a	-0.25 
+terrible	a	-0.625
+terribleness	n	0.125
+terribly	r	-0.25
+terror	n	-0.41875
+terrorism	n	-0.41875
+terrorist	n	-0.41875
+terrorist	a	-0.41875
+terrorists	n	-0.41875
+terror-genic
+terrorize	v	0.0625
+testily	r	0.25
+testy	a	-0.25
+tetchily	r	-0.25
+tetchy	a	-0.25
+thankless	a	-0.625
+thicker
+thirst	n	0.0625
+thirst	v	0.1875
+thorny	a	-0.625
+thoughtless	a	0.0625
+thoughtlessly	r	0.3125
+thoughtlessness	n	-0.1875
+thrash	n	-0.125
+thrash	v	-0.0178571428571429
+threat	n	-0.28125
+threaten	v	-0.208333333333333
+threatening	a	-0.375
+threats
+threesome	n	0
+throb	n	-0.1875
+throb	v	0
+throbbed
+throbbing	n	0
+throbbing	a	-0.125
+throbs
+throttle	n	0
+throttle	v	0
+thug	n	-0.25
+thumb-down
+thumbs-down
+thwart	n	0
+thwart	v	0
+time-consuming	a	0.125
+timid	n	0.375
+timid	a	0.0833333333333333
+timidity	n	0.0625
+timidly	r	0.375
+timidness	n	0
+tin-y
+tingled
+tingling	n	-0.5
+tingling	a	0.375
+tired	a	-0.0625
+tiresome	a	-0.25
+tiring	a	-0.625
+tiringly
+toil	n	0.125
+toil	v	0
+toll	n	0
+toll	v	0
+top-heavy	a	0
+heavy	a	0.20
+topple	v	-0.1875
+torment	n	-0.520833333333333
+torment	v	0.0833333333333333
+tormented	a	-0.25
+torrent	n	-0.0833333333333333
+tortuous	a	-0.0833333333333333
+torture	n	-0.35
+torture	v	0.1875
+tortured	a	-0.625
+tortures
+torturing	n	0
+torturing	a	-0.5
+torturous	a	-0.5
+torturously	r	-0.125
+totalitarian	n	0
+totalitarian	a	-0.0625
+touchy	a	-0.375
+tough   n   -0.375
+tough	a	-0.458
+tougher
+toughest
+toughness	n	-0.0625
+tout	n	0
+tout	v	0
+touted
+touts
+toxic	a	-0.25
+traduce	v	0
+tragedy	n	-0.4375
+tragic	a	-0.435
+tragically	r	0
+traitor	n	0
+traitorous	a	0.375
+traitorously	r	0.25
+tramp	n	-0.0625
+tramp	v	-0.0625
+trample	n	0
+trample	v	-0.0416666666666667
+transgress	v	-0.0625
+transgression	n	0
+trap	n	-0.078125
+trap	v	-0.125
+traped
+trapped	a	0
+trash	n	0.0625
+trash	v	0
+trashed
+trashy	a	-0.6875
+trauma	n	-0.25
+traumatic	a	-0.4375
+traumatically
+traumatize	v	-0.5
+traumatized
+travesties
+travesty	n	0.125
+travesty	v	0
+treacherous	a	-0.4375
+treacherously	r	0.25
+treachery	n	0.1875
+treason	n	0.0833333333333333
+treasonous	a	0.375
+trick	n	0.0357142857142857
+trick	v	-0.625
+tricked
+trickery	n	-0.125
+tricky	a	-0.0833333333333333
+trivial	a	-0.166666666666667
+trivialize	v	-0.125
+trouble	n	-0.229166666666667
+trouble	v	-0.4
+troubled	a	-0.8125
+troublemaker	n	-0.5
+troubles	n	-0.4
+troublesome	a	-0.875
+troublesomely
+troubling	a	-0.875
+troublingly
+truant	n	-0.0625
+truant	a	-0.25
+trying	a	-0.25
+tumble	n	-0.0625
+tumble	v	-0.0340909090909091
+tumbled
+tumbles
+tumultuous	a	-0.75
+turbulent	a	-0.375
+turmoil	n	-0.333333333333333
+twist	n	-0.0192307692307692
+twist	v	0
+twisted	a	0.125
+twists
+two-faced	a	-0.25
+two-faces
+tyrannical	a	0
+tyrannically
+tyranny	n	-0.375
+tyrant	n	-0.125
+ugh
+uglier
+ugliest
+ugliness	n	-0.6875
+ugly	a	-0.5625
+ulterior	a	-0.0416666666666667
+ultimatum	n	0
+ultimatums
+ultra-hardline
+un-viewable
+unable	a	-0.416666666666667
+unacceptable	a	-0.375
+unacceptablely
+unacceptably	r	-0.375
+unaccessible	a	0.375
+unaccustomed	a	-0.5625
+unachievable	a	-0.625
+unaffordable
+unanswered	a	-0.15
+unappealing	a	-0.375
+unattractive	a	0.0833333333333333
+unauthentic	a	-0.5
+unavailable	a	-0.125
+unavoidably	r	0
+unbearable	a	-0.625
+unbearablely
+unbelievable	a	-0.25
+unbelievably	r	-0.125
+uncaring	a	-0.125
+uncertain	a	-0.214285714285714
+uncertainty	n	-0.214285714285714
+uncivil	a	0.875
+uncivilized	a	0.25
+unclean	a	-0.625
+unclear	a	0.0833333333333333
+uncollectible	a	-0.75
+uncomfortable	a	-0.6875
+uncomfortably	r	-0.375
+uncomfy
+uncompetitive	a	-0.75
+uncompromising	a	0
+uncompromisingly	r	0.25
+unconfirmed	a	-0.625
+unconstitutional	a	-0.75
+uncontrolled	a	-0.5
+unconvincing	a	-0.5
+unconvincingly	r	0.25
+uncooperative	a	-0.375
+uncouth	a	0
+uncreative	a	-0.5
+undecided	a	-0.25
+undefined	a	-0.125
+undependability	n	-0.375
+undependable	a	-0.8125
+undercut	n	0
+undercut	v	0
+undercuts
+undercutting
+underdog	n	-0.75
+underestimate	n	-0.5
+underestimate	v	-0.0833333333333333
+underestimated	v	-0.2833333333333333
+underlings
+undermine	v	0
+undermined
+undermines
+undermining
+underpaid
+underpowered
+undersized	a	-0.25
+undesirable	n	-0.5
+undesirable	a	-0.5
+undetermined	a	-0.583333333333333
+undid
+undignified	a	-0.25
+undissolved	a	0
+undocumented	a	0
+undone	a	-0.375
+undue	a	-0.3125
+unease	n	-0.5625
+uneasily	r	0
+uneasiness	n	-0.425
+uneasy	a	-0.475
+uneconomical	a	-0.1875
+unemployed	n	-0.25
+unemployed	a	-0.625
+unequal	a	-0.375
+unethical	a	-0.75
+uneven	a	-0.075
+uneventful	a	-0.125
+unexpected	a	-0.25
+unexpectedly	r	0
+unexplained	a	0.125
+unfair	a	0.25
+unfairly	r	0.25
+unfaithful	a	-0.1875
+unfaithfully	r	0.25
+unfamiliar	a	-0.625
+unfavorable	a	-0.541666666666667
+unfeeling	a	-0.3125
+unfinished	a	-0.5
+unfit	a	-0.416666666666667
+unfit	v	-0.375
+unforeseen	a	-0.25
+unforgiving	a	-0.75
+unfortunate	n	-0.25
+unfortunate	a	-0.284333333333333
+unfounded	a	-0.5
+unfriendly	a	-0.5
+unfulfilled	a	-0.5
+unfunded	a	0
+ungovernable	a	0.25
+ungrateful	a	-0.8125
+unhappily	r	-0.625
+unhappiness	n	-0.6875
+unhappy	a	-0.6875
+unhealthy	a	-0.541666666666667
+unhelpful	a	-0.125
+unilateralism	n	-0.375
+unimaginable	a	0.125
+unimaginably	r	0
+unimportant	a	0
+uninformed	a	0.125
+uninsured	a	0.125
+unintelligible	a	0.125
+unintelligile
+unipolar	a	0
+unjust	a	-0.291666666666667
+unjust	r	-0.291666666666667
+unjustifiable	a	-0.25
+unjustifiably	r	0
+unjustified	a	-0.125
+unjustly	r	0.125
+unkind	a	-0.1875
+unkindly	r	0.5
+unkindly	a	0.125
+unknown	n	-0.291666666666667
+unknown	a	-0.4
+unlamentable
+unlamentably
+unlawful	a	-0.65
+unlawfully	r	0.25
+unlawfulness	n	-0.5
+unleash	v	0
+unlicensed	a	-0.25
+unlikely	a	-0.375
+unlucky	a	-0.625
+unmoved	a	-0.0625
+unnatural	a	-0.5
+unnaturally	r	-0.375
+unnecessary	a	0
+unneeded	a	0
+unnerve	v	0.25
+unnerved	a	-0.625
+unnerving	a	0.625
+unnervingly
+unnoticed	a	-0.125
+unobserved	a	-0.125
+unorthodox	a	0.0625
+unorthodoxy	n	0.125
+unpleasant	a	-0.5
+unpleasantness	n	-0.5
+unpleasantries
+unpopular	a	0
+unpredictable	a	-0.375
+unprepared	a	-0.375
+unproductive	a	-0.5625
+unprofitable	a	-0.625
+unprove
+unproved	a	0.125
+unproven	a	0.125
+unproves
+unproving
+unqualified	a	-0.1875
+unravel	v	0
+unraveled
+unreachable	a	0
+unreadable	a	0.375
+unrealistic	a	-0.75
+unreasonable	a	-0.1875
+unreasonably	r	-0.125
+unrelenting	a	-0.333333333333333
+unrelentingly	r	0.25
+unreliability	n	-0.375
+unreliable	a	-0.5
+unresolved	a	-0.333333333333333
+unresponsive	a	-0.541666666666667
+unrest	n	-0.3125
+unruly	a	-0.25
+unsafe	a	-0.541666666666667
+unsatisfactory	a	-0.5
+unsavory	a	-0.653
+unscrupulous	a	-0.625
+unscrupulously	r	0
+unsecure
+unseemly	a	-0.625
+unsettle	v	0.25
+unsettled	a	-0.21875
+unsettling
+unsettlingly
+unskilled	a	-0.333333333333333
+unsophisticated	a	-0.125
+unsound	a	-0.645833333333333
+unspeakable	a	-0.208333333333333
+unspeakablely
+unspecified	a	-0.625
+unstable	a	-0.1875
+unsteadily	r	-0.125
+unsteadiness	n	-0.5
+unsteady	a	-0.25
+unsuccessful	a	-0.375
+unsuccessfully	r	-0.125
+unsupported	a	-0.625
+unsupportive	a	-0.625
+unsure	a	0.0625
+unsuspecting	a	-0.5
+unsustainable
+untenable	a	-0.5
+untested	a	-0.375
+unthinkable	a	-0.625
+unthinkably	r	0
+untimely	r	0.25
+untimely	a	-0.375
+untouched	a	-0.375
+untrue	a	-0.5
+untrustworthy	a	-0.75
+untruthful	a	-0.625
+unusable	a	-0.625
+unusably
+unuseable	a	-0.625
+unuseably
+unusually	r	0
+unviewable
+unwanted	a	-0.3125
+unwarranted	a	-0.291666666666667
+unwatchable
+unwelcome	a	-0.5
+unwell	a	-0.625
+unwieldy	a	0.0416666666666667
+unwilling	a	-0.75
+unwillingly	r	-0.125
+unwillingness	n	-0.5
+unwise	a	-0.3125
+unwisely	r	-0.625
+unworkable	a	-0.75
+unworthy	a	-0.125
+unyielding	a	-0.375
+upbraid	v	-0.375
+upheaval	n	-0.15625
+uprising	n	0
+uproar	n	-0.0625
+uproarious	a	-0.1875
+uproariously	r	0.25
+uproarous
+uproarously
+uproot	v	0
+upset	n	-0.229166666666667
+upset	a	-0.425
+upset	v	-0.0833333333333333
+upseting
+upsets
+upsetting	a	-0.75
+upsettingly
+urgent	a	0
+useless	a	-0.5
+usurp	v	-0.25
+usurper	n	0
+utterly	r	0.5
+vagrant	n	-0.625
+vagrant	a	0
+vague	a	-0.0416666666666667
+vagueness	n	0
+vain	a	-0.625
+vainly	r	0
+vanity	n	-0.375
+vehement	a	0.1875
+vehemently	r	0.375
+vengeance	n	-0.125
+vengeful	a	-0.125
+vengefully	r	0.25
+vengefulness	n	0.125
+venom	n	-0.5
+venomous	a	-0.75
+venomously	r	0.25
+vent	n	0.025
+vent	v	0
+vestiges
+vex	v	-0.05
+vexation	n	-0.15625
+vexing	a	-0.625
+vexingly
+vibrate	v	-0.05
+vibrated
+vibrates
+vibrating
+vibration	n	0
+vice	n	0.125
+vicious	a	-0.6875
+viciously	r	0.25
+viciousness	n	-0.125
+victimize	v	-0.208333333333333
+victimized	v	-0.308333333333333
+victimized	a	-0.358333333333333
+victimization	n	-0.358333333333333
+vile	a	-0.5
+vileness	n	-0.3125
+vilify	v	-0.125
+villainous	a	-0.556
+villainously
+villains
+villian
+villianous
+villianously
+villify
+vindictive	a	-0.1875
+vindictively	r	0.25
+vindictiveness	n	0.125
+violate	v	-0.104166666666667
+violation	n	-0.025
+violator	n	0.1875
+violators
+violent	a	-0.1
+violently	r	0.125
+viper	n	-0.375
+virulence	n	-0.0625
+virulent	a	-0.291666666666667
+virulently	r	0.25
+virus	n	0
+vociferous	a	-0.5
+vociferously	r	0.25
+volatile	n	0
+volatile	a	-0.09375
+volatility	n	0
+vomit	n	-0.0416666666666667
+vomit	v	0
+vomited
+vomiting	n	0
+vomits
+vulgar	a	-0.1875
+vulnerable	a	0
+wack
+wail	n	-0.75
+wail	v	-0.125
+wallow	n	-0.125
+wallow	v	0.05
+wane	n	0
+wane	v	0
+waning	n	0
+waning	a	0
+wanton	n	0.125
+wanton	a	-0.4375
+wanton	v	0.0208333333333333
+war-like
+warily	r	0.25
+wariness	n	0.5
+warlike	a	0
+warned
+warning	n	-0.125
+warning	a	-0.25
+warp	n	-0.03125
+warp	v	0
+warped	a	0
+wary	a	-0.25
+washed-out	a	-0.0625
+waste	n	-0.15
+waste	a	0
+waste	v	-0.0125
+wasted	a	-0.25
+wasteful	a	-0.208333333333333
+wastefulness	n	-0.1875
+wasting	n	0.1875
+water-down
+watered-down
+wayward	a	-0.25
+weak	a	-0.177083333333333
+weaken	v	-0.05
+weakening	n	-0.0625
+weakening	a	-0.5
+weaker
+weakness	n	-0.325
+weaknesses
+weariness	n	-0.25
+wearisome	a	-0.25
+weary	a	0.375
+weary	v	0.125
+wedge	n	0.0178571428571429
+wedge	v	0
+weed	n	0
+weed	v	0
+weep	v	-0.75
+weird	n	0
+weird	a	-0.125
+weirdly	r	0.125
+wheedle	v	0.25
+whimper	n	0
+whimper	v	-0.25
+whine	n	0
+whine	v	0
+whining
+whiny	a	-0.75
+whips
+whore	n	-0.25
+whore	v	-0.166666666666667
+whores
+wicked	a	-0.45
+wickedly	r	-0.375
+wickedness	n	-0.15
+wild	n	-0.1875
+wild	a	-0.0384615384615385
+wild	r	0.125
+wildly	r	0.0416666666666667
+wiles
+wilt	n	-0.6875
+wilt	v	-0.3125
+wily	a	0.5
+wimpy	a	-0.625
+wince	n	-0.25
+wince	v	-0.3125
+wobble	n	0
+wobble	v	0
+wobbled
+wobbles
+woe	n	-0.6875
+woebegone	a	-0.5625
+woeful	a	-0.8125
+woefully	r	-0.875
+womanizer	n	0
+womanizing
+worn	a	-0.5625
+worried	a	-0.8125
+worriedly	r	0.125
+worrier	n	-0.125
+worries	v	-0.125
+worrisome	a	-0.5625
+worry	n	0.1875
+worry	v	0
+worrying	n	0
+worrying	a	-0.875
+worryingly	r	0.125
+worse	n	-0.625
+worse	r	0.5
+worse	a	-0.319
+worsen	v	-0.25
+worsening	n	-0.0625
+worsening	a	-0.25
+worst	n	-0.791666666666667
+worst	r	-0.875
+worst	a	-0.5
+worst	v	0.125
+worthless	a	-0.5
+worthlessly	r	0.125
+worthlessness	n	-0.125
+wound	n	-0.125
+wound	a	0
+wound	v	-0.5625
+wounds
+wrangle	n	-0.0625
+wrangle	v	-0.125
+wrath	n	-0.5625
+wreak	v	0
+wreaked
+wreaks
+wreck	n	-0.25
+wreck	v	-0.25
+wrest	v	0
+wrestle	n	0
+wrestle	v	0
+wretch	n	-0.1875
+wretched	a	-0.75
+wretchedly	r	0.25
+wretchedness	n	-0.125
+wrinkle	n	-0.125
+wrinkle	v	-0.03125
+wrinkled	a	-0.125
+wrinkles
+antitrust
+anti-trust
+wounded	n	-0.25	
+wounded	a	-0.25
+wounded	v	-0.25
+wrip
+wripped
+wripping
+writhe	v	0
+wrong	n	-0.75
+wrong	r	0.25
+wrong	a	-0.597222222222222
+wrong	v	-0.75
+wrongful	a	-0.541666666666667
+wrongly	r	-0.125
+wrought	a	0
+yawn	n	0
+yawn	v	0
+zap	n	0
+zap	v	0
+zapped
+zaps
+zealot	n	0
+zealous	a	0.5
+zealously	r	0.25
+zombie	n	0

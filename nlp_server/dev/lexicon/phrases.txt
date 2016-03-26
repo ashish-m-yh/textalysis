@@ -1,0 +1,152 @@
+a+	0.45
+ASAP	-0.45
+asap	-0.45
+sweat shop	-0.45
+back stabbing	-0.45
+cut throat	-0.25
+nose dive	-0.35
+nose dives	-0.35
+nose dived	-0.35
+to be honest	0.0
+all the best	0.0
+Best wishes	0.0
+Best of luck	0.0
+best wishes	0.0
+best of luck	0.0
+good luck	0.0
+Good luck	0.0
+long time	-0.25
+not-so-good	-0.35
+legal proceeding	-0.45
+legal proceedings	-0.45
+judicial proceeding	-0.45
+judicial proceedings	-0.45
+under water	-0.25
+weigh heavily	-0.35
+weighs heavily	-0.35
+weighing heavily	-0.30
+could not care less	-0.45
+warm regards	0.0
+best wishes	0.0
+outstanding amount	-0.35
+outstanding payment	-0.35
+outstanding bonus	-0.35
+conflict of interest	-0.35
+conflicts of interest	-0.35
+drug abuse	-0.35
+poetic justice	-0.18
+valuable time	0.0
+personal benefit	-0.25
+not only	0.0
+not just	0.0
+not to mention	0.0
+no wonder	0.0
+dressed to kill	0.0
+capital gains	0.0
+narrow interests	-0.25
+hard work	0.25
+hard working	0.45
+works hard	0.25
+worked hard	0.25
+pass away	-0.25
+passing away	-0.25
+passed away	-0.25
+lacked sufficient	-0.25
+lacked confidence	-0.25
+worked together	0.25
+ancient ruins	0.0
+like	0.35
+like heck	-0.25
+last vestiges	-0.25
+full of energy	0.25
+shot in the arm	0.25
+call it a day	-0.25
+bang for buck	0.25
+bang for your buck	0.25
+piece of my mind	-0.45
+piece of cake	0.25
+no sweat	0.25
+easier said than done	-0.25
+out of stock	-0.25
+none too pleased	-0.25
+gave up	-0.25
+issue resolved	0.25
+issue was resolved	0.25
+fedup	-0.25
+fed up	-0.25
+fed-up	-0.25
+never shop	-0.25
+never buy	-0.25
+not fit	-0.12
+resolved my issue	0.25
+resolved the issue	0.25
+no apology	-0.25
+no explanation	-0.25
+same reply	-0.25
+not got back	-0.25
+nobody got back	-0.25
+no one got back	-0.25
+not reverted	-0.25
+no answer	-0.25
+not answer correctly	-0.25
+not answer properly	-0.25
+not answered correctly	-0.25
+not answered properly	-0.25
+not answer my	-0.25
+not answered my	-0.25
+not answer the	-0.25
+not answered the	-0.25
+not really answer	-0.25
+no response	-0.25
+not get response	-0.25
+not get a response	-0.25
+no reply	-0.25
+not heard	-0.25
+nobody answered	-0.25
+not replied	-0.25
+nobody replied	-0.25
+no one replied	-0.25
+not received	-0.25
+not recieved	-0.25
+no idea	0.0
+no clue	0.0
+not order	-0.25
+not receive	-0.25
+not recieve	-0.25
+never received	-0.25
+never recieved	-0.25
+think twice	-0.25
+not be bothered	-0.25
+not bothered	-0.25
+address the issue	0.25
+quick response	0.25
+not responded	-0.25
+not reply	-0.25
+not reply	-0.25
+not replied	-0.25
+not sorted	-0.25
+not my fault	0.0
+never again	-0.45
+not where we need to be	-0.35
+never had a response	-0.35
+feel free	0.0
+not refund	-0.25
+not deliver	-0.25
+not delivered	-0.25
+not refunded	-0.25
+not read correctly	-0.25
+not read my	-0.25
+not read the	-0.25
+not justify	-0.25
+not refunding	-0.25
+put me off	-0.35
+put off	-0.35
+ridiculous	-0.45
+rubbish	-0.65
+crap	-0.65
+shit	-0.65
+bullshit	-0.65
+right away	0.0
+no follow up	-0.25
+quick response	0.25
+still waiting	-0.25

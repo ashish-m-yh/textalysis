@@ -1,0 +1,52 @@
+(.*?)service\W	Service	
+(.*?)service(.*?)\p{Punct}	Service	
+(.*?)delivery\W	Delivery	
+(.*?)delivery(.*?)\p{Punct}	Delivery
+(.*?)answer\W	Communication
+(.*?)answer(.*?)\p{Punct}	Communication
+(.*?)reply\W	Communication
+(.*?)reply(.*?)\p{Punct}	Communication
+(.*?)replied\W	Communication
+(.*?)replied(.*?)\p{Punct}	Communication
+(.*?)respond\W	Communication
+(.*?)respond(.*?)\p{Punct}	Communication
+(.*?)response\W	Communication
+(.*?)response(.*?)\p{Punct}	Communication
+(.*?)responded\W	Communication
+(.*?)responded(.*?)\p{Punct}	Communication
+(.*?)communication\W	Communication
+(.*?)communication(.*?)\p{Punct}	Communication
+not reply	Communication
+no reply	Communication
+not replied	Communication
+no replies	Communication
+not replies	Communication
+no answer	Communication
+not answered	Communication
+no answers	Communication
+no response	Communication
+no responses	Communication
+not responded	Communication
+no one replies	Communication
+no one replied	Communication
+no one responds	Communication
+no one responded	Communication
+no resolution	Service	
+not resolved	Service	
+no help	Service
+noboby replied	Communication
+nobody replies	Communication
+nobody responded	Communication
+nobody responds	Communication
+nobody answered	Communication
+nobody answers	Communication
+not delivered	Delivery
+not resolved	Service
+never resolved	Service
+unresolved	Service
+not available	Availability
+out of stock	Availability
+contradictory information	Information
+conflicting information	Information
+still waiting	Service
+never shop with you	Service
