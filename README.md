@@ -17,8 +17,9 @@ This is the Textalysis project for customer feedback analysis based on sentiment
 
 ## Setup
 
-* Check out the code
-* Install the www code in /var/www 
+* Check out the code repo
+* Place the www code in /var/www 
+* pip install -r scripts/requirements.txt
 * cd /var/www && python server.py
 * Run ./start.sh to start the NLP server
 * mkdir /var/www/excel
