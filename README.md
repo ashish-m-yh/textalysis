@@ -10,6 +10,7 @@ This is the Textalysis project for customer feedback analysis based on sentiment
 * Python 2.7
 * RabbitMQ
 * opennlp-tools-1.5.3.jar
+* opennlp-maxent-3.0.1.jar
 * slf4j-api-1.6.4.jar
 * slf4j-simple-1.6.4.jar
 * rabbitmq-client.jar
