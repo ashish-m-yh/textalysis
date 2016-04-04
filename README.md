@@ -37,9 +37,14 @@ This is the Textalysis project for customer feedback analysis based on sentiment
 ### For Apache Server ###
 
 * Place ./config/000-default.conf in /etc/apache2/sites-available
-* ```chown -R <user>: excel```
-* ```chown -R <user>: reports```
-* ```sudo service apache2 restart```
+* For directories /var/www/excel and /var/www/reports change the following:
+    1. Ownership: to user running the python server
+        * ```sudo chown -R <user>: excel```
+        * ```sudo chown -R <user>: reports```
+    2. Permission: 700
+        * ```chmod -R 700 excel```
+        * ```chmod -R 700 reports```
+* Restart apache server
 
 ### Steps to ensure NLP server is running ###
 
