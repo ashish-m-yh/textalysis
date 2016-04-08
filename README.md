@@ -6,9 +6,10 @@ This is the Textalysis project for customer feedback analysis based on sentiment
 
 ## Dependencies
 
-* Java 6
+* Java 6 - 8
 * Python 2.7
-* Apache 2.4.7
+* Apache 2.4.x
+* Supervisor
 * RabbitMQ
 * opennlp-tools-1.5.3.jar
 * opennlp-maxent-3.0.1.jar
@@ -26,13 +27,16 @@ This is the Textalysis project for customer feedback analysis based on sentiment
 * Run ./compile_java.sh to compile *.java files
 * Run ./start.sh to start the NLP server
 
-### For python server ###
+### For Python server ###
 
 * Place the www code in /var/www 
 * pip install -r scripts/requirements.txt
 * cd /var/www && python server.py
 * mkdir /var/www/excel
 * mkdir -p /var/www/reports/demo1
+* set user variable in ./config/pythonserver.py to your username
+* Place ./config/pythonserver.py in /etc/supervisor/conf.d
+* Restart supervisor ```sudo service supervisor restart```
 
 ### For Apache Server ###
 
@@ -42,8 +46,8 @@ This is the Textalysis project for customer feedback analysis based on sentiment
         * ```sudo chown -R <user>: excel```
         * ```sudo chown -R <user>: reports```
     2. Permission: 700
-        * ```chmod -R 700 excel```
-        * ```chmod -R 700 reports```
+        * ```chmod -R 755 excel```
+        * ```chmod -R 755 reports```
 * Restart apache server
 
 ### Steps to ensure NLP server is running ###
@@ -55,9 +59,24 @@ This is the Textalysis project for customer feedback analysis based on sentiment
     * ```ps -ef | grep -i rabbit```
 4. ```sudo rabbitmqctl list_queues``` -> Listing queues ... rpc_queue   0
 
+### Steps to ensure Python server is running ###
+
+1. ```lynx http://localhost:8080/app/test``` should display test page
+2. ```sudo supervisorctl status``` -> Display textalysis_webapp program as RUNNING
+
 ### Steps to ensure Apache server is running ###
 
 * [localhost](http://localhost) should display Textalysis website.
+
+### Integration Test ###
+
+* To ensure python server and NLP server is running:
+
+    ```cd /var/www```
+
+    ```python twitter_srch.py``` should create a tsv file in ./reports/demo1
+
+* Upload a .xls file at [Getting Started](http://localhost/start.html). A demo report should be shown and detailed report should be downloadable as excel file.
 
 ## Configuration
 
