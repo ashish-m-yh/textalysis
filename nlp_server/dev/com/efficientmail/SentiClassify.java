@@ -157,8 +157,8 @@ public class SentiClassify {
 					continue;
 				}
 
-				if (!toks[i].equals(toks[i].toUpperCase()) && "NNP".equals(tags[i]))
-					continue;
+				// if (!toks[i].equals(toks[i].toUpperCase()) && "NNP".equals(tags[i]))
+				// 	continue;
 
 				if (phrase_stem.containsKey(lc)) {
 					ArrayList<String[]> phr_val = phrase_stem.get(lc);
@@ -233,32 +233,35 @@ public class SentiClassify {
 				catch (Exception e) {
 				}
 
-				if (pos == null && tags.length == 1 && !Pattern.matches("\\p{Punct}", lc)) {
-					double swn_feeling = 0.0;
+				// if (pos == null && tags.length == 1 && !Pattern.matches("\\p{Punct}", lc)) {
+				// 	double swn_feeling = 0.0;
 					
-					try {
-						swn_feeling = this.getWordMood(lc, "a");
-					}
-					catch (Exception e) {
-						try {
-							swn_feeling = this.getWordMood(lc, "n");
-						}
-						catch (Exception e1) {
-						}
-					}
-				} 
+				// 	try {
+				// 		swn_feeling = this.getWordMood(lc, "a");
+				// 	}
+				// 	catch (Exception e) {
+				// 		try {
+				// 			swn_feeling = this.getWordMood(lc, "n");
+				// 		}
+				// 		catch (Exception e1) {
+				// 		}
+				// 	}
+				// } 
 				
 				lc = lc.replaceAll(",","");	
 
-				if (pos != null) {
+				if (true) {
 					String ord[] 	= { "a", "r", "v", "n" };
 					String[] p 		= new String[4];
-					p[0] 	   		= pos;
+					if (pos != null)
+						p[0] 	   	= pos;
+					else
+						p[0]		= ord[0];
 
 					int y = 0;
 
 					for (int j = 0; j < ord.length; j++) {
-						if (!ord[j].equals(pos))
+						if (!ord[j].equals(p[0]))
 							p[++y] = ord[j];
 					}
 
@@ -269,7 +272,7 @@ public class SentiClassify {
 							swn_feeling = this.getWordMood(lc, p[y]);
 						}
 						catch (Exception e) {
-							swn_feeling = 0;
+							continue;
 						}
 
 						this.log(tags[i] + "\t" + toks[i] + "\t" + swn_feeling + "\t" + p[y] + " " + mul_factor + "\n");
@@ -340,7 +343,7 @@ public class SentiClassify {
 	}
 
 	public static boolean is_negation(String s) {
-		String[] neg = { "nobody", "no", "not", "nor", "neither", "nothing", "never" };
+		String[] neg = { "nobody", "not", "nor", "neither", "nothing", "never" };
 		
 		boolean is_neg = false;
 
