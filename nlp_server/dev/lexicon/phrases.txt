@@ -150,3 +150,63 @@ right away	0.0
 no follow up	-0.25
 quick response	0.25
 still waiting	-0.25
+call drop	-0.45
+chor	-0.45
+disgusting	-0.45
+dont work	-0.45
+don't work	-0.45
+dont get connected	-0.45
+don't get connected	-0.45
+dont hv proper connection	-0.45
+dont hv proper network	-0.45
+dont hav proper connection	-0.45
+dont hav proper network	-0.45
+dont have proper connection	-0.45
+dont have proper network	-0.45
+don't have proper connection	-0.45
+don't have proper network	-0.45
+doesnt work	-0.45
+doesn't work	-0.45
+erratic	-0.45
+fail customer experience	-0.45
+fix something	-0.45
+fucking	-0.45
+damn	-0.45
+ghotala	-0.45
+goddam	-0.45
+goddamn	-0.45
+going bonkers	-0.45
+havent received	-0.45
+haven't received	-0.45
+lack of	-0.45
+no 2g	-0.45
+no 3g	-0.45
+no 4g	-0.45
+no better	-0.45
+no connection	-0.45
+no network	-0.45
+no signal	-0.45
+no service	-0.45
+no value	-0.45
+no airtel2g siganl	-0.45
+no airtel3g signal	-0.45
+no airtel4g signal	-0.45
+no connection	-0.45
+not able to manage	-0.45
+not get connected	-0.45
+not getting	-0.45
+not working	-0.45
+never came	-0.45
+never respond	-0.45
+never works	-0.45
+never worked	-0.45
+never working	-0.45
+service is down	-0.45
+shitty	-0.45
+so much time	-0.45
+urgent	-0.45
+unable to manage	-0.45
+service is down	-0.45
+third class	-0.45
+totally down	-0.45
+what the hell	-0.45
