@@ -1,10 +1,10 @@
 from twython import Twython
 from async_client import AsyncClient
-import re, string
+import re, string, sys
 
 APP_KEY = 'n5LFANrACgG4jPvT1xxCDsJ6a'
 APP_SECRET = 'rZmQ7b1xSguFyJAq7I8xFdjjQtHXu62ToExCbQhBZDDeCaACtv'
-OUT_FILE = 'airtel.tsv'
+OUT_FILE = '.'.join((sys.argv[1][1:], 'tsv'))
 LKEY = 'demo1'
 
 
@@ -30,7 +30,7 @@ def get_tweets(twitter, query, num):
 
 
 twitter = authenticate(APP_KEY, APP_SECRET)
-tweets = get_tweets(twitter, '@airtelindia', 100)
+tweets = get_tweets(twitter, sys.argv[1], 100)
 
 rpc_client = AsyncClient()
 
