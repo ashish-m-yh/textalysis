@@ -4,10 +4,10 @@ from tornado import web, httpserver, ioloop
 from live import Live
 from report import Report
 from reportlist import ReportList
+from results import Results
 from test import Test
 
 if __name__ == "__main__":
-    daemon.daemonize("/var/run/server.pid")
 
     application = web.Application(
         [
@@ -15,7 +15,8 @@ if __name__ == "__main__":
             (r'/app/reportlist', ReportList),
             (r'/app/report/(.+)/(.+)', Report),
             (r'/app/demoreport/(.+)/(.+)', Report),
-            (r'/app/test', Test),
+            (r'/app/reports/(.+)', Results),
+            (r'/app/test', Test)
         ],
         debug=True)
 
