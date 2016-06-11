@@ -11,12 +11,10 @@ if __name__ == "__main__":
 
     application = web.Application(
         [
-            (r"/app/live", Live),
-            (r'/app/reportlist', ReportList),
+            (r"/app/live", Live), (r'/app/reportlist', ReportList),
             (r'/app/report/(.+)/(.+)', Report),
             (r'/app/demoreport/(.+)/(.+)', Report),
-            (r'/app/reports/(.+)', Results),
-            (r'/app/test', Test)
+            (r'/app/reports/(.+).json', Results), (r'/app/test', Test)
         ],
         debug=True)
 
