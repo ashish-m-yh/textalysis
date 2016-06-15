@@ -15,7 +15,7 @@ if __name__ == "__main__":
             (r'/app/reportlist', ReportList),
             (r'/app/report/(.+)/(.+)', Report),
             (r'/app/demoreport/(.+)/(.+)', Report),
-            (r'/app/reports/(.+)', Results),
+            (r'/app/reports/(.+).json', Results),
             (r'/app/test', Test)
         ],
         debug=True)
