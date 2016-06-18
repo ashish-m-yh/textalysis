@@ -14,8 +14,3 @@ class Results(web.RequestHandler):
                        for line in report]
             results = sorted(results, key=itemgetter('score'), reverse=True)
             self.write(dict(results=results))
-
-
-class Demo(web.RequestHandler):
-    def get(self):
-        self.render('./twitter_demo.html')
