@@ -35,6 +35,10 @@
             url: '/app/reports/'+ $('.twitter-handle').val() +'.json',
             method: 'GET',
             success: displayTweets,
+            error: function (xhr, status, error) {
+              $('.twitter-handle-error').text('@' + $('.twitter-handle').val() + ' does not exists!');
+              $('.twitter-handle-error').show();
+            },
             dataType: 'json' });
 
           function displayTweets(data, status){
@@ -88,7 +92,7 @@
     }
     .badges{
       margin-top: 0px;
-      clear: both;
+      clear: both;   
       float: right;
       max-width: 700px;
     }
@@ -119,6 +123,11 @@
     .panel{
       display: none;
     }
+    .twitter-handle-error{
+      margin-top: 20px;
+      display: none;
+      text-align: center;
+    }
     </style>
     
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -127,6 +136,7 @@
     <![endif]-->
 
     <!-- Fav and touch icons -->
+  
   
   </head>
 
@@ -155,6 +165,8 @@
             </span>
           </div>
           
+          <div class="twitter-handle-error text-danger"></div>
+
           <div class="panel panel-primary tweets">
             <div class="panel-heading">Tweets</div>
               <div class="panel-body">
