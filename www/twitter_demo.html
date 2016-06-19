@@ -35,23 +35,30 @@
             url: '/app/reports/'+ $('.twitter-handle').val() +'.json',
             method: 'GET',
             success: displayTweets,
+            error: function (xhr, status, error) {
+              $('.twitter-handle-error').text('@' + $('.twitter-handle').val() + ' does not exists!');
+              $('.twitter-handle-error').show();
+            },
             dataType: 'json' });
 
           function displayTweets(data, status){
             var analysedTweets = data['results'];
-            console.log(analysedTweets);
+            
             for (var i = 0; i < analysedTweets.length; i++) {
               var tweet = analysedTweets[i];
               if (tweet.score > 0.0)
-                $('.panel-body').append("<div class='tweet'>" + tweet.tweet + 
-                  "<span class='badge pull-right neg_per'>" + tweet.neg_per + "%</span>" +
-                  "<span class='badge pull-right pos_per'>" + tweet.pos_per + "%</span>" +
-                  "<div class='progress'>" +
-                  "<div class='progress-bar progress-bar-success progress-bar-striped' role='progressbar' aria-valuenow='"+ tweet.pos_per +"'"+
-                  "aria-valuemin='0' aria-valuemax='100' style='width:"+ tweet.pos_per +"%;'/>" +
-                  "<div class='progress-bar progress-bar-danger progress-bar-striped' role='progressbar' aria-valuenow='"+ tweet.neg_per +"'"+
-                  "aria-valuemin='0' aria-valuemax='100' style='width:"+ tweet.neg_per +"%;'/>" +
-                  "</div>");
+                $('.panel-body').append("<div class='tweet'>" + 
+                    "<div >" + tweet.tweet + "</div>" +
+                    "<div class='badges'>" +
+                      "<span class='badge pos_per'>" + tweet.pos_per + "%</span>" +
+                      "<span class='badge neg_per'>" + tweet.neg_per + "%</span>" +
+                    "</div>" +
+                    "<div class='progress'>" +  
+                      "<div class='progress-bar progress-bar-success progress-bar-striped' role='progressbar' aria-valuenow='"+ tweet.pos_per +"'"+
+                      "aria-valuemin='0' aria-valuemax='100' style='width:"+ tweet.pos_per +"%;'/>" +
+                      "<div class='progress-bar progress-bar-danger progress-bar-striped' role='progressbar' aria-valuenow='"+ tweet.neg_per +"'"+
+                      "aria-valuemin='0' aria-valuemax='100' style='width:"+ tweet.neg_per +"%;'/>" +
+                    "</div></div><br>");
             }
             $('.panel').show();
           }
@@ -76,82 +83,27 @@
         margin: 30px 0;
       }
 
-      /* Main marketing message and sign up button */
-      .jumbotron {
-        margin: 30px 0;
-        text-align: center;
-      }
-      .jumbotron h1 {
-        font-size: 72px;
-        line-height: 1;
-      }
-      .jumbotron .btn {
-        font-size: 21px;
-        padding: 14px 24px;
-      }
-
-      /* Supporting marketing content */
-      .marketing {
-        margin: 40px 0;
-      }
-      .marketing p + h4 {
-        margin-top: 28px;
-      }
-
-	  .price-list .price-box {
-	    text-align: center;
-  		display: inline-block;
-  		-webkit-transition: 300ms ease;
-  		-moz-transition: 300ms ease;
-  		-o-transition: 300ms ease;
-  		-ms-transition: 300ms ease;
-  		transition: 300ms ease;
-	  }
-
-	  .price-list .price-box .features > li:first-child {
-		  border-radius: 0px;
-	  }
-
-	  .price-list .price-box .price-header > h3 {
-		  height: 80px;
-  		  border: 1px solid #DDD;
-  		  text-align: center;
-  		  line-height: 80px;
-  		  text-transform: uppercase;
-  		  margin-bottom: 0px;
-  		  color: #FFFFFF;
-	  }
-
-	  .price-list .price-box.featured:hover {
-	  	  margin-top: -20px;
-  		  position: relative;
-  		  -webkit-transition: 300ms ease;
-  		  -moz-transition: 300ms ease;
-  		  -o-transition: 300ms ease;
-  		  -ms-transition: 300ms ease;
-  		  transition: 300ms ease;
-	  }
-
-	  .price-list .price-box.featured .price-header > h3 {
-  		  background: #90c657;
-		  height: 80px;
-  		  text-align: center;
-  		  line-height: 80px;
-  		  text-transform: uppercase;
-	  }
-
     .tweets {
       margin-top: 30px;
+      overflow: hidden;
     }
     .tweet{
-      margin-top: 10px;
+      clear: both;
+    }
+    .badges{
+      margin-top: 0px;
+      clear: both;   
+      float: right;
+      max-width: 700px;
     }
     .progress {
+      clear: both;
       background: rgba(245, 245, 245, 1); 
       border: 0px solid rgba(245, 245, 245, 1);
       border-radius: 0px; height: 10px;
       margin-bottom: 0px;
       opacity: 0.8;
+      max-width: 700px;
     }
 
     .progress-bar-custom {
@@ -160,6 +112,7 @@
     }
 
     .pos_per {
+      align: right;
       background-color: #5cb85c;
     }
 
@@ -170,6 +123,11 @@
     .panel{
       display: none;
     }
+    .twitter-handle-error{
+      margin-top: 20px;
+      display: none;
+      text-align: center;
+    }
     </style>
     
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -178,7 +136,7 @@
     <![endif]-->
 
     <!-- Fav and touch icons -->
-	
+  
   
   </head>
 
@@ -207,6 +165,8 @@
             </span>
           </div>
           
+          <div class="twitter-handle-error text-danger"></div>
+
           <div class="panel panel-primary tweets">
             <div class="panel-heading">Tweets</div>
               <div class="panel-body">
@@ -218,17 +178,17 @@
         <br/>
         <a href="mailto:admin@textalysis.io">Contact us</a> for further information or to sign on
         <br/>
-  	  <hr/>
+      <hr/>
 
-  	  <div class="footer" align="center">
-  			<font face="Verdana" size="1">
-  				<a href="/privacy.html">Privacy Policy</a> |
-  				<a href="/terms.html">Terms of Use</a> |
-  				<a href="/team.html">Team</a> |
-  				<a href="mailto:admin@textalysis.io">Contact</a><br/>
-  			</font>
-  			&copy;2014 Textalysis.io
-  	  </div>
+      <div class="footer" align="center">
+        <font face="Verdana" size="1">
+          <a href="/privacy.html">Privacy Policy</a> |
+          <a href="/terms.html">Terms of Use</a> |
+          <a href="/team.html">Team</a> |
+          <a href="mailto:admin@textalysis.io">Contact</a><br/>
+        </font>
+        &copy;2014 Textalysis.io
+      </div>
 
     </div> <!-- /container -->
     
