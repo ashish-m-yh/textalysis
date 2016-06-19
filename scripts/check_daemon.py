@@ -10,6 +10,6 @@ p = subprocess.Popen('ps -eF | grep jsvc | grep -v grep',
 retval = p.wait()
 
 if retval == 1:
-    os.chdir("/home/ta")
-    call(["./start.sh"])
+    os.chdir("/home/ta/production/textalysis/nlp_server")
+    call(["../scripts/start.sh"])
     print "Java daemon started"
