@@ -36,7 +36,7 @@ This is the Textalysis project for customer feedback analysis based on sentiment
 * mkdir -p /var/www/reports/demo1
 * set user variable in ./config/pythonserver.py to your username
 * Place ./config/pythonserver.py in /etc/supervisor/conf.d
-* Restart supervisor ```sudo service supervisor restart```
+* sudo supervisorctl restart all
 
 ### For Apache Server ###
 
