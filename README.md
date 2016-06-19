@@ -24,22 +24,26 @@ This is the Textalysis project for customer feedback analysis based on sentiment
 
 ### For NLP server ###
 
+* Create a symlink for compile_java.sh in nlp_server folder
+  ```ln -s ./scripts/compile_java.sh ./nlp_server/compile_java.sh```
+* ```cd nlp_server```
 * Run ./compile_java.sh to compile *.java files
 * Run ./start.sh to start the NLP server
 
 ### For Python server ###
 
-* Place the www code in /var/www 
 * pip install -r scripts/requirements.txt
-* cd /var/www && python server.py
-* mkdir /var/www/excel
-* mkdir -p /var/www/reports/demo1
+* ```cd www``` && ```python server.py```
+* ```mkdir /var/www/excel```
+* ```mkdir -p /var/www/reports/demo1```
 * set user variable in ./config/pythonserver.py to your username
+* set directory variable to ./www folder
 * Place ./config/pythonserver.py in /etc/supervisor/conf.d
-* sudo supervisorctl restart all
+* ```sudo supervisorctl restart all```
 
 ### For Apache Server ###
 
+* Change DocumentRoot in ./config/000-default.conf
 * Place ./config/000-default.conf in /etc/apache2/sites-available
 * For directories /var/www/excel and /var/www/reports change the following:
     1. Ownership: to user running the python server
@@ -48,7 +52,7 @@ This is the Textalysis project for customer feedback analysis based on sentiment
     2. Permission: 700
         * ```chmod -R 755 excel```
         * ```chmod -R 755 reports```
-* Restart apache server
+* Restart apache server ```sudo service apache2 restart```
 
 ### Steps to ensure NLP server is running ###
 
@@ -72,9 +76,9 @@ This is the Textalysis project for customer feedback analysis based on sentiment
 
 * To ensure python server and NLP server is running:
 
-    ```cd /var/www```
+    ```python www/twitter_srch.py``` should create a tsv file in /var/www/reports/demo1
 
-    ```python twitter_srch.py``` should create a tsv file in ./reports/demo1
+* [Getting Started](http://localhost/start.html). Enter a twitter handle and a demo report will be shown.
 
 ## Configuration
 
