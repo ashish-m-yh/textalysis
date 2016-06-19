@@ -76,8 +76,6 @@ This is the Textalysis project for customer feedback analysis based on sentiment
 
     ```python twitter_srch.py``` should create a tsv file in ./reports/demo1
 
-* Upload a .xls file at [Getting Started](http://localhost/start.html). A demo report should be shown and detailed report should be downloadable as excel file.
-
 ## Configuration
 
 * Set the values in /var/www/conf.py
