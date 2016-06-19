@@ -36,7 +36,7 @@
             method: 'GET',
             success: displayTweets,
             error: function (xhr, status, error) {
-              $('.twitter-handle-error').text('@' + $('.twitter-handle').val() + ' does not exists!');
+              $('.twitter-handle-error').text('@' + $('.twitter-handle').val() + ' does not exist!');
               $('.twitter-handle-error').show();
             },
             dataType: 'json' });
