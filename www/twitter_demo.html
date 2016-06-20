@@ -11,69 +11,15 @@
     <!-- Le styles -->
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
+    <link rel="stylesheet" type="text/css" href="/assets/css/typeahead.css">
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-
-    <script>
-    $(document).ready(function() {
-      
-      $('.twitter-handle').keyup(function(key) {
-          if(key.keyCode == 13) {
-            $(".search").trigger("click");
-            return false;
-          }
-        });
-
-      $(".search").click(function(event){
-        event.preventDefault();
-        if ($('.twitter-handle').val() != ''){
-          
-          $.ajax({
-            url: '/app/reports/'+ $('.twitter-handle').val() +'.json',
-            method: 'GET',
-            success: displayTweets,
-            error: function (xhr, status, error) {
-              $('.twitter-handle-error').text('@' + $('.twitter-handle').val() + ' does not exist!');
-              $('.twitter-handle-error').show();
-            },
-            dataType: 'json' });
-
-          function displayTweets(data, status){
-            var analysedTweets = data['results'];
-            
-            for (var i = 0; i < analysedTweets.length; i++) {
-              var tweet = analysedTweets[i];
-              if (tweet.score > 0.0)
-                $('.panel-body').append("<div class='tweet'>" + 
-                    "<div >" + tweet.tweet + "</div>" +
-                    "<div class='badges'>" +
-                      "<span class='badge pos_per'>" + tweet.pos_per + "%</span>" +
-                      "<span class='badge neg_per'>" + tweet.neg_per + "%</span>" +
-                    "</div>" +
-                    "<div class='progress'>" +  
-                      "<div class='progress-bar progress-bar-success progress-bar-striped' role='progressbar' aria-valuenow='"+ tweet.pos_per +"'"+
-                      "aria-valuemin='0' aria-valuemax='100' style='width:"+ tweet.pos_per +"%;'/>" +
-                      "<div class='progress-bar progress-bar-danger progress-bar-striped' role='progressbar' aria-valuenow='"+ tweet.neg_per +"'"+
-                      "aria-valuemin='0' aria-valuemax='100' style='width:"+ tweet.neg_per +"%;'/>" +
-                    "</div></div><br>");
-            }
-            $('.panel').show();
-          }
-        }
-      });
-    });
-        
-    </script>
 
     <style type="text/css">
       body {
         padding-top: 20px;
         padding-bottom: 40px;
       }
-
       /* Custom container */
       .container-narrow {
         margin: 0 auto;
@@ -82,62 +28,50 @@
       .container-narrow > hr {
         margin: 30px 0;
       }
-
-    .tweets {
-      margin-top: 30px;
-      overflow: hidden;
-    }
-    .tweet{
-      clear: both;
-    }
-    .badges{
-      margin-top: 0px;
-      clear: both;   
-      float: right;
-      max-width: 700px;
-    }
-    .progress {
-      clear: both;
-      background: rgba(245, 245, 245, 1); 
-      border: 0px solid rgba(245, 245, 245, 1);
-      border-radius: 0px; height: 10px;
-      margin-bottom: 0px;
-      opacity: 0.8;
-      max-width: 700px;
-    }
-
-    .progress-bar-custom {
-      background: rgba(66, 139, 202, 1);
-      align: right;
-    }
-
-    .pos_per {
-      align: right;
-      background-color: #5cb85c;
-    }
-
-    .neg_per {
-      background-color: #d9534f;
-    }
-
-    .panel{
-      display: none;
-    }
-    .twitter-handle-error{
-      margin-top: 20px;
-      display: none;
-      text-align: center;
-    }
+      .tweets {
+        margin-top: 30px;
+        overflow: hidden;
+        clear: both;
+      }
+      .tweet{
+        clear: both;
+      }
+      .badges{
+        margin-top: 0px;
+        clear: both;
+        float: right;
+        max-width: 700px;
+      }
+      .progress {
+        clear: both;
+        background: rgba(245, 245, 245, 1);
+        border: 0px solid rgba(245, 245, 245, 1);
+        border-radius: 0px; height: 10px;
+        margin-bottom: 0px;
+        opacity: 0.8;
+        max-width: 700px;
+      }
+      .progress-bar-custom {
+        background: rgba(66, 139, 202, 1);
+        align: right;
+      }
+      .pos_per {
+        align: right;
+        background-color: #5cb85c;
+      }
+      .neg_per {
+        background-color: #d9534f;
+      }
+      .panel{
+        display: none;
+      }
+      .twitter-handle-error{
+        margin-top: 20px;
+        display: none;
+        text-align: center;
+      }
     </style>
-    
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="../assets/js/html5shiv.js"></script>
-    <![endif]-->
-
     <!-- Fav and touch icons -->
-  
-  
   </head>
 
   <body>
@@ -157,24 +91,19 @@
       <hr>
         <br/>
           <!-- twitter handle search box -->
-          <div class="input-group">
+          <div class="input-group" id="the-basics">
             <span class="input-group-addon">@</span>
-            <input type="text" class="form-control twitter-handle" placeholder="Enter twitter handle">
-            <span class="input-group-btn">
-              <button class="btn btn-default search" type="button">Search!</button>
-            </span>
+            <input type="text" class="form-control typeahead twitter-handle" placeholder="Enter twitter handle">
           </div>
-          
-          <div class="twitter-handle-error text-danger"></div>
 
+           <!-- error if twitter-handle doesnot exists -->
+          <div class="twitter-handle-error text-danger"></div>
+          <!-- displays the analysed tweets -->
           <div class="panel panel-primary tweets">
             <div class="panel-heading">Tweets</div>
-              <div class="panel-body">
-              
-              </div>
+              <div class="panel-body"></div>
           </div>
 
-         
         <br/>
         <a href="mailto:admin@textalysis.io">Contact us</a> for further information or to sign on
         <br/>
@@ -192,9 +121,97 @@
 
     </div> <!-- /container -->
     
-    <!-- Latest compiled and minified JavaScript -->
-      
+    <script type="text/javascript" src="/assets/js/jquery-1.11.0.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/assets/js/typeahead.bundle.min.js"></script>
+    <script type="text/javascript">
 
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"/>
+      $('.twitter-handle').on('typeahead:select', function (e, selectedHandle) {
+        getResults(selectedHandle);
+      });
+      
+      $('.twitter-handle').on('typeahead:change', function (e, selectedHandle) {
+        getResults(selectedHandle);
+      });
+
+      function getResults(selectedHandle){
+        $.ajax({
+          url: '/app/reports/'+ selectedHandle +'.json',
+          method: 'GET',
+          success: displayTweets,
+          error: function (xhr, status, error) {
+            $('.twitter-handle-error').text('@' + selectedHandle + ' does not exist!');
+            $('.twitter-handle-error').show();
+            $('.tweets').hide();
+          },
+          dataType: 'json' });
+      }
+
+      function displayTweets(data, status) {
+      // removes divs present in tweets panel
+        $(".panel-body").empty();
+
+        var analysedTweets = data['results'];
+        if (analysedTweets.length == 0) {
+          $('.twitter-handle-error').text('Unable to fetch tweets at the current moment. Please try after sometime.');
+          $('.twitter-handle-error').show();
+          $('.tweets').hide();
+        }
+        else {
+          for (var i = 0; i < analysedTweets.length; i++) {
+            var tweet = analysedTweets[i];
+            if (tweet.score > 0.0)
+              $('.panel-body').append("<div class='tweet'>" +
+                "<div >" + tweet.tweet + "</div>" +
+                "<div class='badges'>" +
+                  "<span class='badge pos_per'>" + tweet.pos_per + "%</span>" +
+                  "<span class='badge neg_per'>" + tweet.neg_per + "%</span>" +
+                "</div>" +
+                "<div class='progress'>" +
+                  "<div class='progress-bar progress-bar-success progress-bar-striped' role='progressbar' aria-valuenow='"+ tweet.pos_per +"'"+
+                  "aria-valuemin='0' aria-valuemax='100' style='width:"+ tweet.pos_per +"%;'/>" +
+                  "<div class='progress-bar progress-bar-danger progress-bar-striped' role='progressbar' aria-valuenow='"+ tweet.neg_per +"'"+
+                  "aria-valuemin='0' aria-valuemax='100' style='width:"+ tweet.neg_per +"%;'/>" +
+                "</div></div><br>");
+          }
+          $('.panel').show();
+          $('.twitter-handle-error').hide();
+        }
+    }
+
+    var substringMatcher = function(strs) {
+      return function findMatches(q, cb) {
+        var matches, substringRegex;
+        // an array that will be populated with substring matches
+        matches = [];
+        // regex used to determine if a string contains the substring `q`
+        substrRegex = new RegExp(q, 'i');
+        // iterate through the pool of strings and for any string that
+        // contains the substring `q`, add it to the `matches` array
+        $.each(strs, function(i, str) {
+          if (substrRegex.test(str)) {
+            matches.push(str);
+          }
+        });
+        cb(matches);
+      };
+    };
+
+    var handles = ['airtelindia', 'vodafonein'];
+    $('#the-basics .typeahead').typeahead({
+      hint: true,
+      highlight: true,
+      minLength: 1
+    },
+    {
+      name: 'handles',
+      source: substringMatcher(handles)
+    });
+
+  </script>
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.js"></script>
+    <![endif]-->
   </body>
 </html>
