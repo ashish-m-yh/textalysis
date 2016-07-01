@@ -9,7 +9,7 @@ import com.efficientmail.SentiClassify;
 import com.efficientmail.ThemeDetect;
 import com.efficientmail.TextClean;
 
-import com.efficientmail.Meter;
+//import com.efficientmail.Meter;
 
 import org.apache.commons.daemon.*;
 
@@ -109,7 +109,7 @@ public class RabbitServer implements Daemon {
 					fd.write(message.getBytes());
 					fd.close();
 				}
-				catch (IOException e) {
+				catch (Exception e) {
 
 				}
 			}
@@ -117,16 +117,10 @@ public class RabbitServer implements Daemon {
 	}
 
 	public String getSentiment(String msg, String licence_code) {
-		String meter_dir 	= System.getProperty("meter_dir");
-
-		if ( meter_dir == null || "".equals(meter_dir) || " ".equals(meter_dir) || licence_code == null || "".equals(licence_code) || " ".equals(licence_code) ) return "Licence expired or key not provided"; 
-
 		SentiClassify s	  = new SentiClassify(this.ldr);
-		ThemeDetect	  t	  = new ThemeDetect(this.ldr);
+		ThemeDetect   t	  = new ThemeDetect(this.ldr);
 
-        Meter m = new Meter(meter_dir,licence_code);
-
-		if (m.checkMeter()) {
+		if (true) {
 			msg = msg.replaceAll("\\r\\n|\\r|\\n", " ");
 
 			System.out.println(licence_code + " " + msg);
@@ -154,8 +148,6 @@ public class RabbitServer implements Daemon {
 
 			pos_pc  = Math.round(scr[0]/base*100);
 			neg_pc  = Math.round(scr[1]/base*100);
-
-			m.updateMeter();
 
 			return String.valueOf(base) + ";" + Integer.toString(pos_pc) + ";" + Integer.toString(neg_pc) + ";" + themes_pos + ";" + themes_neg + ";" + theme_kw; 
 		}
