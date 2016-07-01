@@ -209,4 +209,15 @@ unable to manage	-0.45
 service is down	-0.45
 third class	-0.45
 totally down	-0.45
+see how your team works	-0.30
 what the hell	-0.45
+be transparent	-0.45
+didn't know	0.0
+didnt know	 0.0
+no point	-0.25
+laughed	-0.45
+business intelligence	0.0
+escalating	-0.35
+telling a lie	-0.45
+missed call	0.0
+joke	-0.45

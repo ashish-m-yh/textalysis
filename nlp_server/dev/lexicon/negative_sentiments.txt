@@ -787,10 +787,7 @@ conceit	n	-0.075
 conceited	a	-0.75
 concen
 concens
-concern	n	0.15
-concern	v	0.1875
 concerned	a	0
-concerns	v	0.20
 concession	n	0
 concessions
 condemn	v	-0.104166666666667
@@ -1707,8 +1704,8 @@ dropout	n	0
 dropouts
 drought	n	0.0625
 drowning
-drunk	n	0.0625
-drunk	a	0
+drunk	n	0.6025
+drunk	a	0.6025
 drunkard	n	0.125
 drunken	a	0.25
 dubious	a	-0.166666666666667
@@ -3113,8 +3110,8 @@ jitters	n	0
 jittery	a	0.125
 job-killing
 jobless	a	-0.75
-joke	n	0.34375
-joke	v	0.3125
+joke	n	-0.34375
+joke	v	-0.3125
 joker	n	0
 jolt	n	-0.1875
 jolt	v	0

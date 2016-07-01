@@ -54,7 +54,9 @@ public class SentiClassify {
 
 		final double boost  = 1.20;
 
-        final String MAIL_REGEX  = "([_A-Za-z0-9-]+)(\\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\\.[A-Za-z0-9-]+)*(\\.[A-Za-z]{2,})";
+        	final String MAIL_REGEX  = "([_A-Za-z0-9-]+)(\\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\\.[A-Za-z0-9-]+)*(\\.[A-Za-z]{2,})";
+
+		this.log(inputText);
 
 		inputText = inputText.replaceAll("(\\.|\\?|\\!)","$1 "); 
 		inputText = inputText.replaceAll("(?i)didnt","did not");
