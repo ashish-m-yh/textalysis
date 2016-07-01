@@ -1428,7 +1428,6 @@ successful	a	0.625
 successfully	r	0.125
 suffice	v	0.5
 sufficient	a	0.625
-suitable	a	0.3125
 sumptuous	a	0.75
 sumptuously	r	0.375
 sumptuousness	n	0.0625
