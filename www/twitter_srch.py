@@ -4,7 +4,7 @@ import re, string, sys
 
 APP_KEY = 'n5LFANrACgG4jPvT1xxCDsJ6a'
 APP_SECRET = 'rZmQ7b1xSguFyJAq7I8xFdjjQtHXu62ToExCbQhBZDDeCaACtv'
-OUT_FILE = '.'.join((sys.argv[1][1:], 'tsv'))
+OUT_FILE = '.'.join((sys.argv[1], 'tsv'))
 LKEY = 'demo1'
 
 
