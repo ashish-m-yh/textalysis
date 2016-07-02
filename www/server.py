@@ -8,6 +8,7 @@ from results import Results
 from test import Test
 from new_demo import NewDemo
 from dataproc import Dataproc
+from analyze import Analyze 
 
 if __name__ == "__main__":
 
@@ -21,6 +22,7 @@ if __name__ == "__main__":
             (r'/app/reports/demo', NewDemo),
             (r'/app/dataproc', Dataproc),
             (r'/app/dataproc/(.+).json', Dataproc),
+            (r'/app/analyze', Analyze),
             (r'/app/test', Test)
         ],
         debug=True)
