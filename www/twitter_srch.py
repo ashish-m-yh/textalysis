@@ -30,7 +30,8 @@ def get_tweets(twitter, query, num):
 
 
 twitter = authenticate(APP_KEY, APP_SECRET)
-tweets = get_tweets(twitter, sys.argv[1], 100)
+handle = sys.argv[1]
+tweets = get_tweets(twitter, handle, 100)
 
 rpc_client = AsyncClient()
 
@@ -39,6 +40,12 @@ rmv_whitespace_map = dict((ord(char), None)
 for tweet in tweets:
     try:
         text = unicode(tweet['text'])
+        pattern = '@' + handle
+        pattern = pattern + '|' + re.sub('_', '', pattern)
+        matches = re.match(pattern, text, re.IGNORECASE)
+        if matches is None:
+            continue
+
         text = re.sub('[^A-Za-z0-9\s]+', '', text).strip()
         text = text.translate(rmv_whitespace_map)
         text = re.sub('[ ]+', ' ', text)
