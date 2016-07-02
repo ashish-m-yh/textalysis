@@ -19,9 +19,9 @@ for txt_file in input_files:
         f = open(txt_file, "r")
         for line in f.readlines():
             line = line.rstrip()
-            ts = re.sub(':','',str(datetime.datetime.now()))
-            ts = re.sub(' ','',ts).split('.')[0]
-            ts = ts[:10] + ' ' + ts[10:] 
+            ts = re.sub(':', '', str(datetime.datetime.now()))
+            ts = re.sub(' ', '', ts).split('.')[0]
+            ts = ts[:10] + ' ' + ts[10:]
             rpc_client.call(LKEY, line, ts, out_file)
         f.close()
 

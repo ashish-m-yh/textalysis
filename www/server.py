@@ -20,6 +20,7 @@ if __name__ == "__main__":
             (r'/app/reports/(.+).json', Results),
             (r'/app/reports/demo', NewDemo),
             (r'/app/dataproc', Dataproc),
+            (r'/app/dataproc/(.+).json', Dataproc),
             (r'/app/test', Test)
         ],
         debug=True)
