@@ -7,6 +7,7 @@ from reportlist import ReportList
 from results import Results
 from test import Test
 from new_demo import NewDemo
+from dataproc import Dataproc
 
 if __name__ == "__main__":
 
@@ -18,6 +19,7 @@ if __name__ == "__main__":
             (r'/app/demoreport/(.+)/(.+)', Report),
             (r'/app/reports/(.+).json', Results),
             (r'/app/reports/demo', NewDemo),
+            (r'/app/dataproc', Dataproc),
             (r'/app/test', Test)
         ],
         debug=True)
