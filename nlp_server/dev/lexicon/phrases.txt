@@ -220,4 +220,22 @@ business intelligence	0.0
 escalating	-0.35
 telling a lie	-0.45
 missed call	0.0
+limited support	0.0
+coming apart	-0.35
+doesnt work	-0.45
+didnt work	-0.45
+wont work	-0.45
+no improvement	-0.35
+no longer works	-0.40
+never turned up	-0.35
+trash	-0.45
+doesnt support	-0.40
+does not support	-0.40
+no word on	-0.20
+ran out of	-0.40
+no word about	-0.20
+no word on	-0.20
+for no reason	-0.30
+stopped working	-0.45
+stopped functioning	-0.45
 joke	-0.45

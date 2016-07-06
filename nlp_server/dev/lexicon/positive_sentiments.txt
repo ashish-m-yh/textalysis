@@ -631,10 +631,6 @@ fervid	a	0.1875
 fervor	n	0.125
 fidelity	n	0.1875
 fiery	a	0.0833333333
-fine	n	0.125
-fine	r	0.3125
-fine	a	0.2916666667
-fine	v	0.125
 fine-looking	a	0.625
 finely	r	0.3333333333
 finer	a	0.75
@@ -717,9 +713,6 @@ godsend	n	0.375
 gold	n	0.025
 gold	a	0.0625
 golden	a	0.2708333333
-good	n	0.125
-good	a	0.2130952381
-good	r	0.1875
 goodness	n	0.75
 goodwill	n	0.1853333333
 gorgeous	a	0.75
@@ -932,10 +925,7 @@ liberation	n	0.0833333333
 lifesaver	n	0.0625
 light-hearted	a	0.625
 likable	a	0.375
-like	v	0.35
-like	r	0.35
-like	n	0.35
-like	a	0.35
+likeable	a	0.375
 liked	a	0.35
 likes	v	0.24
 liking	n	0.25
@@ -1725,8 +1715,6 @@ gooood	r	0.1875
 gratifies	v	0.25
 happier	a	0.6
 hard-working	a	0.0625
-help	n	0.25
-help	v	0.25
 helped	v	0.2
 high-quality	a	0.75
 Hot-cakes	n	0.25

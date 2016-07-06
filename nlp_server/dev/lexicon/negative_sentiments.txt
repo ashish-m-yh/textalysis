@@ -5299,7 +5299,6 @@ troubling	a	-0.875
 troublingly
 truant	n	-0.0625
 truant	a	-0.25
-trying	a	-0.25
 tumble	n	-0.0625
 tumble	v	-0.0340909090909091
 tumbled
