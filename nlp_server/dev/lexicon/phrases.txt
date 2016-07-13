@@ -238,4 +238,5 @@ no word on	-0.20
 for no reason	-0.30
 stopped working	-0.45
 stopped functioning	-0.45
+suck	-0.40
 joke	-0.45
