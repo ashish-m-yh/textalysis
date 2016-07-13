@@ -49,46 +49,12 @@
         margin-top: 28px;
       }
 
-      .price-list .price-box {
-        text-align: center;
-  	display: inline-block;
-	-webkit-transition: 300ms ease;
-  	-moz-transition: 300ms ease;
-  	-o-transition: 300ms ease;
-  	-ms-transition: 300ms ease;
-  	transition: 300ms ease;
+      th {
+	font-size: 14px;
       }
 
-      .price-list .price-box .features > li:first-child {
-	  border-radius: 0px;
-      }
-
-      .price-list .price-box .price-header > h3 {
-	  height: 80px;
-  	  border: 1px solid #DDD;
-  	  text-align: center;
-  	  line-height: 80px;
-  	  text-transform: uppercase;
-  	  margin-bottom: 0px;
-  	  color: #FFFFFF;
-      }
-
-      .price-list .price-box.featured:hover {
-  	  margin-top: -20px;
-	  position: relative;
-  	  -webkit-transition: 300ms ease;
-  	  -moz-transition: 300ms ease;
-  	  -o-transition: 300ms ease;
-  	  -ms-transition: 300ms ease;
-  	  transition: 300ms ease;
-      }
-
-      .price-list .price-box.featured .price-header > h3 {
-  	  background: #90c657;
-	  height: 80px;
-  	  text-align: center;
-  	  line-height: 80px;
-  	  text-transform: uppercase;
+      td {
+	font-size: 12px;
       }
     </style>
     <link href="/assets/css/bootstrap-responsive.css" rel="stylesheet">
@@ -163,27 +129,73 @@
 	</div>
  
 	<div class="hero-unit">
-		<h2><span class="text-info">API Explorer - Realtime API</span></h2><br/>
+		<h2><span class="text-info">API Explorer</span></h2>
 		<form>
 		<div class="row-fluid">
-			<div class="span10">
+			<div class="form-group">
+				<label for="api_query" class="control-label"><strong>curl command</strong></label>
 		    		<input type="text" class="form-control input-xlarge" id="api_query">
 			</div>
 		</div>
 		<div class="row-fluid">
 		    <div class="span5">
 			<div class="form-group">
-				<textarea class="form-control" id="comment" rows="10" placeholder="Comment"></textarea>
+				<label for="comment" class="control-label"><strong>Text to analyse</strong></label>
+				<textarea class="form-control" id="comment" rows="10" placeholder="Enter text for analysis"></textarea>
 			</div>
 		    </div>
 		     <div class="span5" id="result">
 			<div class="form-group">
+				<label for="json_response"><strong>JSON response</strong></label>
 				<textarea class="form-control" id="json_response" rows="10" placeholder="API Response"></textarea>
 			</div>
 	    	     </div>
 		</div>
 		<button type="submit" class="btn" onclick="return call_api();">Submit</button>
 		</form>
+		<br/>
+		<table class="table table-inverse table-bordered table-sm table-hover">
+		     <thead>
+			<tr>
+				<th>#</th>
+				<th>Field</th>
+				<th>Type</th>
+				<th>Description</th>
+			</tr>
+		     </thead>
+		     <tbody>
+			<tr>
+				<td>1.</td>
+				<td>comment</td>
+				<td>string</td>
+				<td>The comment text supplied to API</td>
+			</tr>
+			<tr>
+				<td>2.</td>
+				<td>score</td>
+				<td>float</td>
+				<td>Sentiment strength of the comment - higher value may indicate greater importance of the comment</td>
+			</tr>
+			<tr>
+				<td>3.</td>
+				<td>neg_per</td>
+				<td>float</td>
+				<td>Indicates percentage of negative sentiment in comment</td>
+			</tr>
+			<tr>
+				<td>4.</td>
+				<td>pos_per</td>
+				<td>float</td>
+				<td>Indicates percentage of positive sentiment in comment</td>
+			</tr>
+			<tr>
+				<td>5.</td>
+				<td>created_at</td>
+				<td>timestamp</td>
+				<td>Date and time when comment was submitted to server</td>
+			</tr>
+		     </tbody>
+		</table>
 	</div>
  
 	  <br/>
