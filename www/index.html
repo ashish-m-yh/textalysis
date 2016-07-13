@@ -24,29 +24,7 @@
         max-width: 700px;
       }
       .container-narrow > hr {
-        margin: 30px 0;
-      }
-
-      /* Main marketing message and sign up button */
-      .jumbotron {
-        margin: 30px 0;
-        text-align: center;
-      }
-      .jumbotron h1 {
-        font-size: 72px;
-        line-height: 1;
-      }
-      .jumbotron .btn {
-        font-size: 21px;
-        padding: 14px 24px;
-      }
-
-      /* Supporting marketing content */
-      .marketing {
-        margin: 40px 0;
-      }
-      .marketing p + h4 {
-        margin-top: 28px;
+        margin: 10px 0;
       }
 
       th {
@@ -54,6 +32,14 @@
       }
 
       td {
+	font-size: 12px;
+      }
+
+      li {
+	font-size: 12px;
+      }
+ 
+      p {
 	font-size: 12px;
       }
     </style>
@@ -116,7 +102,7 @@
 		<h2><span class="text-info">Why Textalysis?</span></h2>
 		<div class="row-fluid">
 			<ul>
-				<li>Language analysis on all kinds of data in your organization - social media, files etc.</li>
+				<li>Linguistic analysis on all kinds of data in your organization - social media, files etc.</li>
 				<li>Escalation of important feedback</li>
 				<li>Easily customizable for your domain or organization needs</li>
 				<li>Understands phrases, not just words</li>
@@ -130,6 +116,7 @@
  
 	<div class="hero-unit">
 		<h2><span class="text-info">API Explorer</span></h2>
+		<h3><span class="text-info">Real-time API (single text comment)</span></h3>
 		<form>
 		<div class="row-fluid">
 			<div class="form-group">
@@ -153,7 +140,7 @@
 		</div>
 		<button type="submit" class="btn" onclick="return call_api();">Submit</button>
 		</form>
-		<br/>
+		<h5>Parameters</h5>
 		<table class="table table-inverse table-bordered table-sm table-hover">
 		     <thead>
 			<tr>
@@ -196,6 +183,39 @@
 			</tr>
 		     </tbody>
 		</table>
+		<div class="row-fluid">
+			<h3><span class="text-info">Asynchronous API (batch mode)</span></h3>
+			<p><strong>Not available in API Explorer. Please contact us for a key to try it.</strong></p>
+			<h5>Upload file (newline separated)</h5>
+			<p>curl -F 'file_key=&lt;api_key&gt;' -F 'comments=@&lt;file_name&gt;' http://textalysis.io/app/dataproc</p>
+			<h5>View result</h5>
+			<p>curl http://textalysis.io/app/dataproc/&lt;file_key&gt;.json</p>
+			<h5>Parameters</h5>
+			<table class="table table-inverse table-bordered table-sm table-hover">
+			     <thead>
+				<tr>
+				<th>#</th>
+				<th>Field</th>
+				<th>Type</th>
+				<th>Description</th>
+				</tr>
+		     	     </thead>
+			     <tbody>	
+				<tr>
+				<td>1.</td>
+				<td>file_key</td>
+				<td>string</td>
+				<td>API key is unique to your licence and provided by us on signing up</td>
+				</tr>
+				<tr>
+				<td>2.</td>
+				<td>file_name</td>
+				<td>string</td>
+				<td>Name of file to upload (newline separated file - one line per comment)</td>
+				</tr>
+			     </tbody>	
+			</table>
+		</div>
 	</div>
  
 	  <br/>
