@@ -129,6 +129,8 @@
     <script type="text/javascript">
       var clientData;
       var firstEntry = 0;
+      // default selected value
+      $('.typeahead').typeahead('val', handles[0]);
 
       $('.twitter-handle').on('typeahead:select', function (e, selectedHandle) {
         getResults(selectedHandle);
@@ -267,6 +269,10 @@
       source: substringMatcher(handles)
     });
 
+    function setDefaultHandle(handle) {
+      $('.twitter-handle').typeahead('val', handle, getResults(handle));
+    }
+    setDefaultHandle(handles[0]);
   </script>
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
