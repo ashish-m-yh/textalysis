@@ -186,6 +186,7 @@
 		<div class="row-fluid">
 			<h3><span class="text-info">Asynchronous API (batch mode)</span></h3>
 			<p><strong>Not available in API Explorer. Please contact us for a key to try it.</strong></p>
+			<p>The file is uploaded with one API call and the results are available asynchronously with another API call. There is no push mechanism provided, so there is a necessity to poll the GET API to retrieve the results.</p> 
 			<h5>Upload file (newline separated)</h5>
 			<p>curl -F 'file_key=&lt;api_key&gt;' -F 'comments=@&lt;file_name&gt;' http://textalysis.io/app/dataproc</p>
 			<h5>View result</h5>
