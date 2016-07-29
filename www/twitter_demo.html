@@ -210,6 +210,14 @@
 	  if (val == 0) {
 	    var median = math.median(scoreList);
 	    val = Math.round(median * 100) / 100;
+
+	    tweetCount = 0;
+            for (var i = 0; i < analysedTweets.length; i++) {
+              var tweet = analysedTweets[i];
+   	      if (tweet.score > val) {
+	        tweetCount++;
+	      }
+	    }
 	  }
 
 	  $('.panel-body').append("<strong>* Higher strength indicates more sentiment and may indicate a more important comment<br/><br/>" + tweetCount + " tweets > strength of " + val + " </strong><br/><br/>");
