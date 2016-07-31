@@ -1,7 +1,7 @@
 from os import path
 from tornado import web
 from operator import itemgetter
-import tornado
+import tornado, re
 
 
 class Results(web.RequestHandler):
@@ -9,11 +9,11 @@ class Results(web.RequestHandler):
         try:
             file = path.join('./reports/demo1/',
                              '.'.join((twttr_handle, 'tsv')))
-            record = ['created_at', 'tweet', 'score', 'pos_per', 'neg_per',
+            record = ['created_at', 'tweet_id', 'tweet', 'score', 'pos_per', 'neg_per',
                       'status', 'category', 'issue']
 
             with open(file, 'r') as report:
-                results = [dict(zip(record, line.strip().split('\t')))
+                results = [dict(zip(record, re.split(r'[/\t]', line.strip())))
                            for line in report]
                 results = sorted(results,
                                  key=itemgetter('score'),

@@ -12,9 +12,7 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="/assets/css/typeahead.css">
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
     <style type="text/css">
       body {
         padding-top: 20px;
@@ -129,18 +127,19 @@
     <script type="text/javascript">
       var clientData;
       var firstEntry = 0;
-
+      var currentHandle = '';
       $('.twitter-handle').on('typeahead:select', function (e, selectedHandle) {
-	firstEntry = 0;
+        firstEntry = 0;
         getResults(selectedHandle);
       });
       
       $('.twitter-handle').on('typeahead:change', function (e, selectedHandle) {
-	firstEntry = 0;
+        firstEntry = 0;
         getResults(selectedHandle);
       });
 
       function getResults(selectedHandle){
+        currentHandle = selectedHandle;
         $.ajax({
           url: '/app/reports/'+ selectedHandle +'.json',
           method: 'GET',
@@ -154,24 +153,24 @@
       }
 
       function changeValue(val) {
-	displayTweets(clientData, val);
+        displayTweets(clientData, val);
       }
 
       function displayTweets(data, val) {
       // removes divs present in tweets panel
         $(".panel-body").empty();
 
-	if (firstEntry == 0) {
-	  clientData = data;
-	}
+  if (firstEntry == 0) {
+    clientData = data;
+  }
 
-	firstEntry++;
+  firstEntry++;
 
-	if (val == 'success') {
-	  val = 0;
-	}
+  if (val == 'success') {
+    val = 0;
+  }
 
-	var scoreList = [];
+  var scoreList = [];
         var analysedTweets = data['results'];
         if (analysedTweets.length == 0) {
           $('.twitter-handle-error').text('Unable to fetch tweets at the current moment. Please try after sometime.');
@@ -179,50 +178,50 @@
           $('.tweets').hide();
         }
         else {
-	  minScr = Number.MAX_SAFE_INTEGER;
-	  maxScr = 0;
-	  tweetCount = 0;
+    minScr = Number.MAX_SAFE_INTEGER;
+    maxScr = 0;
+    tweetCount = 0;
 
           for (var i = 0; i < analysedTweets.length; i++) {
             var tweet = analysedTweets[i];
 
-	    if (tweet.score == 0) {
-	      continue;
-	    }
+      if (tweet.score == 0) {
+        continue;
+      }
 
-	    if (tweet.score > 0) {
-	      scoreList.push(tweet.score); 
-	    }
+      if (tweet.score > 0) {
+        scoreList.push(tweet.score); 
+      }
 
-	    if (tweet.score > maxScr) {
-	      maxScr = Math.round(tweet.score * 100) / 100;
+      if (tweet.score > maxScr) {
+        maxScr = Math.round(tweet.score * 100) / 100;
             }
 
-	    if (tweet.score < minScr) {
-	      minScr = Math.round(tweet.score * 100) / 100;
+      if (tweet.score < minScr) {
+        minScr = Math.round(tweet.score * 100) / 100;
             }
 
-	    if (tweet.score > val) {
-	      tweetCount++;
-	    }
-	  }
+      if (tweet.score > val) {
+        tweetCount++;
+      }
+    }
 
-	  if (val == 0) {
-	    var median = math.median(scoreList);
-	    val = Math.round(median * 100) / 100;
+    if (val == 0) {
+      var median = math.median(scoreList);
+      val = Math.round(median * 100) / 100;
 
-	    tweetCount = 0;
+      tweetCount = 0;
             for (var i = 0; i < analysedTweets.length; i++) {
               var tweet = analysedTweets[i];
-   	      if (tweet.score > val) {
-	        tweetCount++;
-	      }
-	    }
-	  }
+          if (tweet.score > val) {
+          tweetCount++;
+        }
+      }
+    }
 
-	  $('.panel-body').append("<strong>* Higher strength indicates more sentiment and may indicate a more important comment<br/><br/>" + tweetCount + " tweets > strength of " + val + " </strong><br/><br/>");
+    $('.panel-body').append("<strong>* Higher strength indicates more sentiment and may indicate a more important comment<br/><br/>" + tweetCount + " tweets > strength of " + val + " </strong><br/><br/>");
 
-	  $('.panel-body').append("<strong>Sentiment strength (" + minScr + " - " + maxScr + ")</strong><form><input type='range' value='" + val + "'" + "onchange='changeValue(this.value)' step='0.01' min='" + minScr + "' max='" + maxScr + "'></form><br/>");
+    $('.panel-body').append("<strong>Sentiment strength (" + minScr + " - " + maxScr + ")</strong><form><input type='range' value='" + val + "'" + "onchange='changeValue(this.value)' step='0.01' min='" + minScr + "' max='" + maxScr + "'></form><br/>");
 
           for (var i = 0; i < analysedTweets.length; i++) {
             var tweet = analysedTweets[i];
@@ -233,6 +232,7 @@
                   "<span class='badge score'>" + Math.round(tweet.score * 100) / 100 + "</span>" +
                   "<span class='badge pos_per'>" + tweet.pos_per + "%</span>" +
                   "<span class='badge neg_per'>" + tweet.neg_per + "%</span>" +
+                  "<a class='btn btn-primary btn-xs' target='_blank' href='http://www.twitter.com/"+currentHandle+"/status/"+ tweet.tweet_id +"' role='button'><i class='fa fa-twitter' aria-hidden='true'></i> Reply</a>" +
                 "</div>" +
                 "<div class='progress'>" +
                   "<div class='progress-bar progress-bar-success progress-bar-striped' role='progressbar' aria-valuenow='"+ tweet.pos_per +"'"+
@@ -274,7 +274,8 @@
     },
     {
       name: 'handles',
-      source: substringMatcher(handles)
+      source: substringMatcher(handles),
+      limit: 12
     });
 
     function setDefaultHandle(handle) {

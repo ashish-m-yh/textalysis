@@ -25,6 +25,7 @@ def get_tweets(twitter, query, num):
         tweet = {}
         tweet["text"] = status["text"]
         tweet["created_at"] = status["created_at"]
+        tweet["id"] = status["id"]
         tailored_tweets.append(tweet)
     return tailored_tweets
 
@@ -45,12 +46,14 @@ for tweet in tweets:
         matches = re.match(pattern, text, re.IGNORECASE)
         if matches is None:
             continue
-
+        
         text = re.sub('[^A-Za-z0-9\s]+', '', text).strip()
         text = text.translate(rmv_whitespace_map)
         text = re.sub('[ ]+', ' ', text)
         ts = re.sub(':', '', tweet['created_at'])
-        rpc_client.call(LKEY, text, ts, OUT_FILE)
+        tweet_id = tweet['id']
+        ts_id = '/'.join([ts, str(tweet_id)])
+        rpc_client.call(LKEY, text, ts_id, OUT_FILE)
     except:
         print 'Found a problem'
         pass
