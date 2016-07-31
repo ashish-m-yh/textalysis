@@ -239,4 +239,10 @@ for no reason	-0.30
 stopped working	-0.45
 stopped functioning	-0.45
 suck	-0.40
+never ever works	-0.45
+never been	-0.40
+expect better	-0.30
+good morning	0.0
+good afternoon	0.0
+good evening	0.0
 joke	-0.45
