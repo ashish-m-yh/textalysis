@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Use Textalysis for sentiment analysis of your enterprise customer feedback">
     <meta name="keywords" content="business intelligence,text analysis,text mining,sentiment analysis">
-    <meta http-equiv="refresh" content="500">
+    <meta http-equiv="refresh" content="300">
     <meta name="author" content="Ashish Mukherjee">
 
     <!-- Le styles -->
@@ -172,61 +172,73 @@
   }
 
   var scoreList = [];
-        var analysedTweets = data['results'];
-        if (analysedTweets.length == 0) {
+  var analysedTweets = data['results'];
+  if (analysedTweets.length == 0) {
           $('.twitter-handle-error').text('Unable to fetch tweets at the current moment. Please try after sometime.');
           $('.twitter-handle-error').show();
           $('.tweets').hide();
-        }
-        else {
-    minScr = Number.MAX_SAFE_INTEGER;
-    maxScr = 0;
-    tweetCount = 0;
+  }
+  else {
+      minScr = Number.MAX_SAFE_INTEGER;
+      maxScr = 0;
+      tweetCount = 0;
+      posCount = 0;
+      negCount = 0;
 
-          for (var i = 0; i < analysedTweets.length; i++) {
+      for (var i = 0; i < analysedTweets.length; i++) {
             var tweet = analysedTweets[i];
 
-      if (tweet.score == 0) {
-        continue;
+	    if (tweet.score == 0) {
+		    continue;
+	    }
+
+	    if (tweet.score > 0) {
+		    scoreList.push(tweet.score); 
+	    }
+
+	    if (tweet.score > maxScr) {
+		    maxScr = Math.round(tweet.score * 100) / 100;
+	    }
+
+	    if (tweet.score < minScr) {
+		    minScr = Math.round(tweet.score * 100) / 100;
+	    }
+
+	    if (tweet.score > val) {
+		    tweetCount++;
+	    }
+    	}
+
+      if (val == 0) {
+	      var median = math.median(scoreList);
+	      val = Math.round(median * 100) / 100;
+
+	      tweetCount = 0;
+	      for (var i = 0; i < analysedTweets.length; i++) {
+		      var tweet = analysedTweets[i];
+		      if (tweet.score > val) {
+			      tweetCount++;
+
+			      if (tweet.pos_per - tweet.neg_per >= 20) {
+				      posCount++;
+			      }
+			      else if (tweet.neg_per - tweet.pos_per >= 20) {
+				      negCount++;
+			      }
+		      }
+	      }
       }
 
-      if (tweet.score > 0) {
-        scoreList.push(tweet.score); 
-      }
+    var others = tweetCount - (posCount + negCount);
 
-      if (tweet.score > maxScr) {
-        maxScr = Math.round(tweet.score * 100) / 100;
-            }
+    $('.panel-body').append("<span class='badge score'>Sentiment strength</span> Indicates importance of comment<br/>");
+    $('.panel-body').append("<span class='badge pos_per'>Positive Sentiment</span> <strong>(" + posCount + ")</strong><br/>");
+    $('.panel-body').append("<span class='badge neg_per'>Negative Sentiment</span> <strong>(" + negCount + ")</strong><br/>");
+    $('.panel-body').append("<span>Others</span> <strong>(" + others + ")</strong><br/><br/>");
 
-      if (tweet.score < minScr) {
-        minScr = Math.round(tweet.score * 100) / 100;
-            }
-
-      if (tweet.score > val) {
-        tweetCount++;
-      }
-    }
-
-    if (val == 0) {
-      var median = math.median(scoreList);
-      val = Math.round(median * 100) / 100;
-
-      tweetCount = 0;
-            for (var i = 0; i < analysedTweets.length; i++) {
-              var tweet = analysedTweets[i];
-          if (tweet.score > val) {
-          tweetCount++;
-        }
-      }
-    }
-
-    $('.panel-body').append("<strong>* Higher strength indicates more sentiment and may indicate a more important comment<br/><br/>" + tweetCount + " tweets > strength of " + val + " </strong><br/><br/>");
-
+    $('.panel-body').append("<strong>" + tweetCount + " tweets > strength of " + val + " </strong><br/><br/>");
     $('.panel-body').append("<strong>Sentiment strength (" + minScr + " - " + maxScr + ")</strong><form><input type='range' value='" + val + "'" + "onchange='changeValue(this.value)' step='0.01' min='" + minScr + "' max='" + maxScr + "'></form><br/>");
 
-    $('.panel-body').append("<span class='badge score'>Sentiment score</span> ");
-    $('.panel-body').append("<span class='badge pos_per'>Positive Sentiment</span> ");
-    $('.panel-body').append("<span class='badge neg_per'>Negative Sentiment</span><br/><br/>");
 
           for (var i = 0; i < analysedTweets.length; i++) {
             var tweet = analysedTweets[i];
