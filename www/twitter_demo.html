@@ -224,16 +224,20 @@
 
     $('.panel-body').append("<strong>Sentiment strength (" + minScr + " - " + maxScr + ")</strong><form><input type='range' value='" + val + "'" + "onchange='changeValue(this.value)' step='0.01' min='" + minScr + "' max='" + maxScr + "'></form><br/>");
 
+    $('.panel-body').append("<span class='badge score'>Sentiment score</span> ");
+    $('.panel-body').append("<span class='badge pos_per'>Positive Sentiment</span> ");
+    $('.panel-body').append("<span class='badge neg_per'>Negative Sentiment</span><br/><br/>");
+
           for (var i = 0; i < analysedTweets.length; i++) {
             var tweet = analysedTweets[i];
             if (tweet.score > val)
               $('.panel-body').append("<div class='tweet'>" +
-                "<div >" + tweet.tweet + "</div>" +
+                "<div >" + tweet.tweet +
+                  " <br/><a class='btn btn-primary btn-xs' target='_blank' href='http://www.twitter.com/"+currentHandle+"/status/"+ tweet.tweet_id +"' role='button'><i class='fa fa-twitter' aria-hidden='true'></i> Reply</a>" + "</div><br/>" +
                 "<div class='badges'>" +
                   "<span class='badge score'>" + Math.round(tweet.score * 100) / 100 + "</span>" +
                   "<span class='badge pos_per'>" + tweet.pos_per + "%</span>" +
                   "<span class='badge neg_per'>" + tweet.neg_per + "%</span>" +
-                  "<a class='btn btn-primary btn-xs' target='_blank' href='http://www.twitter.com/"+currentHandle+"/status/"+ tweet.tweet_id +"' role='button'><i class='fa fa-twitter' aria-hidden='true'></i> Reply</a>" +
                 "</div>" +
                 "<div class='progress'>" +
                   "<div class='progress-bar progress-bar-success progress-bar-striped' role='progressbar' aria-valuenow='"+ tweet.pos_per +"'"+
