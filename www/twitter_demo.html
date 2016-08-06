@@ -206,35 +206,41 @@
 
 	    if (tweet.score > val) {
 		    tweetCount++;
+
+		    if (tweet.pos_per - tweet.neg_per > 20) {
+			    posCount++;
+		    }
+		    else if (tweet.neg_per - tweet.pos_per > 20) {
+			    negCount++;
+		    }
 	    }
     	}
 
       if (val == 0) {
+	      posCount = 0;
+	      negCount = 0;
 	      var median = math.median(scoreList);
 	      val = Math.round(median * 100) / 100;
-
+		
 	      tweetCount = 0;
 	      for (var i = 0; i < analysedTweets.length; i++) {
 		      var tweet = analysedTweets[i];
 		      if (tweet.score > val) {
 			      tweetCount++;
 
-			      if (tweet.pos_per - tweet.neg_per >= 20) {
+			      if (tweet.pos_per - tweet.neg_per > 20) {
 				      posCount++;
 			      }
-			      else if (tweet.neg_per - tweet.pos_per >= 20) {
+			      else if (tweet.neg_per - tweet.pos_per > 20) {
 				      negCount++;
 			      }
 		      }
 	      }
       }
 
-    var others = tweetCount - (posCount + negCount);
-
     $('.panel-body').append("<span class='badge score'>Sentiment strength</span> Indicates importance of comment<br/>");
     $('.panel-body').append("<span class='badge pos_per'>Positive Sentiment</span> <strong>(" + posCount + ")</strong><br/>");
-    $('.panel-body').append("<span class='badge neg_per'>Negative Sentiment</span> <strong>(" + negCount + ")</strong><br/>");
-    $('.panel-body').append("<span>Others</span> <strong>(" + others + ")</strong><br/><br/>");
+    $('.panel-body').append("<span class='badge neg_per'>Negative Sentiment</span> <strong>(" + negCount + ")</strong><br/><br/>");
 
     $('.panel-body').append("<strong>" + tweetCount + " tweets > strength of " + val + " </strong><br/><br/>");
     $('.panel-body').append("<strong>Sentiment strength (" + minScr + " - " + maxScr + ")</strong><form><input type='range' value='" + val + "'" + "onchange='changeValue(this.value)' step='0.01' min='" + minScr + "' max='" + maxScr + "'></form><br/>");
