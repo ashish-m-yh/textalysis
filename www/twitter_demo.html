@@ -128,25 +128,30 @@
     <script type="text/javascript">
       var clientData;
       var firstEntry = 0;
-      var currentHandle = '';
+      var currentHandle;
+      var timeMS = 180000;
+
       $('.twitter-handle').on('typeahead:select', function (e, selectedHandle) {
         firstEntry = 0;
+        currentHandle = selectedHandle;
         getResults(selectedHandle);
-      });
-      
-      $('.twitter-handle').on('typeahead:change', function (e, selectedHandle) {
-        firstEntry = 0;
-        getResults(selectedHandle);
+        setTimeout( newResults, timeMS );
       });
 
-      function getResults(selectedHandle){
-        currentHandle = selectedHandle;
+      // $('.twitter-handle').on('typeahead:change', function (e, selectedHandle) {
+      //   firstEntry = 0;
+      //   currentHandle = selectedHandle;
+      //   getResults(selectedHandle);
+      //   setTimeout( newResults, timeMS );
+      // });
+
+      function getResults(handle) {
         $.ajax({
-          url: '/app/reports/'+ selectedHandle +'.json',
+          url: '/app/reports/'+ handle +'.json',
           method: 'GET',
           success: displayTweets,
           error: function (xhr, status, error) {
-            $('.twitter-handle-error').text('@' + selectedHandle + ' does not exist!');
+            $('.twitter-handle-error').text('@' + handle + ' does not exist!');
             $('.twitter-handle-error').show();
             $('.tweets').hide();
           },
@@ -301,9 +306,18 @@
       limit: 12
     });
 
+    function newResults() {
+      firstEntry = 0;
+      getResults(currentHandle);
+      setTimeout(newResults, timeMS);
+    }
+
     function setDefaultHandle(handle) {
       $('.twitter-handle').typeahead('val', handle, getResults(handle));
+      currentHandle = handle;
+      setTimeout(newResults, timeMS);
     }
+
     setDefaultHandle(handles[0]);
   </script>
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
