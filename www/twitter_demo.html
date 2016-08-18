@@ -1,277 +1,275 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Textalysis - Business Intelligence from text</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Use Textalysis for sentiment analysis of your enterprise customer feedback">
-    <meta name="keywords" content="business intelligence,text analysis,text mining,sentiment analysis">
-    <meta http-equiv="refresh" content="300">
-    <meta name="author" content="Ashish Mukherjee">
+<head>
+  <meta charset="utf-8">
+  <title>Textalysis - Business Intelligence from text</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Use Textalysis for sentiment analysis of your enterprise customer feedback">
+  <meta name="keywords" content="business intelligence,text analysis,text mining,sentiment analysis">
+  <meta http-equiv="refresh" content="300">
+  <meta name="author" content="Ashish Mukherjee">
 
-    <!-- Le styles -->
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="/assets/css/typeahead.css">
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-    <style type="text/css">
-      body {
-        padding-top: 20px;
-        padding-bottom: 40px;
-      }
-      /* Custom container */
-      .container-narrow {
-        margin: 0 auto;
-        max-width: 700px;
-      }
-      .container-narrow > hr {
-        margin: 30px 0;
-      }
-      .tweets {
-        margin-top: 30px;
-        overflow: hidden;
-        clear: both;
-      }
-      .tweet{
-        clear: both;
-      }
-      .badges{
-        margin-top: 0px;
-        clear: both;
-        float: right;
-        max-width: 700px;
-      }
-      .progress {
-        clear: both;
-        background: rgba(245, 245, 245, 1);
-        border: 0px solid rgba(245, 245, 245, 1);
-        border-radius: 0px; height: 10px;
-        margin-bottom: 0px;
-        opacity: 0.8;
-        max-width: 700px;
-      }
-      .progress-bar-custom {
-        background: rgba(66, 139, 202, 1);
-        align: right;
-      }
-      .pos_per {
-        align: right;
-        background-color: #5cb85c;
-      }
-      .neg_per {
-        background-color: #d9534f;
-      }
-      .panel{
-        display: none;
-      }
-      .twitter-handle-error{
-        margin-top: 20px;
-        display: none;
-        text-align: center;
-      }
-    </style>
-    <!-- Fav and touch icons -->
-  </head>
+  <!-- Le styles -->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="/assets/css/typeahead.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <style type="text/css">
+    body {
+      padding-top: 20px;
+      padding-bottom: 40px;
+    }
+    /* Custom container */
+    .container-narrow {
+      margin: 0 auto;
+      max-width: 700px;
+    }
+    .container-narrow > hr {
+      margin: 30px 0;
+    }
+    .tweets {
+      margin-top: 30px;
+      overflow: hidden;
+      clear: both;
+    }
+    .tweet{
+      clear: both;
+    }
+    .badges{
+      margin-top: 0px;
+      clear: both;
+      float: right;
+      max-width: 700px;
+    }
+    .progress {
+      clear: both;
+      background: rgba(245, 245, 245, 1);
+      border: 0px solid rgba(245, 245, 245, 1);
+      border-radius: 0px; height: 10px;
+      margin-bottom: 0px;
+      opacity: 0.8;
+      max-width: 700px;
+    }
+    .progress-bar-custom {
+      background: rgba(66, 139, 202, 1);
+      align: right;
+    }
+    .pos_per {
+      align: right;
+      background-color: #5cb85c;
+    }
+    .neg_per {
+      background-color: #d9534f;
+    }
+    .panel{
+      display: none;
+    }
+    .twitter-handle-error{
+      margin-top: 20px;
+      display: none;
+      text-align: center;
+    }
+  </style>
+  <!-- Fav and touch icons -->
+</head>
 
-  <body>
-    <div class="container-narrow">
-      <div class="masthead">
-        <ul class="nav nav-pills pull-right">
-          <li><a href="/index.html">Home</a></li>
-          <li class="active"><a href="/twitter_demo.html">Demo</a></li>
-          <!-- <li><a href="/pricing.html">Pricing</a></li> -->
-          <li><a href="/product.html">Product</a></li>
-          <!-- <li><a href="/live.html">Users</a></li> -->
-          <li><a href="/faq.html">FAQs</a></li>
-        </ul>
-        <h3 class="muted"><font face="Arial" size="6" color="darkblue">Text</font><font face="Arial" size="6" color="orange"><img src="/img5.jpg">lysis</font></h3>
-      </div>
+<body>
+  <div class="container-narrow">
+    <div class="masthead">
+      <ul class="nav nav-pills pull-right">
+        <li><a href="/index.html">Home</a></li>
+        <li class="active"><a href="/twitter_demo.html">Demo</a></li>
+        <!-- <li><a href="/pricing.html">Pricing</a></li> -->
+        <li><a href="/product.html">Product</a></li>
+        <!-- <li><a href="/live.html">Users</a></li> -->
+        <li><a href="/faq.html">FAQs</a></li>
+      </ul>
+      <h3 class="muted"><font face="Arial" size="6" color="darkblue">Text</font><font face="Arial" size="6" color="orange"><img src="/img5.jpg">lysis</font></h3>
+    </div>
 
-      <hr>
-        <br/>
-          <!-- twitter handle search box -->
-          <div class="input-group" id="the-basics">
-            <span class="input-group-addon">@</span>
-            <input type="text" class="form-control typeahead twitter-handle" placeholder="Enter twitter handle">
-          </div>
+    <hr>
+    <br/>
+    <!-- twitter handle search box -->
+    <div class="input-group" id="the-basics">
+      <span class="input-group-addon">@</span>
+      <input type="text" class="form-control typeahead twitter-handle" placeholder="Enter twitter handle">
+    </div>
 
-           <!-- error if twitter-handle doesnot exists -->
-          <div class="twitter-handle-error text-danger"></div>
-          <!-- displays the analysed tweets -->
-          <div class="panel panel-primary tweets">
-            <div class="panel-heading">Tweets</div>
-              <div class="panel-body"></div>
-          </div>
+    <!-- error if twitter-handle doesnot exists -->
+    <div class="twitter-handle-error text-danger"></div>
+    <!-- displays the analysed tweets -->
+    <div class="panel panel-primary tweets">
+      <div class="panel-heading">Tweets</div>
+      <div class="panel-body"></div>
+    </div>
 
-        <br/>
-        <a href="mailto:admin@textalysis.io">Contact us</a> for further information or to sign on
-        <br/>
-      <hr/>
+    <br/>
+    <a href="mailto:admin@textalysis.io">Contact us</a> for further information or to sign on
+    <br/>
+    <hr/>
 
-      <div class="footer" align="center">
-        <font face="Verdana" size="1">
-          <a href="/privacy.html">Privacy Policy</a> |
-          <a href="/terms.html">Terms of Use</a> |
-          <a href="/team.html">Team</a> |
-          <a href="mailto:admin@textalysis.io">Contact</a><br/>
-        </font>
-        &copy;2014 Textalysis.io
-      </div>
+    <div class="footer" align="center">
+      <font face="Verdana" size="1">
+        <a href="/privacy.html">Privacy Policy</a> |
+        <a href="/terms.html">Terms of Use</a> |
+        <a href="/team.html">Team</a> |
+        <a href="mailto:admin@textalysis.io">Contact</a><br/>
+      </font>
+      &copy;2014 Textalysis.io
+    </div>
 
-    </div> <!-- /container -->
-    
-    <script type="text/javascript" src="/assets/js/jquery-1.11.0.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="/assets/js/typeahead.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.3.0/math.min.js"></script>
+  </div> <!-- /container -->
 
-    <script type="text/javascript">
-      var clientData;
-      var firstEntry = 0;
-      var currentHandle;
-      var timeMS = 180000;
+  <script type="text/javascript" src="/assets/js/jquery-1.11.0.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="/assets/js/typeahead.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.3.0/math.min.js"></script>
 
-      $('.twitter-handle').on('typeahead:select', function (e, selectedHandle) {
-        firstEntry = 0;
-        currentHandle = selectedHandle;
-        getResults(selectedHandle);
-        setTimeout( newResults, timeMS );
+  <script type="text/javascript">
+    var clientData;
+    var firstEntry = 0;
+    var currentHandle;
+    var timeMS = 180000;
+
+    $('.twitter-handle').on('typeahead:select', function (e, selectedHandle) {
+      firstEntry = 0;
+      currentHandle = selectedHandle;
+      getResults(selectedHandle);
+      setTimeout( newResults, timeMS );
+    });
+
+    // $('.twitter-handle').on('typeahead:change', function (e, selectedHandle) {
+    //   firstEntry = 0;
+    //   currentHandle = selectedHandle;
+    //   getResults(selectedHandle);
+    //   setTimeout( newResults, timeMS );
+    // });
+
+    function getResults(handle) {
+      $.ajax({
+        url: '/app/reports/'+ handle +'.json',
+        method: 'GET',
+        success: displayTweets,
+        error: function (xhr, status, error) {
+          $('.twitter-handle-error').text('@' + handle + ' does not exist!');
+          $('.twitter-handle-error').show();
+          $('.tweets').hide();
+        },
+        dataType: 'json'
       });
+    }
 
-      // $('.twitter-handle').on('typeahead:change', function (e, selectedHandle) {
-      //   firstEntry = 0;
-      //   currentHandle = selectedHandle;
-      //   getResults(selectedHandle);
-      //   setTimeout( newResults, timeMS );
-      // });
+    function changeValue(val) {
+      displayTweets(clientData, val);
+    }
 
-      function getResults(handle) {
-        $.ajax({
-          url: '/app/reports/'+ handle +'.json',
-          method: 'GET',
-          success: displayTweets,
-          error: function (xhr, status, error) {
-            $('.twitter-handle-error').text('@' + handle + ' does not exist!');
-            $('.twitter-handle-error').show();
-            $('.tweets').hide();
-          },
-          dataType: 'json' });
-      }
-
-      function changeValue(val) {
-        displayTweets(clientData, val);
-      }
-
-      function displayTweets(data, val) {
+    function displayTweets(data, val) {
       // removes divs present in tweets panel
-        $(".panel-body").empty();
+      $(".panel-body").empty();
 
-  if (firstEntry == 0) {
-    clientData = data;
-  }
+        if (firstEntry == 0) {
+          clientData = data;
+        }
 
-  firstEntry++;
+        firstEntry++;
 
-  if (val == 'success') {
-    val = 0;
-  }
+        if (val == 'success') {
+          val = 0;
+        }
 
-  var scoreList = [];
-  var analysedTweets = data['results'];
-  if (analysedTweets.length == 0) {
+        var scoreList = [];
+        var analysedTweets = data['results'];
+        if (analysedTweets.length == 0) {
           $('.twitter-handle-error').text('Unable to fetch tweets at the current moment. Please try after sometime.');
           $('.twitter-handle-error').show();
           $('.tweets').hide();
-  }
-  else {
-      minScr = Number.MAX_SAFE_INTEGER;
-      maxScr = 0;
-      tweetCount = 0;
-      posCount = 0;
-      negCount = 0;
-
-      for (var i = 0; i < analysedTweets.length; i++) {
-            var tweet = analysedTweets[i];
-
-	    if (tweet.score == 0) {
-		    continue;
-	    }
-
-	    if (tweet.score > 0) {
-		    scoreList.push(tweet.score); 
-	    }
-
-	    if (tweet.score > maxScr) {
-		    maxScr = Math.round(tweet.score * 100) / 100;
-	    }
-
-	    if (tweet.score < minScr) {
-		    minScr = Math.round(tweet.score * 100) / 100;
-	    }
-
-	    if (tweet.score > val) {
-		    tweetCount++;
-
-		    if (tweet.pos_per - tweet.neg_per > 20) {
-			    posCount++;
-		    }
-		    else if (tweet.neg_per - tweet.pos_per > 20) {
-			    negCount++;
-		    }
-	    }
-    	}
-
-      if (val == 0) {
-	      posCount = 0;
-	      negCount = 0;
-	      var median = math.median(scoreList);
-	      val = Math.round(median * 100) / 100;
-		
-	      tweetCount = 0;
-	      for (var i = 0; i < analysedTweets.length; i++) {
-		      var tweet = analysedTweets[i];
-		      if (tweet.score > val) {
-			      tweetCount++;
-
-			      if (tweet.pos_per - tweet.neg_per > 20) {
-				      posCount++;
-			      }
-			      else if (tweet.neg_per - tweet.pos_per > 20) {
-				      negCount++;
-			      }
-		      }
-	      }
-      }
-
-    $('.panel-body').append("<span class='badge score'>Sentiment strength</span> Indicates importance of comment<br/>");
-    $('.panel-body').append("<span class='badge pos_per'>Positive Sentiment</span> <strong>(" + posCount + ")</strong><br/>");
-    $('.panel-body').append("<span class='badge neg_per'>Negative Sentiment</span> <strong>(" + negCount + ")</strong><br/><br/>");
-
-    $('.panel-body').append("<strong>" + tweetCount + " tweets > strength of " + val + " </strong><br/><br/>");
-    $('.panel-body').append("<strong>Sentiment strength (" + minScr + " - " + maxScr + ")</strong><form><input type='range' value='" + val + "'" + "onchange='changeValue(this.value)' step='0.01' min='" + minScr + "' max='" + maxScr + "'></form><br/>");
-
+        } else {
+          minScr = Number.MAX_SAFE_INTEGER;
+          maxScr = 0;
+          tweetCount = 0;
+          posCount = 0;
+          negCount = 0;
 
           for (var i = 0; i < analysedTweets.length; i++) {
             var tweet = analysedTweets[i];
-            if (tweet.score > val)
-              $('.panel-body').append("<div class='tweet'>" +
-                "<div >" + tweet.tweet +
-                  " <br/><a class='btn btn-primary btn-xs' target='_blank' href='http://www.twitter.com/"+currentHandle+"/status/"+ tweet.tweet_id +"' role='button'><i class='fa fa-twitter' aria-hidden='true'></i> Reply</a>" + "</div><br/>" +
-                "<div class='badges'>" +
-                  "<span class='badge score'>" + Math.round(tweet.score * 100) / 100 + "</span>" +
-                  "<span class='badge pos_per'>" + tweet.pos_per + "%</span>" +
-                  "<span class='badge neg_per'>" + tweet.neg_per + "%</span>" +
-                "</div>" +
-                "<div class='progress'>" +
-                  "<div class='progress-bar progress-bar-success progress-bar-striped' role='progressbar' aria-valuenow='"+ tweet.pos_per +"'"+
-                  "aria-valuemin='0' aria-valuemax='100' style='width:"+ tweet.pos_per +"%;'/>" +
-                  "<div class='progress-bar progress-bar-danger progress-bar-striped' role='progressbar' aria-valuenow='"+ tweet.neg_per +"'"+
-                  "aria-valuemin='0' aria-valuemax='100' style='width:"+ tweet.neg_per +"%;'/>" +
-                "</div></div><br>");
+
+            if (tweet.score == 0) {
+              continue;
+            }
+
+            if (tweet.score > 0) {
+              scoreList.push(tweet.score);
+            }
+
+            if (tweet.score > maxScr) {
+              maxScr = Math.round(tweet.score * 100) / 100;
+            }
+
+            if (tweet.score < minScr) {
+              minScr = Math.round(tweet.score * 100) / 100;
+            }
+
+            if (tweet.score > val) {
+              tweetCount++;
+
+              if (tweet.pos_per - tweet.neg_per > 20) {
+                posCount++;
+            }
+            else if (tweet.neg_per - tweet.pos_per > 20) {
+              negCount++;
+            }
           }
-          $('.panel').show();
-          $('.twitter-handle-error').hide();
         }
+
+        if (val == 0) {
+          posCount = 0;
+          negCount = 0;
+          var median = math.median(scoreList);
+          val = Math.round(median * 100) / 100;
+
+          tweetCount = 0;
+          for (var i = 0; i < analysedTweets.length; i++) {
+            var tweet = analysedTweets[i];
+            if (tweet.score > val) {
+              tweetCount++;
+
+            if (tweet.pos_per - tweet.neg_per > 20) {
+              posCount++;
+            } else if (tweet.neg_per - tweet.pos_per > 20) {
+                negCount++;
+              }
+            }
+          }
+        }
+
+        $('.panel-body').append("<span class='badge score'>Sentiment strength</span> Indicates importance of comment<br/>");
+        $('.panel-body').append("<span class='badge pos_per'>Positive Sentiment</span> <strong>(" + posCount + ")</strong><br/>");
+        $('.panel-body').append("<span class='badge neg_per'>Negative Sentiment</span> <strong>(" + negCount + ")</strong><br/><br/>");
+
+        $('.panel-body').append("<strong>" + tweetCount + " tweets > strength of " + val + " </strong><br/><br/>");
+        $('.panel-body').append("<strong>Sentiment strength (" + minScr + " - " + maxScr + ")</strong><form><input type='range' value='" + val + "'" + "onchange='changeValue(this.value)' step='0.01' min='" + minScr + "' max='" + maxScr + "'></form><br/>");
+
+        for (var i = 0; i < analysedTweets.length; i++) {
+          var tweet = analysedTweets[i];
+          if (tweet.score > val)
+            $('.panel-body').append("<div class='tweet'>" +
+              "<div >" + tweet.tweet +
+              " <br/><a class='btn btn-primary btn-xs' target='_blank' href='http://www.twitter.com/"+currentHandle+"/status/"+ tweet.tweet_id +"' role='button'><i class='fa fa-twitter' aria-hidden='true'></i> Reply</a>" + "</div><br/>" +
+              "<div class='badges'>" +
+              "<span class='badge score'>" + Math.round(tweet.score * 100) / 100 + "</span>" +
+              "<span class='badge pos_per'>" + tweet.pos_per + "%</span>" +
+              "<span class='badge neg_per'>" + tweet.neg_per + "%</span>" +
+              "</div>" +
+              "<div class='progress'>" +
+              "<div class='progress-bar progress-bar-success progress-bar-striped' role='progressbar' aria-valuenow='"+ tweet.pos_per +"'"+
+              "aria-valuemin='0' aria-valuemax='100' style='width:"+ tweet.pos_per +"%;'/>" +
+              "<div class='progress-bar progress-bar-danger progress-bar-striped' role='progressbar' aria-valuenow='"+ tweet.neg_per +"'"+
+              "aria-valuemin='0' aria-valuemax='100' style='width:"+ tweet.neg_per +"%;'/>" +
+              "</div></div><br>");
+        }
+        $('.panel').show();
+        $('.twitter-handle-error').hide();
+      }
     }
 
     var substringMatcher = function(strs) {
@@ -320,9 +318,9 @@
 
     setDefaultHandle(handles[0]);
   </script>
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="../assets/js/html5shiv.js"></script>
-    <![endif]-->
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+  <script src="../assets/js/html5shiv.js"></script>
+  <![endif]-->
   </body>
 </html>
