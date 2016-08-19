@@ -9,7 +9,6 @@ from test import Test
 from new_demo import NewDemo
 from dataproc import Dataproc
 from analyze import Analyze 
-from buzzwords import Buzzwords
 
 if __name__ == "__main__":
 
@@ -24,7 +23,6 @@ if __name__ == "__main__":
             (r'/app/reports/bose', NewDemo),
             (r'/app/dataproc', Dataproc),
             (r'/app/dataproc/(.+).json', Dataproc),
-            (r'/app/buzzwords/(.+).json', Buzzwords),
             (r'/app/analyze', Analyze),
             (r'/app/test', Test)
         ],
