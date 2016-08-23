@@ -2,18 +2,20 @@ from tornado import web
 import tornado, json, os
 import subprocess
 
+
 class TwitterHandle(web.RequestHandler):
     def get(self):
         try:
             data = []
             os.chmod("./available_handle.txt", 436)
-            with open ('available_handle.txt', 'r') as handles:
+            with open('available_handle.txt', 'r') as handles:
                 data = handles.read().splitlines()
             self.write(json.dumps(data))
         except:
             self.clear()
             self.set_status(400)
             self.finish('Handles cannot be loaded.')
+
     def post(self):
         try:
             handle = self.get_argument('handle').encode('utf-8')
