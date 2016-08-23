@@ -63,10 +63,32 @@
     .panel{
       display: none;
     }
+    .twitter-handle-success{
+      margin-top: 20px;
+      display: none;
+      text-align: center;
+    }
     .twitter-handle-error{
       margin-top: 20px;
       display: none;
       text-align: center;
+    }
+    #handleslist {
+      margin-bottom: 20px;
+    } 
+    #custom {
+      margin-top: 20px;
+    }
+    /* textbox or divider */
+    p {
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+      line-height: 0;
+      padding: 0;
+    }
+    p span {
+      background: #fff;
+      padding: 0 15px;
     }
   </style>
   <!-- Fav and touch icons -->
@@ -89,13 +111,24 @@
     <hr>
     <br/>
     <!-- twitter handle search box -->
-    <div class="input-group" id="the-basics">
+    <div class="input-group" id="handleslist">
       <span class="input-group-addon">@</span>
-      <input type="text" class="form-control typeahead twitter-handle" placeholder="Enter twitter handle">
+      <input type="text" class="form-control typeahead twitter-handle" placeholder="Choose a twitter handle">
     </div>
 
-    <!-- error if twitter-handle doesnot exists -->
+    <p><span>or</span></p>
+
+    <div class="input-group" id="custom">
+      <span class="input-group-addon">@</span>
+      <input type="text" class="form-control" id="customhandle" placeholder="Enter twitter handle of your choice">
+      <span class="input-group-btn">
+        <button class="btn btn-secondary addhandle" type="button">Get Results</button>
+      </span>
+    </div>
+    
+    <!-- error if twitter-handle doesn12ists -->
     <div class="twitter-handle-error text-danger"></div>
+    <div class="twitter-handle-success text-success"></div>
     <!-- displays the analysed tweets -->
     <div class="panel panel-primary tweets">
       <div class="panel-heading">Tweets</div>
@@ -121,7 +154,7 @@
 
   <script type="text/javascript" src="/assets/js/jquery-1.11.0.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="/assets/js/typeahead.bundle.min.js"></script>
+  <script type="text/javascript" src="/assets/js/typeahead.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.3.0/math.min.js"></script>
 
   <script type="text/javascript">
@@ -152,6 +185,7 @@
         error: function (xhr, status, error) {
           $('.twitter-handle-error').text('@' + handle + ' does not exist!');
           $('.twitter-handle-error').show();
+          $('.twitter-handle-success').hide();
           $('.tweets').hide();
         },
         dataType: 'json'
@@ -181,6 +215,7 @@
         if (analysedTweets.length == 0) {
           $('.twitter-handle-error').text('Unable to fetch tweets at the current moment. Please try after sometime.');
           $('.twitter-handle-error').show();
+          $('.twitter-handle-success').hide();
           $('.tweets').hide();
         } else {
           minScr = Number.MAX_SAFE_INTEGER;
@@ -268,40 +303,9 @@
         }
         $('.panel').show();
         $('.twitter-handle-error').hide();
+        $('.twitter-handle-success').hide();
       }
     }
-
-    var substringMatcher = function(strs) {
-      return function findMatches(q, cb) {
-        var matches, substringRegex;
-        // an array that will be populated with substring matches
-        matches = [];
-        // regex used to determine if a string contains the substring `q`
-        substrRegex = new RegExp(q, 'i');
-        // iterate through the pool of strings and for any string that
-        // contains the substring `q`, add it to the `matches` array
-        $.each(strs, function(i, str) {
-          if (substrRegex.test(str)) {
-            matches.push(str);
-          }
-        });
-        cb(matches);
-      };
-    };
-
-    var handles = [ 'boseservice', 'airtelindia', 'reachout_mcd', 'comcastcares', 'nikesupport', 'jetblue',
-                    'starbucks', 'walmart', 'airasia', 'amazonhelp', 'americanair', 'seamless'];
-
-    $('#the-basics .typeahead').typeahead({
-      hint: true,
-      highlight: true,
-      minLength: 0
-    },
-    {
-      name: 'handles',
-      source: substringMatcher(handles),
-      limit: 12
-    });
 
     function newResults() {
       firstEntry = 0;
@@ -314,8 +318,76 @@
       currentHandle = handle;
       setTimeout(newResults, timeMS);
     }
+    
+    function initTypeahead(list) {
+      var substringMatcher = function(strs) {
+        return function findMatches(q, cb) {
+          var matches, substringRegex;
+          matches = [];
+          substrRegex = new RegExp(q, 'i');
+          $.each(strs, function(i, str) {
+            if (substrRegex.test(str)) {
+              matches.push(str);
+            }
+          });
 
-    setDefaultHandle(handles[0]);
+          cb(matches);
+        };
+      };
+
+      $('.typeahead').typeahead('destroy');
+      $('.typeahead').typeahead({
+        minLength: 0,
+        highlight: true
+      },
+      {
+        source: substringMatcher(list),
+        limit: 15
+      })
+    }
+
+    $.ajax({
+      url: '/app/twitter-handle',
+      method: 'GET',
+      success: function (data) {
+        var handles = JSON.parse(data);
+        initTypeahead(handles);
+        setDefaultHandle(handles[0]);
+      }
+    })
+
+    $(".addhandle").click(function (event) {
+      event.preventDefault();
+      var customHandle = $("#customhandle").val();
+      if (customHandle)
+        $.ajax({
+          url: '/app/twitter-handle',
+          method: 'POST',
+          data: { handle: customHandle },
+          success: function (data) {
+            initTypeahead(JSON.parse(data));
+            $("#customhandle").val('');
+            $('.twitter-handle-success')
+              .text('Twitter handle: '+customHandle+' added. Please check after 15 minutes for results.');
+            $('.twitter-handle-success').show();
+            $('.twitter-handle-error').hide();
+            $('.tweets').hide();
+          },
+          error: function (xhr, error, status) {
+            $('.twitter-handle-error').text('Handle cannot be added');
+            $('.twitter-handle-success').hide();
+            $('.twitter-handle-error').show();
+            $('.tweets').hide();
+          }
+        })
+      else {
+        $('.twitter-handle-error').text('Give a valid handle!');
+        $('.twitter-handle-success').hide();
+        $('.twitter-handle-error').show();
+        $('.tweets').hide();
+      }
+    })
+
   </script>
   <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
   <!--[if lt IE 9]>

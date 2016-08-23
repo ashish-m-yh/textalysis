@@ -8,7 +8,8 @@ from results import Results
 from test import Test
 from new_demo import NewDemo
 from dataproc import Dataproc
-from analyze import Analyze 
+from analyze import Analyze
+from twitterhandle import TwitterHandle
 
 if __name__ == "__main__":
 
@@ -24,7 +25,8 @@ if __name__ == "__main__":
             (r'/app/dataproc', Dataproc),
             (r'/app/dataproc/(.+).json', Dataproc),
             (r'/app/analyze', Analyze),
-            (r'/app/test', Test)
+            (r'/app/test', Test),
+            (r'/app/twitter-handle', TwitterHandle)
         ],
         debug=True)
 
