@@ -6,8 +6,8 @@ class TwitterHandle(web.RequestHandler):
     def get(self):
         try:
             data = []
-            os.chmod("./availale_handle.txt", 436)
-            with open ('./availale_handle.txt', 'r') as handles:
+            os.chmod("./available_handle.txt", 436)
+            with open ('available_handle.txt', 'r') as handles:
                 data = handles.read().splitlines()
             self.write(json.dumps(data))
         except:
@@ -20,7 +20,7 @@ class TwitterHandle(web.RequestHandler):
             command = "./twttr_cron.sh " + handle
             subprocess.call(command, shell=True)
             allHandles = []
-            with open('./availale_handle.txt', 'r+') as handles:
+            with open('./available_handle.txt', 'r+') as handles:
                 exists = False
                 for line in handles:
                     allHandles.append(line.strip())
