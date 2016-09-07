@@ -90,6 +90,9 @@
       background: #fff;
       padding: 0 15px;
     }
+    svg {
+        float: right;
+    }
   </style>
   <!-- Fav and touch icons -->
 </head>
@@ -156,6 +159,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="/assets/js/typeahead.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.3.0/math.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
 
   <script type="text/javascript">
     var clientData;
@@ -196,6 +200,38 @@
       displayTweets(clientData, val);
     }
 
+    function displayChart(dataset) {
+        var width = 200,
+            height = 200,
+            radius = Math.min(width, height) / 2;
+
+        var color = d3.scale.ordinal().range(["#5cb85c", "#d9534f"]);
+
+        var arc = d3.svg.arc()
+            .outerRadius(radius)
+            .innerRadius(radius - 30);
+
+        var pie = d3.layout.pie()
+          .value(function(d) { return d.count; })
+          .sort(null);
+
+        var svg = d3.select('.panel-body')
+          .append('svg')
+          .attr('width', width)
+          .attr('height', height)
+          .append('g')
+          .attr('transform', 'translate(' + (width / 2) +  ',' + (height / 2) + ')');
+
+        var path = svg.selectAll('path')
+          .data(pie(dataset))
+          .enter()
+          .append('path')
+          .attr('d', arc)
+          .attr('fill', function(d, i) {
+            return color(d.data.label);
+          });
+    }
+
     function displayTweets(data, val) {
       // removes divs present in tweets panel
       $(".panel-body").empty();
@@ -211,6 +247,8 @@
         }
 
         var scoreList = [];
+        var posList = [];
+        var negList = [];
         var analysedTweets = data['results'];
         if (analysedTweets.length == 0) {
           $('.twitter-handle-error').text('Unable to fetch tweets at the current moment. Please try after sometime.');
@@ -248,9 +286,11 @@
 
               if (tweet.pos_per - tweet.neg_per > 20) {
                 posCount++;
+                posList.push(tweet.pos_per/100);
             }
             else if (tweet.neg_per - tweet.pos_per > 20) {
               negCount++;
+              negList.push(tweet.neg_per/100);
             }
           }
         }
@@ -269,12 +309,24 @@
 
             if (tweet.pos_per - tweet.neg_per > 20) {
               posCount++;
+              posList.push(tweet.pos_per/100);
             } else if (tweet.neg_per - tweet.pos_per > 20) {
                 negCount++;
+                negList.push(tweet.neg_per/100);
               }
             }
           }
         }
+
+        function sum(a, b) {
+            return a+b;
+        }
+        var pieData = [
+            {label: 'positive', count: (posList.reduce(sum, 0) / tweetCount)},
+            {label: 'Negative', count: (negList.reduce(sum, 0) / tweetCount)},
+        ];
+
+        displayChart(pieData);
 
         $('.panel-body').append("<span class='badge score'>Sentiment strength</span> Indicates importance of comment<br/>");
         $('.panel-body').append("<span class='badge pos_per'>Positive Sentiment</span> <strong>(" + posCount + ")</strong><br/>");
