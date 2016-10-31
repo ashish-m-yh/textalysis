@@ -1,108 +1,99 @@
-function tweetTemplate(currentHandle, time, city, tweet, id, positive, strength, negative) {
+function tweetTemplate(currentHandle, tweetTime, tweetText, id, positive, strength, negative) {
     var tweet = [
-        '<div class="table-row">',
-        '<div class="table-col">',
+        '<div class="dx-content">',
+        '<div class="dx-content-item">',
+        '<div class="col col3of5">',
+        '<div class="ux-content ux-tweet">',
+        '<div class="ux-content-item">',
+        '<div class="tweet-text">',
+        '<span>', tweetText,
+        '</span>',
+        '</div>',
         '<div class="tweet-meta">',
-        '<div class="tweet-time">', time, '</div>',
-        '<div class="tweet-location"></div>',
+        '<div class="tweet-time">', tweetTime,
+        '</div>',
         '<div class="tweet-reply">',
         '<a target="_blank" href="http://www.twitter.com/' + currentHandle + '/status/' + id + '">',
-        '<button type="button">Reply</button>',
+        '<i class="fa fa-twitter" aria-hidden="true"></i><span>Reply</span>',
         '</a>',
         '</div>',
         '</div>',
         '</div>',
-        '<div class="table-col">',
-        '<div class="tweet-text">', tweet, '</div>',
         '</div>',
-        '<div class="table-col">',
-        '<div class="score">',
-        '<div class="tweet-progress-bar">',
-        '<div class="progress">',
-        '<div class="progress-bar ux-bgcolor-positive" role="progressbar" style="width: ' + positive + '%">',
+        '</div><div class="col col2of5">',
+        '<div class="ux-content ux-score">',
+        '<div class="ux-content-item">',
+        '<div class="tweet-score">',
+        '<div class="tweet-progress">',
+        '<div class="tweet-progressbar">',
+        '<div class="tweet-progressbar-positive ux-positive-bgcolor" role="progressbar" style="width: ' + positive + '%">',
         '</div>',
-        '<div class="progress-bar ux-bgcolor-negative" role="progressbar" style="width: ' + negative + '%">',
+        '<div class="tweet-progressbar-negative ux-negative-bgcolor" role="progressbar" style="width: ' + negative + '%">',
         '</div>',
         '</div>',
         '</div>',
         '<div class="tweet-analysis">',
-        '<div class="tweet-output tweet-positive ux-bgcolor-positive">', positive + "%", '</div>',
-        '<div class="tweet-output tweet-strength ux-bgcolor-strength">', strength, '</div>',
-        '<div class="tweet-output tweet-negative ux-bgcolor-negative">', negative + "%", '</div>',
+        '<div class="col1of3 ui-align-left ">',
+        '<div class="tweet-output tweet-positive ux-positive-bgcolor">' + positive + '%',
+        '</div>',
+        '</div><div class="col1of3 ui-align-center">',
+        '<div class="tweet-output tweet-strength ux-strength-bgcolor">', strength,
+        '</div>',
+        '</div><div class="col1of3 ui-align-right">',
+        '<div class="tweet-output tweet-negative ux-negative-bgcolor">' + negative + '%',
         '</div>',
         '</div>',
         '</div>',
-        '</div>' ];
+        '</div>',
+        '</div>',
+        '</div>',
+        '</div>',
+        '</div>',
+        '</div>'
+    ];
     return tweet.join("\n");
 }
 
-function analysisTemplate(sentimentRange, analysisText, noOfPositiveTweet, noOfNegativeTweet, value, minScr, maxScr) {
+function analysisTemplate(noOfPositiveTweet, noOfNegativeTweet) {
     var analysis = [
-        '<div class="spacer"></div>',
-        '<div class="analysis">',
-        '<section id="sx-site" class="sx-site">',
-        '<article class="ax-content">',
-        '<article class="ax-content-item">',
-        '<section class="wrap">',
         '<div class="dx-content">',
         '<div class="dx-content-item">',
         '<div class="col col1of3">',
         '<div class="ux-content">',
-        '<div class="ux-content-item">',
-        '<div class="ux-item-output ux-item-strength ux-bgcolor-strength">',
-        '<span>' + sentimentRange + '</span>',
-        '</div>',
-        '<div class="ux-item-output-text ux-item-strength-text ux-color-strength">',
-        '<span>Sentiment Strength</span>',
-        '</div>',
+        '<div class="ux-header-item ux-positive-color">',
+        '<h4>Positive Sentiments</h4>',
         '</div>',
         '<div class="ux-content-item">',
-        '<div class="ux-item-report ux-color-strength">',
-        '<h5>' + analysisText + '</h5>',
-        '<p>Importance of a tweet</p>',
-        '</div>',
-        '</div>',
-        '</div>',
-        '</div>',
-        '<div class="col col1of3">',
-        '<div class="ux-content">',
-        '<div class="ux-content-item">',
-        '<div class="ux-item-output ux-item-positive ux-bgcolor-positive">',
+        '<div class="ux-output-item ux-positive-item ux-positive-bgcolor">',
         '<span>' + noOfPositiveTweet + '</span>',
         '</div>',
-        '<div class="ux-item-output-text ux-item-positive-text ux-color-strength">',
-        '<span>Positive Sentiments</span>',
         '</div>',
+        '</div>',
+        '</div>',
+        '<div class="col col1of3">',
+        '<div class="ux-content">',
+        '<div class="ux-header-item ux-negative-color">',
+        '<h4>Negative Sentiments</h4>',
         '</div>',
         '<div class="ux-content-item">',
-        '<div class="ux-item-output ux-item-negative ux-bgcolor-negative">',
+        '<div class="ux-output-item ux-negative-item ux-negative-bgcolor">',
         '<span>' + noOfNegativeTweet + '</span>',
-        '</div>',
-        '<div class="ux-item-output-text ux-item-negative-text ux-color-strength">',
-        '<span>Negative Sentiments</span>',
         '</div>',
         '</div>',
         '</div>',
         '</div>',
         '<div class="col col1of3">',
         '<div class="ux-content">',
+        '<div class="ux-header-item">',
+        '<h4>Sentiment Analysis</h4>',
+        '</div>',
         '<div class="ux-content-item">',
         '<div class="chart"></div>',
         '</div>',
         '</div>',
         '</div>',
         '</div>',
-        '</div>',
-        '</section>',
-        '</article>',
-        '</article>',
-        '</section>',
-        '</div>',
-        '<div class="row slider">',
-        '<form>',
-        '<input type="range" value="' + value + '" onchange="changeValue(this.value)" step="0.01" min="'+ minScr +'" max="'+ maxScr +'">',
-        '</form>',
-        '</div>',
+        '</div>'
     ];
     return analysis.join("\n");
 }
@@ -132,10 +123,10 @@ function getResults(handle) {
         method: 'GET',
         success: displayTweets,
         error: function(xhr, status, error) {
+            emptyPrevTweets();
             $('.twitter-handle-error').text('@' + handle + ' does not exist!');
             $('.twitter-handle-error').show();
             $('.twitter-handle-success').hide();
-            $('.report').hide();
         },
         dataType: 'json'
     });
@@ -145,10 +136,16 @@ function changeValue(val) {
     displayTweets(clientData, val);
 }
 
+function emptyPrevTweets() {
+    $(".analysis").hide();
+    $('.ax-analysis .wrap').empty();
+    $(".ax-tweets .wrap").empty();
+}
+
 function displayChart(dataset) {
     $('.chart').empty();
-    var width = 150,
-        height = 150,
+    var width = 125,
+        height = 125,
         radius = Math.min(width, height) / 2;
 
     var color = d3.scale.ordinal().range(["#54ad02", "#e60010"]);
@@ -181,7 +178,7 @@ function displayChart(dataset) {
 }
 
 function displayTweets(data, val) {
-    $(".report").empty();
+    emptyPrevTweets();
 
     if (firstEntry == 0) {
         clientData = data;
@@ -201,7 +198,7 @@ function displayTweets(data, val) {
         $('.twitter-handle-error').text('Unable to fetch tweets at the current moment. Please try after sometime.');
         $('.twitter-handle-error').show();
         $('.twitter-handle-success').hide();
-        $('.report').hide();
+        emptyPrevTweets();
     } else {
         minScr = Number.MAX_SAFE_INTEGER;
         maxScr = 0;
@@ -267,10 +264,13 @@ function displayTweets(data, val) {
         function sum(a, b) {
             return a + b;
         }
-        var pieData = [
-            { label: 'positive', count: (posList.reduce(sum, 0) / tweetCount) },
-            { label: 'Negative', count: (negList.reduce(sum, 0) / tweetCount) },
-        ];
+        var pieData = [{
+            label: 'positive',
+            count: (posList.reduce(sum, 0) / tweetCount)
+        }, {
+            label: 'Negative',
+            count: (negList.reduce(sum, 0) / tweetCount)
+        }, ];
 
         function parseTweetTime(created_at) {
             var temp = created_at.split(" ");
@@ -278,21 +278,39 @@ function displayTweets(data, val) {
             temp[3] = dateTime.substr(0, 2) + ":" + dateTime.substr(2, 2) + ":" + dateTime.substr(4, 2);
             return moment(temp.join(" "), 'dd MMM DD HH:mm:ss ZZ YYYY', 'en').utc().format('DD-MMM-YY[\n]HH:mm A z');
         }
+        var slider = ['<div class="dx-content">',
+            '<div class="dx-content-item">',
+            '<div class="col col3of5">',
+            '</div>',
+            '<div class="col col2of5">',
+            '<div class="ux-content ux-range">',
+            '<form>',
+            '<input value="' + val + '" onchange="changeValue(this.value)" step="0.01" min="' + minScr + '" max="' + maxScr + '" type="range">',
+            '</form>',
+            '</div>',
+            '</div>',
+            '</div>',
+            '</div>'
+        ];
 
-        $('.report').append(analysisTemplate(minScr + ' - ' + maxScr, tweetCount + " tweets > strength of " + val, posCount, negCount, val, minScr, maxScr));
-        displayChart(pieData);
-        $('.report').append('<div class="table"></div>');
+        $('.twitter-handle-error').hide();
+        $('.twitter-handle-success').hide();
+        $('.analysis .ux-strength-item span').text(minScr + ' - ' + maxScr);
+        $('.analysis .ux-strength-item-text span').text(tweetCount + ' tweets > strength of ' + val);
+        $('.analysis').show();
+        if (tweetCount) {
+            $('.ax-analysis .wrap').append(analysisTemplate(posCount, negCount));
+            displayChart(pieData);
+        }
+
+        $(".ax-tweets .wrap").append(slider.join("\n"));
 
         for (var i = 0; i < analysedTweets.length; i++) {
             var tweet = analysedTweets[i];
-            if (tweet.score > val)
-                {
-                    $('.table').append(tweetTemplate(currentHandle, parseTweetTime(tweet.created_at), 'dummy city', tweet.tweet, tweet.tweet_id, tweet.pos_per, Math.round(tweet.score * 100) / 100, tweet.neg_per));
-                }
+            if (tweet.score > val) {
+                $('.ax-tweets .wrap').append(tweetTemplate(currentHandle, parseTweetTime(tweet.created_at), tweet.tweet, tweet.tweet_id, tweet.pos_per, Math.round(tweet.score * 100) / 100, tweet.neg_per));
+            }
         }
-        $('.report').show();
-        $('.twitter-handle-error').hide();
-        $('.twitter-handle-success').hide();
     }
 }
 
@@ -319,7 +337,6 @@ function initTypeahead(list) {
                     matches.push(str);
                 }
             });
-
             cb(matches);
         };
     };
@@ -351,7 +368,9 @@ $(".addhandle").click(function(event) {
         $.ajax({
             url: '/app/twitter-handle',
             method: 'POST',
-            data: { handle: customHandle },
+            data: {
+                handle: customHandle
+            },
             success: function(data) {
                 initTypeahead(JSON.parse(data));
                 $("#customhandle").val('');
@@ -359,19 +378,17 @@ $(".addhandle").click(function(event) {
                     .text('Twitter handle: ' + customHandle + ' added. Please check after 15 minutes for results.');
                 $('.twitter-handle-success').show();
                 $('.twitter-handle-error').hide();
-                $('.report').hide();
             },
             error: function(xhr, error, status) {
                 $('.twitter-handle-error').text('Handle cannot be added');
                 $('.twitter-handle-success').hide();
                 $('.twitter-handle-error').show();
-                $('.report').hide();
             }
         })
     else {
         $('.twitter-handle-error').text('Give a valid handle!');
         $('.twitter-handle-success').hide();
         $('.twitter-handle-error').show();
-        $('.report').hide();
     }
+    emptyPrevTweets();
 })
