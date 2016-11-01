@@ -144,15 +144,15 @@ function emptyPrevTweets() {
 
 function displayChart(dataset) {
     $('.chart').empty();
-    var width = 125,
-        height = 125,
+    var width = 100,
+        height = 100,
         radius = Math.min(width, height) / 2;
 
     var color = d3.scale.ordinal().range(["#54ad02", "#e60010"]);
 
     var arc = d3.svg.arc()
         .outerRadius(radius)
-        .innerRadius(radius - 15);
+        .innerRadius(radius - 10);
 
     var pie = d3.layout.pie()
         .value(function(d) {
