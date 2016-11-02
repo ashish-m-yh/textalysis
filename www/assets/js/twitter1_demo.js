@@ -1,4 +1,7 @@
 function tweetTemplate(currentHandle, tweetTime, tweetText, id, positive, strength, negative) {
+    tweetText = tweetText.split(" ");
+    var handle = tweetText[0];
+    tweetText = tweetText.slice(1).join(" ");
     var tweet = [
         '<div class="dx-content">',
         '<div class="dx-content-item">',
@@ -6,7 +9,7 @@ function tweetTemplate(currentHandle, tweetTime, tweetText, id, positive, streng
         '<div class="ux-content ux-tweet">',
         '<div class="ux-content-item">',
         '<div class="tweet-text">',
-        '<span>', tweetText,
+        '<span><strong>', handle ,'</strong>', tweetText,
         '</span>',
         '</div>',
         '<div class="tweet-meta">',
