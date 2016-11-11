@@ -193,6 +193,7 @@ function displayTweets(data, val) {
         val = 0;
     }
 
+    var selectedTweets = [];
     var scoreList = [];
     var posList = [];
     var negList = [];
@@ -229,13 +230,15 @@ function displayTweets(data, val) {
             }
 
             if (tweet.score > val) {
-                tweetCount++;
-
                 if (tweet.pos_per - tweet.neg_per > 20) {
+                    tweetCount++;
                     posCount++;
+                    selectedTweets.push(tweet);
                     posList.push(tweet.pos_per / 100);
                 } else if (tweet.neg_per - tweet.pos_per > 20) {
+                    tweetCount++;
                     negCount++;
+                    selectedTweets.push(tweet);
                     negList.push(tweet.neg_per / 100);
                 }
             }
@@ -251,13 +254,15 @@ function displayTweets(data, val) {
             for (var i = 0; i < analysedTweets.length; i++) {
                 var tweet = analysedTweets[i];
                 if (tweet.score > val) {
-                    tweetCount++;
-
                     if (tweet.pos_per - tweet.neg_per > 20) {
+                        tweetCount++;
                         posCount++;
+                        selectedTweets.push(tweet);
                         posList.push(tweet.pos_per / 100);
                     } else if (tweet.neg_per - tweet.pos_per > 20) {
+                        tweetCount++;
                         negCount++;
+                        selectedTweets.push(tweet);
                         negList.push(tweet.neg_per / 100);
                     }
                 }
@@ -308,7 +313,7 @@ function displayTweets(data, val) {
 
         $(".ax-tweets .wrap").append(slider.join("\n"));
 
-        for (var i = 0; i < analysedTweets.length; i++) {
+        for (var i = 0; i < selectedTweets.length; i++) {
             var tweet = analysedTweets[i];
             if (tweet.score > val) {
                 $('.ax-tweets .wrap').append(tweetTemplate(currentHandle, parseTweetTime(tweet.created_at), tweet.tweet, tweet.tweet_id, tweet.pos_per, Math.round(tweet.score * 100) / 100, tweet.neg_per));
