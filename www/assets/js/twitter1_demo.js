@@ -251,6 +251,7 @@ function displayTweets(data, val) {
             val = Math.round(median * 100) / 100;
 
             tweetCount = 0;
+            selectedTweets = [];
             for (var i = 0; i < analysedTweets.length; i++) {
                 var tweet = analysedTweets[i];
                 if (tweet.score > val) {
