@@ -1,0 +1,737 @@
+/*---reset-start---*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+dl,
+dt,
+dd,
+ol,
+nav ul,
+nav li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    border: 0;
+}
+
+div {
+    position: relative;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+section,
+article,
+div {
+    position: relative;
+}
+
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+    blockquote:before,
+    blockquote:after,
+    q:before,
+    q:after {
+        content: '';
+        content: none;
+    }
+
+img {
+    max-width: 100%;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+/* start editing from here */
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.txt-rt {
+    text-align: right;
+}
+/* text align right */
+.txt-lt {
+    text-align: left;
+}
+/* text align left */
+.clear {
+    clear: both;
+}
+/* clear float */
+.vertical-base {
+    vertical-align: baseline;
+}
+/* vertical align baseline */
+.vertical-top {
+    vertical-align: top;
+}
+/* vertical align top */
+.underline {
+    margin: 0 0 20px 0;
+    padding-bottom: 1px;
+    border-bottom: 1px dashed #bbb;
+}
+/* Add 5px bottom padding and a underline */
+nav.vertical ul li {
+    display: block;
+}
+/* vertical menu */
+nav.horizontal ul li {
+    display: inline-block;
+}
+
+
+/*---reset-end---*/
+/* rows and columns */
+.row {
+    margin: 0 auto;
+}
+
+.col.col-margin {
+    margin-right: -2px;
+    margin-left: -2px;
+}
+
+.col1of1,
+.col2of2,
+.col3of3,
+.col4of4,
+.col5of5 {
+    display: inline-block;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.col1of2,
+.col1of3,
+.col2of3,
+.col1of4,
+.col2of4,
+.col3of4,
+.col1of5,
+.col2of5,
+.col3of5,
+.col4of5 {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.col1of2 {
+    width: 50%;
+}
+
+.col1of3 {
+    width: 33.33%;
+}
+
+.col2of3 {
+    width: 66.66%;
+}
+
+.col1of4 {
+    width: 25%;
+}
+
+.col2of4 {
+    width: 50%;
+}
+
+.col3of4 {
+    width: 75%;
+}
+
+.col1of5 {
+    width: 20%;
+}
+
+.col2of5 {
+    width: 40%;
+}
+
+.col3of5 {
+    width: 60%;
+}
+
+.col4of5 {
+    width: 80%;
+}
+/* rows and columns */
+
+/* textalysis */
+body {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+/* Custom container */
+.container-narrow {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+    .container-narrow > hr {
+        margin: 30px 0;
+    }
+/* textbox or divider */
+#handleslist {
+    margin-bottom: 20px;
+}
+
+#custom {
+    margin-top: 20px;
+}
+
+.seperator {
+    line-height: 0;
+    padding: 0;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+    .seperator span {
+        padding: 0 15px;
+        background: #fff;
+    }
+
+.spacer {
+    position: static;
+    padding: 12px 0;
+}
+
+.chart {
+    margin: 0 auto;
+    vertical-align: middle;
+    position: relative;
+}
+
+/* --  customized -- */
+
+.sx-site {
+    font-family: 'Roboto', 'Open', 'AmbleLight', 'ExistenceLight', sans-serif;
+}
+
+.ax-content {
+    margin: 24px 0;
+}
+
+.ax-content-item {
+}
+
+.ax-content.ax-analysis .ax-content-item {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.dx-content {
+    text-align: center;
+}
+
+.dx-content-item {
+}
+
+    .dx-content-item.dx-header-content.dx-tool-content {
+        margin: 12px auto;
+    }
+
+
+.ux-content {
+    padding: 25px;
+}
+
+.ux-content .ux-header-item {
+    margin-bottom: 19px;
+}
+
+.ux-content .ux-header-item h4 {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+
+.ux-content .ux-content-item {
+    font-size: .95em;
+    text-align: center;
+    padding: 24px;
+}
+
+.ux-content.ux-strength .ux-content-item {
+    background-color: #fafafe;
+    border-radius: 4px;
+    border: 1px solid #eee;
+}
+
+
+.ux-output-item {
+    font-size: 50px;
+    font-weight: 200;
+    line-height: 100px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    border-radius: 100px;
+    background-color: #252525;
+    text-shadow: 0 1px 0 rgba(0,0,0,.3);
+    vertical-align: top;
+}
+
+    .ux-output-item.ux-strength-item {
+        font-size: 18px;
+    }
+
+.ux-output-item-text {
+    font-size: 14px;
+    display: inline-block;
+    padding: 0 12px;
+    line-height: 100px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.ux-report-item.ux-strength-color h5 {
+    font-size: 1.15em;
+}
+
+
+
+
+.ax-tweets .dx-content {
+    margin-bottom: 36px;
+}
+
+.ax-tweets .ux-content {
+    padding: 5px;
+}
+
+
+.ax-tweets .ux-content .ux-content-item {
+    border: 1px solid #eee;
+    border-radius: 3px;
+    min-height: 100px;
+    padding: 10px;
+}
+
+.ax-tweets .ux-tweet .ux-content-item {
+    background-color: #fafafe;
+}
+
+.ax-tweets .ux-score .ux-content-item {
+}
+
+.ax-tweets .ux-meta .ux-content-item {
+    border-width: 0;
+}
+
+
+
+.ux-tweet .tweet-text {
+    font-size: 15px;
+    line-height: 25px;
+    text-align: left;
+    color: #555;
+}
+
+.ux-tweet .tweet-meta {
+    text-align: right;
+}
+
+.tweet-meta .tweet-time {
+    display: inline-block;
+    font-size: 11px;
+    color: #999;
+    margin-right: 10px;
+    font-style: italic;
+}
+
+
+
+.ux-tweet .tweet-reply {
+    display: inline-block;
+}
+
+    .ux-tweet .tweet-reply a {
+        position: relative;
+        display: block;
+        width: 100%;
+        padding: 4px 10px;
+        cursor: pointer;
+        border: none;
+        border-radius: 3px;
+        background-color: #fff;
+        text-shadow: 0 1px 1px rgba(255, 255, 255, 0.4);
+        position: relative;
+        text-decoration: none;
+        -webkit-transition: all .2s linear;
+        -moz-transition: all .2s linear;
+        -ms-transition: all .2s linear;
+        -o-transition: all .2s linear;
+        transition: all .2s linear;
+        text-align: center;
+        border: 1px solid #eee;
+    }
+
+        .ux-tweet .tweet-reply a:hover {
+            background-color: #54ad02;
+            color: #fff;
+            text-shadow: 0 1px 1px rgba(0,0,0, 0.4);
+        }
+
+        .ux-tweet .tweet-reply a i {
+            padding-right: 6px;
+        }
+
+
+
+
+.ux-score .ux-content-item .tweet-score {
+}
+
+
+.tweet-score .tweet-progress {
+    width: 100%;
+    margin-bottom: 0;
+    border: 0;
+}
+
+
+.tweet-progress .tweet-progressbar {
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 20px;
+}
+
+.tweet-progressbar .tweet-progressbar-positive,
+.tweet-progressbar .tweet-progressbar-negative {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+    background-image: -o-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+    background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+    -webkit-background-size: 40px 40px;
+    background-size: 40px 40px;
+}
+
+.tweet-progressbar .tweet-progressbar-positive {
+    left: 0px;
+    right: auto;
+}
+
+.tweet-progressbar .tweet-progressbar-negative {
+    right: 0px;
+    left: auto;
+}
+
+.tweet-score .tweet-analysis {
+    position: relative;
+    padding-top: 10px;
+}
+
+.tweet-score .tweet-output {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 35px;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    margin: 0 5px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .3);
+}
+
+
+
+
+
+
+
+
+/* -- variables --- */
+.ui-align-left {
+    text-align: left;
+}
+
+.ui-align-center {
+    text-align: center;
+}
+
+.ui-align-right {
+    text-align: right;
+}
+
+/* -- common properties-- */
+.ux-strength-color {
+    color: #777;
+}
+
+.ux-positive-color {
+    color: #54ad02;
+}
+
+.ux-negative-color {
+    color: #e60010;
+}
+
+.ux-strength-bgcolor {
+    background-color: #777;
+}
+
+.ux-positive-bgcolor {
+    background-color: #54ad02;
+}
+
+.ux-negative-bgcolor {
+    background-color: #e60010;
+}
+
+/*.addhandle {
+  color: #337ab7;
+}*/
+
+/* table properties */
+/* table view for a tweet  */
+/*.table {
+    display: table;
+    margin: 0;
+    border-spacing: 10px;
+    border-collapse: separate;
+}
+
+.table-row {
+    display: table-row;
+}
+
+.table-col {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.table,
+.table-col {
+    height: 100%;
+}
+
+    .table-col:first-of-type {
+        width: 15%;
+    }
+
+    .table-col:nth-of-type(2) {
+    }
+
+    .table-col:last-of-type {
+        width: 35%;
+    }
+
+
+    .table .tweet-text {
+        font-size: 15px;
+        line-height: 25px;
+        min-height: 100px;
+        padding: 10px;
+        text-align: left;
+        color: #555;
+        border: 1px solid #eee;
+        border-radius: 3px;
+        background-color: #fafafe;
+    }
+
+    .table .tweet-score {
+        border: 1px solid #eee;
+        border-radius: 3px;
+        padding: 10px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+
+        .table .tweet-score .tweet-progress {
+            width: 100%;
+            margin-bottom: 0;
+            border: 0;
+        }
+
+
+    .table .tweet-progress .tweet-progressbar {
+        -webkit-border-radius: 50px;
+        border-radius: 50px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        height: 20px;
+    }
+
+    .table .tweet-progressbar .tweet-progressbar-positive,
+    .table .tweet-progressbar .tweet-progressbar-negative {
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+    }
+
+    .table .tweet-progressbar .tweet-progressbar-positive {
+        left: 0px;
+        right: auto;
+    }
+
+    .table .tweet-progressbar .tweet-progressbar-negative {
+        right: 0px;
+        left: auto;
+    }
+
+    .table .tweet-score .tweet-analysis {
+        position: relative;
+        padding-top: 10px;
+    }
+
+    .table .tweet-score .tweet-output {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 35px;
+        position: absolute;
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        margin: 0 5px;
+        text-align: center;
+        color: #fff;
+        border-radius: 50%;
+        text-shadow: 0 1px 0 rgba(0, 0, 0, .3);
+    }
+
+        .table .tweet-score .tweet-output.tweet-positive {
+            left: 0;
+            margin-left: 0;
+        }
+
+        .table .tweet-score .tweet-output.tweet-strength {
+            right: 0;
+            left: 0;
+            margin: 0 auto;
+        }
+
+        .table .tweet-score .tweet-output.tweet-negative {
+            right: 0;
+            margin-right: 0;
+        }*/
+
+
+
+
+/* end of table properties */
+@media only screen and (max-width: 800px) {
+    .col.col1of2,
+    .col.col1of3,
+    .col.col2of3,
+    .col.col2of5,
+    .col.col3of5 {
+        width: 100%;
+    }
+}
+
+/* textalysis*/
