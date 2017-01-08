@@ -72,8 +72,7 @@ function analysisTemplate(noOfPositiveTweet, noOfNegativeTweet) {
         '</div>',
         '</div>',
         '</div>',
-        '</div>',
-        '<div class="col col1of3">',
+        '</div><div class="col col1of3">',
         '<div class="ux-content">',
         '<div class="ux-header-item ux-negative-color">',
         '<h4>Negative Sentiments</h4>',
@@ -84,8 +83,7 @@ function analysisTemplate(noOfPositiveTweet, noOfNegativeTweet) {
         '</div>',
         '</div>',
         '</div>',
-        '</div>',
-        '<div class="col col1of3">',
+        '</div><div class="col col1of3">',
         '<div class="ux-content">',
         '<div class="ux-header-item">',
         '<h4>Sentiment Analysis</h4>',
@@ -311,8 +309,9 @@ function displayTweets(data, val) {
             $('.ax-analysis .wrap').append(analysisTemplate(posCount, negCount));
             displayChart(pieData);
         }
-
-        $(".ax-tweets .wrap").append(slider.join("\n"));
+        $('input[type=range]').prop('min', minScr);
+        $('input[type=range]').prop('max', maxScr);
+        // $(".ax-tweets .wrap").append(slider.join("\n"));
 
         for (var i = 0; i < selectedTweets.length; i++) {
             var tweet = analysedTweets[i];
