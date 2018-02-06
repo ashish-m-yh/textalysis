@@ -9,7 +9,7 @@ import uuid
 import re
 import datetime
 import os
-
+import time
 
 class Analyze(web.RequestHandler):
     def post(self):
@@ -24,12 +24,14 @@ class Analyze(web.RequestHandler):
             ts = ts[:10] + ' ' + ts[10:]
 
             rpc_client = AsyncClient()
-            rpc_client.call(LKEY, comment, ts, out_file)
+            rpc_client.call(LKEY, comment, 'now', out_file)
             rpc_client.call(LKEY, "EOF", '', out_file)
 
             file = './reports/prod/' + out_file
             record = ['created_at', 'comment', 'score', 'pos_per', 'neg_per',
                       'status', 'category', 'issue']
+
+            time.sleep(5)
 
             with open(file, 'r') as report:
                 results = [dict(zip(record, line.strip().split('\t')))
@@ -38,8 +40,8 @@ class Analyze(web.RequestHandler):
                                  key=itemgetter('score'),
                                  reverse=True)
                 self.write(dict(results=results))
-        except:
+        except Exception, e:
             self.clear()
             self.set_status(400)
             self.finish(
-                'There was an unexpected error. Please check your request format.')
+                'There was an unexpected error. Please check your request format.' + str(e))

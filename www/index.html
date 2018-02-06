@@ -8,7 +8,7 @@
     <meta name="keywords" content="business intelligence,text analysis,text mining,sentiment analysis">
     <meta name="author" content="Ashish Mukherjee">
 
-    <script type="text/javascript" src="/assets/js/jquery-1.11.0.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.js"></script>
 
     <!-- Le styles -->
     <link href="/assets/css/bootstrap.css" rel="stylesheet">
@@ -57,7 +57,7 @@
 	  comment_txt = $('#comment').val();
 	  comment_txt = comment_txt.replace(/(\r\n|\n|\r)/gm," ");
 
-	  var api_url = "curl -X POST --data 'comment=" + comment_txt + "' http://textalysis.io/app/analyze";
+	  var api_url = "curl -X POST --data 'comment=" + comment_txt + "' http://textalysis.tech/app/analyze";
 	  $('#api_query').val(api_url);
 
 	  $.post('/app/analyze', {comment: comment_txt}, function(result) {
@@ -188,9 +188,9 @@
 			<p><strong>Not available in API Explorer. Please contact us for a key to try it.</strong></p>
 			<p>The file is uploaded with one API call and the results are available asynchronously with another API call. There is no push mechanism provided, so there is a necessity to poll the GET API to retrieve the results.</p> 
 			<h5>Upload file (newline separated)</h5>
-			<p>curl -F 'file_key=&lt;api_key&gt;' -F 'comments=@&lt;file_name&gt;' http://textalysis.io/app/dataproc</p>
+			<p>curl -F 'file_key=&lt;api_key&gt;' -F 'comments=@&lt;file_name&gt;' http://textalysis.tech/app/dataproc</p>
 			<h5>View result</h5>
-			<p>curl http://textalysis.io/app/dataproc/&lt;file_key&gt;.json</p>
+			<p>curl http://textalysis.tech/app/dataproc/&lt;file_key&gt;.json</p>
 			<h5>Parameters</h5>
 			<table class="table table-inverse table-bordered table-sm table-hover">
 			     <thead>
@@ -227,7 +227,7 @@
 				<a href="/team.html">Team</a> |
 				<a href="mailto:admin@textalysis.io">Contact</a><br/>
 			</font>
-			&copy;2014 Textalysis.io
+			&copy;2018 Textalysis
 	  </div>
 
     </div> <!-- /container -->
