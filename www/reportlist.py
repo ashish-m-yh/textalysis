@@ -20,7 +20,7 @@ class ReportList(web.RequestHandler):
         self.list_view(lkey)
 
     def list_view(self, lkey):
-        rep_dir = "./reports/" + lkey
+        rep_dir = './' + conf.report_dir + '/' + lkey
         msg = ""
         files = []
 
@@ -40,7 +40,7 @@ class ReportList(web.RequestHandler):
             if msg == "" and len(files) == 0:
                 msg = "There are no available reports now. Reports are only available when analysis is complete."
 
-        self.render("./rpt_list.html",
+        self.render('./rpt_list.html',
                     replist=files,
                     lkey=lkey,
                     msg=msg,

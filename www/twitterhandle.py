@@ -7,7 +7,7 @@ class TwitterHandle(web.RequestHandler):
     def get(self):
         try:
             data = []
-            os.chmod("./available_handle.txt", 436)
+            os.chmod('./available_handle.txt', 436)
             with open('available_handle.txt', 'r') as handles:
                 data = handles.read().splitlines()
             self.write(json.dumps(data))
@@ -19,7 +19,7 @@ class TwitterHandle(web.RequestHandler):
     def post(self):
         try:
             handle = self.get_argument('handle').encode('utf-8')
-            command = "./twttr_cron.sh " + handle
+            command = './twttr_cron.sh ' + handle
             subprocess.call(command, shell=True)
             allHandles = []
             with open('./available_handle.txt', 'r+') as handles:

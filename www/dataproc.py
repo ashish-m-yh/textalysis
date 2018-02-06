@@ -3,6 +3,7 @@ from os import path
 import tornado
 from operator import itemgetter
 
+import conf
 
 class Dataproc(web.RequestHandler):
     def post(self):
@@ -12,7 +13,7 @@ class Dataproc(web.RequestHandler):
             finfo = self.request.files['comments'][0]
             file_key = self.get_argument('file_key')
 
-            filename = '/var/www/reports/' + file_key + '.txt'
+            filename = conf.lkey_dir + '/' + conf.report_dir + '/' + file_key + '.txt'
             rows = finfo['body']
             f = open(filename, 'w')
             f.write(str(rows))
@@ -27,8 +28,9 @@ class Dataproc(web.RequestHandler):
 
     def get(self, file_key):
         try:
-            file = path.join('./reports/prod/',
-                             '.'.join((file_key, 'txt.tsv')))
+            path_prefix = conf.report_dir + '/' + conf._prod_key + '/'
+            file = path.join(path_prefix, '.'.join((file_key, 'txt.tsv')))
+
             record = ['created_at', 'comment', 'score', 'pos_per', 'neg_per',
                       'status', 'category', 'issue']
 

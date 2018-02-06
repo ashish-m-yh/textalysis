@@ -10,11 +10,11 @@ import re
 import datetime
 import os
 import time
+import conf
 
 class Analyze(web.RequestHandler):
     def post(self):
         try:
-            LKEY = 'prod'
             comment = self.get_argument('comment')
             comment = comment.rstrip()
             out_file = str(uuid.uuid4()) + '.tsv'
@@ -24,10 +24,10 @@ class Analyze(web.RequestHandler):
             ts = ts[:10] + ' ' + ts[10:]
 
             rpc_client = AsyncClient()
-            rpc_client.call(LKEY, comment, 'now', out_file)
-            rpc_client.call(LKEY, "EOF", '', out_file)
+            rpc_client.call(conf.prod_key, comment, 'now', out_file)
+            rpc_client.call(conf.prod_key, "EOF", '', out_file)
 
-            file = './reports/prod/' + out_file
+            file = './' + conf.report_dir + '/' + conf.prod_key + '/' + out_file
             record = ['created_at', 'comment', 'score', 'pos_per', 'neg_per',
                       'status', 'category', 'issue']
 

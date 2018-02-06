@@ -12,7 +12,7 @@ from operator import itemgetter, attrgetter
 
 class Report(web.RequestHandler):
     def on_finish(self):
-        rpt_file = "./reports/" + self.lkey + "/" + self.filename
+        rpt_file = './' + conf.report_dir + '/' + self.lkey + '/' + self.filename
 #		if os.path.isfile(rpt_file):
 #			os.remove(rpt_file)
 
@@ -23,14 +23,14 @@ class Report(web.RequestHandler):
         matrix = []
 
         try:
-            with open("./reports/" + lkey + "/" + filename, "r") as out:
+            with open('./' + conf.report_dir + '/' + lkey + '/' + filename, 'r') as out:
                 matrix = out.readlines()
                 out.close()
         except:
-            self.render("./error_output.html",
-                        infomsg="Report not found.",
-                        errormsg="",
-                        lkey="")
+            self.render('./error_output.html',
+                        infomsg='Report not found.',
+                        errormsg='',
+                        lkey='')
             return None
 
         output = []
@@ -177,20 +177,20 @@ class Report(web.RequestHandler):
             sheet2.write(rowcount, 2, neg_pc)
             sheet2.write(rowcount, 3, agents[r][2])
 
-        book.save("./excel/" + tmpfile)
+        book.save('./excel/' + tmpfile)
 
         if lkey == conf.demo_key and re.search(r'/app/demoreport',
                                                self.request.uri):
-            self.render("./demo_output.html",
-                        reporturl="/excel/" + tmpfile,
+            self.render('./demo_output.html',
+                        reporturl='/excel/' + tmpfile,
                         negs=n_distrib,
                         pos=p_distrib,
                         p_total=p_total,
                         n_total=n_total,
                         agents=agent_tuples)
         else:
-            self.render("./prod_output.html",
-                        reporturl="/excel/" + tmpfile,
+            self.render('./prod_output.html',
+                        reporturl='/excel/' + tmpfile,
                         negs=n_distrib,
                         pos=p_distrib,
                         p_total=p_total,
