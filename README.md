@@ -93,4 +93,5 @@ This is the Textalysis project for customer feedback analysis based on sentiment
 * Create a Pull Request
 
 ### Who do I talk to? ###
+
 * Mail Ashish Mukherjee (ashish.mukherjee@gmail.com)
